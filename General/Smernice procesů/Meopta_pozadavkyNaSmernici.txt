@@ -1,0 +1,7 @@
+                                                                                   
+Struèná specifikace skriptu Smìrnice procesu
+•         Požadavky viz pøíloha
+•         V principu se skript bude spouštìt nad vrcholovým modelem MTPH procesu a bude vypisovat vnoøená MTPH a EPC diagramy. Základní informace bude naèítat právì z vrchního MTPH z atributù modelu a dále k nìmu pøipojeného FAD diagramu z jeho objektù (zdroj vlastníka procesu, cílù/KPI aj.). Analogicky totéž nastane u subprocesù).
+•         Skript neobsahuje žádné špeky typu vložené dokumenty v dokumentu, jako chtìl T-Mobile.
+•         Opìt bude použit word Template 
+•         Tohle bychom mìli vyvíjet novou technologií – viz architektura diskutovaná s Robertem v autì, tzn. metamodel pro mapování datových zdrojù a struktury výstupu bude vytvoøený v ARIS (tento metamodel bude sloužit pro jeho konfiguraci). 
