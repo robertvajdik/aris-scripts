@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ReportRegistry>
+   <General>
+	<TestValue>XMLExists</TestValue>
+    <!-- Stand vom 02.07.2015 Hinzufuegen 0280 Audi Sport und 0270 Audi de Mexico, Jiri Mares -->
+   <!-- Stand vom 05.03.2015 Hinzufuegen 6750 Audi China, Andreas Koehler -->
+   <!-- Stand vom 14.08.2012 Hinzufuegen 0101 VW NFZ, Andreas Koehler -->
+   <!-- Stand vom 15.09.2010 letzte Änderung durch Rainer Will -->
+
+   </General>
+   <DBList>
+    <a0001>Volkswagen</a0001>
+	<a0100>Volkswagen</a0100>
+	<ar001>Volkswagen</ar001>
+    <a0101>Volkswagen Nutzfahrzeuge</a0101>
+    <a0104>Volkswagen Components</a0104>    
+	<a0200>AUDI AG</a0200>
+	<a0204>AUDI P4</a0204>
+    <a0250>AUDI HUNGARIA Zrt.</a0250>
+    <a0260>Lamborghini</a0260>
+    <a0270>Audi Mexico</a0270>
+	<a0320>VW Sachsen</a0320>
+	<a0330>Automobilman. Dresden</a0330>
+	<a0360>SKODA AUTO</a0360>
+    <a0361>Digiteq Automotive</a0361>
+    <a0370>SKODA AUTO India</a0370>
+	<a0380>VW Slovakia</a0380>
+	<a0400>VW Poznan</a0400>
+	<a0410>VW Motor Polska</a0410>
+	<a0420>SITECH Sp.z o.o.</a0420>
+	<a0430>SITECH Sitztechnik GmbH</a0430>
+	<a0450>VW SARAJEVO</a0450>
+	<a0490>Auto 5000 GmbH</a0490>
+	<a0500>VW do Brasil</a0500>
+	<a0580>VW Argentina</a0580>
+    <a0600>VWGoACO</a0600>
+	<a0660>VW de Mexico</a0660>
+	<a0680>VW of South Africa  Ltd.</a0680>
+	<a0690>BUGATTI</a0690>
+	<a0700>SEAT</a0700>
+	<a0710>Gearbox</a0710>
+	<a0740>Bentley Motors</a0740>
+    <a0800>VW India</a0800>
+	<a0900>AUTOEUROPA</a0900>
+    <a0920>VW Group Rus</a0920>
+	<a2260>VW Group Italia</a2260>
+	<a2560>Volkswagen-Audi España</a2560>
+	<a2630>VW Asia Pacific</a2630>
+	<a2710>VGSG</a2710>
+	<a2860>Skoda Auto Slovensko</a2860>
+	<a2870>Skoda Auto Polska</a2870>
+	<a4190>Audi Akademie</a4190>
+    <a4195>Audi Akademie Hungaria Kft. Györ</a4195>
+	<a4200>VW Immobilien</a4200>
+    <a4460>VW Group Services</a4460>
+    <a4590>VW Osnabrück</a4590>
+	<a4600>VW Logistics</a4600>
+    <a4900>Audi Sport GmbH</a4900>
+    <a4910>Audi Sport Racing</a4910>    
+    <a5510>Autostadt GmbH</a5510>
+    <a6750>Audi China</a6750>
+    <a6751>Audi China</a6751>
+    <a7050>Audi Interaction</a7050>
+    <a7110>VW Group Services</a7110>
+    <a7115>VW Group IT Solutions</a7115>
+	<a7220>R GmbH</a7220>
+    <a7380>Digiteq Automotive</a7380>
+   	<a9001>LIPOK</a9001>
+    <a0300>Audi Planung</a0300>
+    </DBList>
+</ReportRegistry>

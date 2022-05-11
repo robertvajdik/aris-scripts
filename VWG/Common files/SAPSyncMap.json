@@ -1,0 +1,212 @@
+{
+	"Testprocesses": [
+    {
+		"SAP_obj": "FOLDER",
+        "ARIS_type": "22",
+		"ARIS_attr": "673",
+		"ARIS_attrval": "6073",
+        "ARIS_attrvaltype": "Integer",
+        "parent": ["FOLDERGRP"],
+		"children": [{"sap_child": "FOLDERGRP", "sap_child_name":"Folders", "aris_children":["FUN"]}]
+	},
+	{
+		"SAP_obj": "SCN",
+        "ARIS_type": "22",
+		"ARIS_attr": "673",
+		"ARIS_attrval": "242",
+        "ARIS_attrvaltype": "Integer",
+        "parent": ["FOLDERGRP"],
+		"children": [{"sap_child": "PROCGRP", "sap_child_name":"Processes", "aris_children":["FUN"]}]
+	},
+	{
+		"SAP_obj": "PROC",
+        "ARIS_type": "22",
+		"ARIS_attr": "673",
+		"ARIS_attrval": "293",
+        "ARIS_attrvaltype": "Integer",
+        "parent": ["PROCGRP"],
+		"children": [{"sap_child": "TESTGRP", "sap_child_name":"Test Cases", "aris_children":["DOC","TESTSTEP"]},{"sap_child": "PROCSTEPGRP", "sap_child_name":"Test Steps", "aris_children":["FUN"]}]
+	},
+    {
+	        "SAP_obj": "REF_PROCSTEP",
+	        "ARIS_type": "22",
+    		"ARIS_attr": "673",
+        	"ARIS_attrval": "1267",
+            "ARIS_attrvaltype": "Integer",
+            "parent": ["PROCSTEPGRP"],
+	        "children": [{"sap_child": "EXECGRP", "sap_child_name":"Transaction reference", "aris_children":["SCRN"]}]
+    },
+    {
+	        "SAP_obj": "REF_EXECTRANLOGCOMP",
+	        "ARIS_type": "31",
+		    "ARIS_attr": "2689",
+	        "ARIS_attrval": "3897",
+            "ARIS_attrvaltype": "Integer",
+            "parent": ["EXECGRP"],
+	        "children": []
+    },
+    {
+        	"SAP_obj": "REF_EXECPROGLOGCOMP",
+	        "ARIS_type": "31",
+		    "ARIS_attr": "2689",
+        	"ARIS_attrval": "3898",
+            "ARIS_attrvaltype": "Integer",
+            "parent": ["EXECGRP"],
+	        "children": []
+    },
+    {
+        	"SAP_obj": "/SALM/TM_TS_STEPDOC",
+	        "ARIS_type": "137",
+    		"ARIS_attr": "1641700",
+        	"ARIS_attrval": "",
+            "ARIS_attrvaltype": "String",
+            "parent": ["TESTGRP"],
+	        "children": []
+    },
+    {
+     	   	"SAP_obj": "TESTDOCUMENT",
+        	"ARIS_type": "27",
+		    "ARIS_attr": "2185",
+	        "ARIS_attrval": "0TD1",
+            "ARIS_attrvaltype":"String",
+            "parent": ["TESTGRP"],
+        	"children":[]   
+    },
+    {
+            "SAP_obj": "KWWEBLINK",
+        	"ARIS_type": "27",
+		    "ARIS_attr": "2185",
+	        "ARIS_attrval": "ZE97",
+            "ARIS_attrvaltype":"String",
+            "parent": ["DOCUGRP"],
+        	"children": [] 
+    }
+    ],
+    "Attributes": [
+       {
+        "SAP_name": "Prozess ID",
+        "SAP_ID": "/VWK/SOM_PROCID",
+        "SAP_split": "",
+        "ARIS_name": "Process ID",
+        "ARIS_ID": "2886357",
+        "AttributeValuesTranslation":[]
+       },
+       {
+        "SAP_name": "Lagernummer",
+        "SAP_ID": "/VWK/SOM_ASA_WRHS_NMBR",
+        "SAP_split": ",",
+        "ARIS_name": "Warehouse Number",
+        "ARIS_ID": "5770469",
+        "AttributeValuesTranslation":[]
+       },
+       {
+       "SAP_name": "EWM Release",
+        "SAP_ID": "/VWK/SOM_ASA_EWM_RELEASE",
+        "SAP_split": ",",
+        "ARIS_name": "EWM Release Number",
+        "ARIS_ID": "5508325",
+        "AttributeValuesTranslation":[]
+       },
+       {
+        "SAP_name": "Name",
+        "SAP_ID": "DESCRIPTION",
+        "SAP_split": "",
+         "ARIS_name": "Name",
+        "ARIS_ID": "1",
+        "AttributeValuesTranslation":[]
+       },
+       {
+        "SAP_name": "Beschreibung",
+        "SAP_ID": "MEMO",
+        "SAP_split": "",
+        "ARIS_name": "Description/Definition",
+        "ARIS_ID": "9",
+        "AttributeValuesTranslation":[]                    
+       },
+       {
+       "SAP_name":"Test Step ID",
+       "SAP_ID":"/SALM/TM_TS_TESTSTEPID",
+       "SAP_split": "",
+       "ARIS_name": "Test Step ID",
+       "ARIS_ID": "1641700",
+        "AttributeValuesTranslation":[]       
+       },
+       {
+       "SAP_name":"Test Step Version",
+       "SAP_ID":"/SALM/TM_TS_TESTSTEPVERS",
+       "SAP_split": "",
+       "ARIS_name": "Test Step Version",
+       "ARIS_ID": "1707236",
+        "AttributeValuesTranslation":[]          
+       },
+       {
+       "SAP_name":"Test Case Assignment type",
+       "SAP_ID":"TCASSIGNMENTTYPE",
+       "SAP_split": "",
+       "ARIS_name": "Test Case Assignment type",
+       "ARIS_ID": "4510",
+       "AttributeValuesTranslation":[{"ARISAttrVal":"Additive","SAPAttrVal":"A"}]
+       }
+       ],
+       "Languages":[
+       {
+       "SAP_ID": "E",
+       "ARIS_ID": "1033"
+       },
+       {
+       "SAP_ID": "D",
+       "ARIS_ID": "1031"       
+       }
+       ],
+       "Deletion":{
+       "Functionals":["FOLDER","SCN","PROC"],
+       "Structurals":["FOLDERGRP","PROCESSGRP","DOCUGRP","TESTGRP","REF_PROCSTEP","PROCSTEPGRP","EXECGRP","PROCGRP"],
+       "TestCases":["/SALM/TM_TS_STEPDOC"],
+       "Documents":["TESTDOCUMENT","KWWEBLINK"],
+       "Executables":["REF_EXECPROGLOGCOMP","REF_EXECTRANLOGCOMP"]
+       },
+       "Executables":[
+           {
+        	"SAP_obj": "EXECPROGLOGCOMP",
+	        "ARIS_type": "31",
+		    "ARIS_attr": "2689",
+	        "ARIS_attrval": "3898",
+            "ARIS_attrvaltype": "Integer",
+            "Attributes": [
+               {
+                "SAP_name": "Objekt",
+                "SAP_ID": "PROGID",
+                "ARIS_name": "Transaction code",
+                "ARIS_ID": "89"
+               },
+               {
+                "SAP_name": "Logic compnent group",
+                "SAP_ID": "LOGCOMPID",
+                "ARIS_name": "SAP Component",
+                "ARIS_ID": "2104"
+               }
+            ]
+            },
+            {
+	        "SAP_obj": "EXECTRANLOGCOMP",                
+	        "ARIS_type": "31",
+		    "ARIS_attr": "2689",
+        	"ARIS_attrval": "3897",
+            "ARIS_attrvaltype": "Integer",
+            "Attributes": [
+               {
+                "SAP_name": "Objekt", 
+                "SAP_ID": "TRANID",
+                "ARIS_name": "Transaction code",
+                "ARIS_ID": "89"
+               },
+               {
+                "SAP_name": "Logic compnent group",
+                "SAP_ID": "LOGCOMPID",
+                "ARIS_name": "SAP Component",
+                "ARIS_ID": "2104"
+               }
+            ]
+            }
+       ]     
+}

@@ -1,0 +1,1525 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ReportRegistry>
+   <General>
+    <TestValue>XMLExists</TestValue>
+    <!-- Stand vom 27.04.2016 Hinzufuegen 0280 Audi Sport, 0270 Audi de Mexico IDSA -->
+    <!-- Stand vom 05.03.2016 Hinzufuegen 6750 Audi China IDSA -->
+    <!-- Stand vom 05.02.2014 letzte Änderung durch Manuel Peipe, Software AG, Merge der Änderungen zum GoLive Ungarisch, Russisch -->
+    <!-- Stand vom 19.12.2013 Hinzufuegen 0300 Audi Planung Christian Zahn -->
+    <!-- Stand vom 27.05.2013 letzte Änderung durch Manuel Peipe, Software AG, ChangeRequests Gesellschaften und Werke -->
+    <!-- Stand vom 14.08.2012 Hinzufuegen 0101 VW NFZ Andreas Koehler -->
+    <!-- Stand vom 27.12.2011 letzte Änderung durch Andreas Koehler -->
+    <!-- Stand vom 15.09.2010 letzte Änderung durch Rainer Will -->
+        <ActiveDomains>
+            <ActiveDomain>
+                <AD>DC=vwg</AD>
+                <LDAPUrl>vwg</LDAPUrl>
+                <ADTitle>VOLKSWAGEN KONZERN (*.vwg)</ADTitle>
+                <CorpList>0001,5510</CorpList>
+                <ReferralType>follow</ReferralType>
+            </ActiveDomain>
+            <ActiveDomain>
+                <AD>DC=skoda,DC=vwg</AD>
+                <LDAPUrl>skoda.vwg</LDAPUrl>
+                <ADTitle>ŠKODA (skoda.vwg)</ADTitle>
+                <CorpList>0360,0370,2860,7380</CorpList>
+                <ReferralType>ignore</ReferralType>
+            </ActiveDomain>
+            <ActiveDomain>
+                <AD>dc=vw,dc=vwg</AD>
+                <LDAPUrl>vw.vwg</LDAPUrl>
+                <ADTitle>VOLKSWAGEN (vw.vwg)</ADTitle>
+                <CorpList>0100,0101,0104,0320,0380,0920,2260,2560,4200,4590,4600,7110,7115</CorpList>
+                <ReferralType>ignore</ReferralType>
+            </ActiveDomain>
+            <ActiveDomain>
+                <AD>DC=apac,DC=vwg</AD>
+                <LDAPUrl>apac.vwg</LDAPUrl>
+                <ADTitle>APAC (apac.vwg)</ADTitle>
+                <CorpList>0800</CorpList>
+                <ReferralType>follow</ReferralType>
+            </ActiveDomain>
+            <ActiveDomain>
+                <AD>DC=bentley,DC=emea,DC=vwg</AD>
+                <LDAPUrl>bentley.emea.vwg</LDAPUrl>
+                <ADTitle>BENTLEY (bentley.emea.vwg)</ADTitle>
+                <CorpList>0740</CorpList>
+                <ReferralType>follow</ReferralType>
+            </ActiveDomain>
+            <ActiveDomain>
+                <AD>DC=emea,DC=vwg</AD>
+                <LDAPUrl>emea.vwg</LDAPUrl>
+                <ADTitle>EMEA (emea.vwg)</ADTitle>
+                <CorpList>0260,0690</CorpList>
+                <ReferralType>follow</ReferralType>
+            </ActiveDomain>
+            <ActiveDomain>
+                <AD>DC=ap,DC=vwg</AD>
+                <LDAPUrl>ap.vwg</LDAPUrl>
+                <ADTitle>AP (ap.vwg)</ADTitle>
+                <CorpList>06751</CorpList>
+                <ReferralType>follow</ReferralType>
+            </ActiveDomain>
+            <ActiveDomain>
+                <AD>DC=audi,DC=vwg</AD>
+                <LDAPUrl>audi.vwg</LDAPUrl>
+                <ADTitle>AUDI (audi.vwg)</ADTitle>
+                <CorpList>0200,0250,0270,0300,4190,4195,4900,4910,6750</CorpList>
+                <ReferralType>follow</ReferralType>
+            </ActiveDomain>
+            <ActiveDomain>
+                <AD>DC=sa,DC=vwg</AD>
+                <LDAPUrl>sa.vwg</LDAPUrl>
+                <ADTitle>SA (sa.vwg)</ADTitle>
+                <CorpList>0500,0580</CorpList>
+                <ReferralType>follow</ReferralType>
+            </ActiveDomain>
+            <ActiveDomain>
+                <AD>DC=na,DC=vwg</AD>
+                <LDAPUrl>na.vwg</LDAPUrl>
+                <ADTitle>NA (na.vwg)</ADTitle>
+                <CorpList>0600,0660</CorpList>
+                <ReferralType>follow</ReferralType>
+            </ActiveDomain>
+            <ActiveDomain>
+                <AD>DC=seat,DC=vwg</AD>
+                <LDAPUrl>seat.vwg</LDAPUrl>
+                <ADTitle>SEAT (seat.vwg)</ADTitle>
+                <CorpList>0700</CorpList>
+                <ReferralType>follow</ReferralType>
+            </ActiveDomain>
+        </ActiveDomains>
+      </General>
+      <a0001>
+        <!--# Konzern - GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>26571060-4ccb-4a89-967c-a8cddb737ea4</neueSysteme> 
+        <neueDokumente>0a5a9571-7ddc-11df-3814-002481dea4fa</neueDokumente>
+        <neueRollen>f5575c91-7dda-11df-3814-002481dea4fa</neueRollen>
+        <neueGremien>cd07fec1-7dda-11df-3814-002481dea4fa</neueGremien> 
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege --> 
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme> 
+        <Dokumente>c80a8945-fed2-4d13-888a-21f0983bba52</Dokumente>
+        <Rollen>ee5dc9ca-5d0d-40f5-bb14-fef87851866d</Rollen> 
+        <Gremien>096640b5-a203-422e-ae2e-cc099d62a0ee</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <Prozesskennungen>ab5e27a0-fd36-11df-674b-002481cf5546</Prozesskennungen>
+        <Org>fdf79f19-63ba-4f04-a90f-41b9a368e6a9</Org> 
+        <Dataobjects>ad2f67f0-dd9e-11de-3622-0025b3c0da68</Dataobjects>
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>5877ec91-62d2-11ea-6d4c-005056af7044</ManagementTopics>
+        <GDPR_Value_NO>9da08f2e-6f7a-11ea-6d4c-005056af7044</GDPR_Value_NO>
+        <GDPR_Value_Personal>a97cb54e-4121-11ea-1dbd-005056af7044</GDPR_Value_Personal>
+        <GDPR_Value_Personal_Sensitive>a97cb551-4121-11ea-1dbd-005056af7044</GDPR_Value_Personal_Sensitive>
+        <!--# GUIDs of Process cockpit Stammdaten folders as reference--> 
+        <Cockpit>
+            <Document></Document>
+             <newDocument></newDocument>
+            <processOwner></processOwner>
+            <InputOutput></InputOutput>
+             <newInputOutput></newInputOutput>
+            <Objective></Objective>
+             <newObjective></newObjective>
+            <Service></Service>
+             <newService></newService>
+            <Assumption></Assumption>
+             <newAssumption></newAssumption>
+            <BusinessCapability></BusinessCapability>
+             <newBusinessCapability></newBusinessCapability>
+            <Committee></Committee>
+             <newCommittee></newCommittee>
+            <Gap></Gap>
+             <newGap></newGap>
+            <ITSystem></ITSystem>
+             <newITSystem></newITSystem>
+            <Requirement></Requirement>
+             <newRequirement></newRequirement>
+            <Risk></Risk>
+             <newRisk></newRisk>
+            <Weakpoint></Weakpoint>
+             <newWeakPoint></newWeakPoint>
+            <Task></Task>
+             <newTask></newTask>
+            <KPI></KPI>
+             <newKPI></newKPI>
+            <customerTouchPoint></customerTouchPoint>
+             <newCustomerTouchPoint></newCustomerTouchPoint>
+            <!--# GUIDs of model --> 
+            <ProcessIdentifier>ab5e27a0-fd36-11df-674b-002481cf5546</ProcessIdentifier>
+        </Cockpit>
+    </a0001>
+    <aempty1>
+        <!--# Konzern - GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme></neueSysteme> 
+        <neueDokumente></neueDokumente>
+        <neueRollen></neueRollen>
+        <neueGremien></neueGremien> 
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege --> 
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme> 
+        <Dokumente></Dokumente>
+        <Rollen></Rollen> 
+        <Gremien></Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <Prozesskennungen>ab5e27a0-fd36-11df-674b-002481cf5546</Prozesskennungen>
+        <Org>fdf79f19-63ba-4f04-a90f-41b9a368e6a9</Org> 
+        <Dataobjects></Dataobjects>
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics></ManagementTopics>
+        <!--# GUIDs of Process cockpit Stammdaten folders as reference--> 
+        <Cockpit>
+            <Document></Document>
+             <newDocument></newDocument>
+            <processOwner></processOwner>
+            <InputOutput></InputOutput>
+             <newInputOutput></newInputOutput>
+            <Objective></Objective>
+             <newObjective></newObjective>
+            <Service></Service>
+             <newService></newService>
+            <Assumption></Assumption>
+             <newAssumption></newAssumption>
+            <BusinessCapability></BusinessCapability>
+             <newBusinessCapability></newBusinessCapability>
+            <Committee></Committee>
+             <newCommittee></newCommittee>
+            <Gap></Gap>
+             <newGap></newGap>
+            <ITSystem></ITSystem>
+             <newITSystem></newITSystem>
+            <Requirement></Requirement>
+             <newRequirement></newRequirement>
+            <Risk></Risk>
+             <newRisk></newRisk>
+            <Weakpoint></Weakpoint>
+             <newWeakPoint></newWeakPoint>
+            <Task></Task>
+             <newTask></newTask>
+            <KPI></KPI>
+             <newKPI></newKPI>
+            <customerTouchPoint></customerTouchPoint>
+             <newCustomerTouchPoint></newCustomerTouchPoint>
+            <!--# GUIDs of model --> 
+            <ProcessIdentifier>ab5e27a0-fd36-11df-674b-002481cf5546</ProcessIdentifier>
+        </Cockpit>
+    </aempty1>
+    <ar001>
+        <!--# ToDo Update of the non-Cockpit parts --> 
+        <!--# VW Referenc Brand GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>8b27d142-b719-11eb-7c48-005056af6d0b</neueSysteme>
+        <neueDokumente>67761771-b719-11eb-7c48-005056af6d0b</neueDokumente>
+        <neueRollen>a9be52a1-b719-11eb-7c48-005056af6d0b</neueRollen>
+        <neueGremien>be5d19d2-b719-11eb-7c48-005056af6d0b</neueGremien> 
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liegen --> 
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme>
+        <Dokumente>c8b1fd42-b71b-11eb-7c48-005056af6d0b</Dokumente>
+        <Rollen>daa5efc2-b71b-11eb-7c48-005056af6d0b</Rollen> 
+        <Gremien>ece7db30-b71b-11eb-7c48-005056af6d0b</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <WeiterfuehrendeDokumenteStandard>5f900e31-5e37-11ea-6d4c-005056af7044</WeiterfuehrendeDokumenteStandard>
+        <Org>ae41a5f1-b71b-11eb-7c48-005056af6d0b</Org> 
+        <Dataobjects>ad2f67f0-dd9e-11de-3622-0025b3c0da68</Dataobjects>
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>3e76f1a6-62d5-11ea-6d4c-005056af7044</ManagementTopics>
+        <!--# GUIDs of Process cockpit Stammdaten folders --> 
+        <Cockpit>
+            <Document>e98fd095-8689-11eb-7c47-005056af6d0b</Document>
+            <newDocument>e9996d8b-8689-11eb-7c47-005056af6d0b</newDocument>
+            <processOwner>e99bb78d-8689-11eb-7c47-005056af6d0b</processOwner>
+            <InputOutput>e98fd0ad-8689-11eb-7c47-005056af6d0b</InputOutput>
+             <newInputOutput>e99bb775-8689-11eb-7c47-005056af6d0b</newInputOutput>
+            <Objective>e98fd0aa-8689-11eb-7c47-005056af6d0b</Objective>
+            <newObjective>e99bb781-8689-11eb-7c47-005056af6d0b</newObjective>
+            <Service>e98fd0b3-8689-11eb-7c47-005056af6d0b</Service>
+            <newService>e99bb784-8689-11eb-7c47-005056af6d0b</newService>
+            <Assumption>e98fd0b9-8689-11eb-7c47-005056af6d0b</Assumption>
+            <newAssumption>e9996d97-8689-11eb-7c47-005056af6d0b</newAssumption>
+            <BusinessCapability>e98fd0b6-8689-11eb-7c47-005056af6d0b</BusinessCapability>
+            <newBusinessCapability>e9996d88-8689-11eb-7c47-005056af6d0b</newBusinessCapability>
+            <Committee>e98fd098-8689-11eb-7c47-005056af6d0b</Committee>
+            <newCommittee>e9996d8e-8689-11eb-7c47-005056af6d0b</newCommittee>
+            <Gap>e98fd0bc-8689-11eb-7c47-005056af6d0b</Gap>
+            <newGap>e99bb772-8689-11eb-7c47-005056af6d0b</newGap>
+            <ITSystem>e98fd092-8689-11eb-7c47-005056af6d0b</ITSystem>
+            <newITSystem>e9996d82-8689-11eb-7c47-005056af6d0b</newITSystem>
+            <Requirement>e98fd0c2-8689-11eb-7c47-005056af6d0b</Requirement>
+            <newRequirement>e9996d85-8689-11eb-7c47-005056af6d0b</newRequirement>
+            <Risk>e98fd0a4-8689-11eb-7c47-005056af6d0b</Risk>
+            <newRisk>e99bb778-8689-11eb-7c47-005056af6d0b</newRisk>
+            <Weakpoint>e98fd0bf-8689-11eb-7c47-005056af6d0b</Weakpoint>
+            <newWeakPoint>e99bb77e-8689-11eb-7c47-005056af6d0b</newWeakPoint>
+            <Task>e98fd0b0-8689-11eb-7c47-005056af6d0b</Task>
+            <newTask>e9996d91-8689-11eb-7c47-005056af6d0b</newTask>
+            <KPI>e98fd0c5-8689-11eb-7c47-005056af6d0b</KPI>
+            <newKPI>e99bb787-8689-11eb-7c47-005056af6d0b</newKPI>
+            <customerTouchPoint>c4b2b301-af42-11eb-7a8a-005056af7044</customerTouchPoint>
+            <newCustomerTouchPoint>f01e1de1-af42-11eb-7a8a-005056af7044</newCustomerTouchPoint>
+            <!--# GUIDs of model --> 
+            <ProcessIdentifier>ab5e27a0-fd36-11df-674b-002481cf5546</ProcessIdentifier>
+        </Cockpit>
+    </ar001>
+    <a0010>
+        <!--# Konzern - GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>f91f829b-8d73-11ec-302e-005056af6d0b</neueSysteme> 
+        <neueDokumente>f91f82de-8d73-11ec-302e-005056af6d0b</neueDokumente>
+        <neueRollen>f91f8289-8d73-11ec-302e-005056af6d0b</neueRollen>
+        <neueGremien>f91d118a-8d73-11ec-302e-005056af6d0b</neueGremien>
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege --> 
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme> 
+        <Dokumente>f91f8272-8d73-11ec-302e-005056af6d0b</Dokumente>
+        <Rollen>f91f8292-8d73-11ec-302e-005056af6d0b</Rollen> 
+        <Gremien>f91f82c2-8d73-11ec-302e-005056af6d0b</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <Org>fdf79f19-63ba-4f04-a90f-41b9a368e6a9</Org> 
+        <Dataobjects></Dataobjects>
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>f91f82b2-8d73-11ec-302e-005056af6d0b</ManagementTopics>
+        <!--# GUIDs of Process cockpit Stammdaten folders as reference--> 
+        <Cockpit>
+            <Document>f692e426-8d73-11ec-302e-005056af6d0b</Document>
+             <newDocument>f697c634-8d73-11ec-302e-005056af6d0b</newDocument>
+            <processOwner>f69a103c-8d73-11ec-302e-005056af6d0b</processOwner>
+            <InputOutput>f6955525-8d73-11ec-302e-005056af6d0b</InputOutput>
+             <newInputOutput>f69a1024-8d73-11ec-302e-005056af6d0b</newInputOutput>
+            <Objective>f6955522-8d73-11ec-302e-005056af6d0b</Objective>
+             <newObjective>f69a1030-8d73-11ec-302e-005056af6d0b</newObjective>
+            <Service>f695552b-8d73-11ec-302e-005056af6d0b</Service>
+             <newService>f69a1033-8d73-11ec-302e-005056af6d0b</newService>
+            <Assumption>f6955531-8d73-11ec-302e-005056af6d0b</Assumption>
+             <newAssumption>f69a101e-8d73-11ec-302e-005056af6d0b</newAssumption>
+            <BusinessCapability>f695552e-8d73-11ec-302e-005056af6d0b</BusinessCapability>
+             <newBusinessCapability>f697c631-8d73-11ec-302e-005056af6d0b</newBusinessCapability>
+            <Committee>f692e429-8d73-11ec-302e-005056af6d0b</Committee>
+             <newCommittee>f69a1012-8d73-11ec-302e-005056af6d0b</newCommittee>
+            <Gap>f6955534-8d73-11ec-302e-005056af6d0b</Gap>
+             <newGap>f69a1021-8d73-11ec-302e-005056af6d0b</newGap>
+            <ITSystem>f692e423-8d73-11ec-302e-005056af6d0b</ITSystem>
+             <newITSystem>f697c62b-8d73-11ec-302e-005056af6d0b</newITSystem>
+            <Requirement>f695553a-8d73-11ec-302e-005056af6d0b</Requirement>
+             <newRequirement>f697c62e-8d73-11ec-302e-005056af6d0b</newRequirement>
+            <Risk>f692e435-8d73-11ec-302e-005056af6d0b</Risk>
+             <newRisk>f69a1027-8d73-11ec-302e-005056af6d0b</newRisk>
+            <Weakpoint>f6955537-8d73-11ec-302e-005056af6d0b</Weakpoint>
+             <newWeakPoint>f69a102d-8d73-11ec-302e-005056af6d0b</newWeakPoint>
+            <Task>f6955528-8d73-11ec-302e-005056af6d0b</Task>
+             <newTask>f69a1015-8d73-11ec-302e-005056af6d0b</newTask>
+            <KPI>f695553d-8d73-11ec-302e-005056af6d0b</KPI>
+             <newKPI>f69a1036-8d73-11ec-302e-005056af6d0b</newKPI>
+            <customerTouchPoint>f6955540-8d73-11ec-302e-005056af6d0b</customerTouchPoint>
+             <newCustomerTouchPoint>f69a1018-8d73-11ec-302e-005056af6d0b</newCustomerTouchPoint>
+            <!--# GUIDs of model --> 
+            <ProcessIdentifier>ab5e27a0-fd36-11df-674b-002481cf5546</ProcessIdentifier>
+        </Cockpit>
+    </a0010>
+    <a0100>
+        <!--# VW GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>68ea6ba9-bd3f-46e8-a146-611adc046a86</neueSysteme>
+        <neueDokumente>b8c837cd-b77e-4dfc-b52d-0304c7c3a25c</neueDokumente>
+        <neueRollen>74a016bc-f20e-4637-a62c-d24bf25a3fc9</neueRollen>
+        <neueGremien>9ea704c4-f03e-4395-b0bf-f18879e445cb</neueGremien> 
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liegen --> 
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme>
+        <Dokumente>62c4b0e8-0567-4727-b6b8-8bcb68de6b62</Dokumente>
+        <Rollen>87f6c2b5-8054-4a9a-9cef-adc382da90d6</Rollen> 
+        <Gremien>c6a78e12-f77e-44cf-a8d7-fb17e70a8e91</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <GesellViewVW01>8fc16f42-57d9-11ea-6d4c-005056af7044</GesellViewVW01>
+        <GesellViewVW02>c41acf00-57e5-11ea-6d4c-005056af7044</GesellViewVW02>
+        <GesellViewVW03>decaa050-57e5-11ea-6d4c-005056af7044</GesellViewVW03>
+        <GesellViewVW04>f9f67f70-57e5-11ea-6d4c-005056af7044</GesellViewVW04>
+        <WeiterfuehrendeDokumenteStandard>5f900e31-5e37-11ea-6d4c-005056af7044</WeiterfuehrendeDokumenteStandard>
+        <Org>fdf79f19-63ba-4f04-a90f-41b9a368e6a9</Org> 
+        <Dataobjects>ad2f67f0-dd9e-11de-3622-0025b3c0da68</Dataobjects>
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>3e76f1a6-62d5-11ea-6d4c-005056af7044</ManagementTopics>
+        <!--# GUIDs of Process cockpit Stammdaten folders --> 
+        <Cockpit>
+            <Document>6a5e7de7-2a57-4f63-8fb5-510c8ab78827</Document>
+            <newDocument>1a298bf9-039c-4579-8440-3ab46d931779</newDocument>
+            <processOwner>805e0981-6234-11eb-7c47-005056af6d0b</processOwner>
+            <InputOutput>2edcab21-3ad9-11eb-7590-005056af26e2</InputOutput>
+             <newInputOutput>4c7be950-3adb-11eb-7590-005056af26e2</newInputOutput>
+            <Objective>254d0191-3ad9-11eb-7590-005056af26e2</Objective>
+            <newObjective>5589b8b1-3adb-11eb-7590-005056af26e2</newObjective>
+            <Service>60f802c0-3ada-11eb-7590-005056af26e2</Service>
+            <newService>98666ee1-3adf-11eb-7590-005056af26e2</newService>
+            <Assumption>b1158070-3ada-11eb-7590-005056af26e2</Assumption>
+            <newAssumption>c37f7401-3adf-11eb-7590-005056af26e2</newAssumption>
+            <BusinessCapability>893e86f0-3ada-11eb-7590-005056af26e2</BusinessCapability>
+            <newBusinessCapability>b5f56b51-3adf-11eb-7590-005056af26e2</newBusinessCapability>
+            <Committee>e35c2ac0-f775-4f0b-9aa5-1fde29b06dfa</Committee>
+            <newCommittee>4640d6d4-869a-4b6a-a4a8-ff41dd74cbdb</newCommittee>
+            <Gap>6d0e99a0-4ff4-11eb-7590-005056af26e2</Gap>
+            <newGap>a8cfd761-4ff4-11eb-7590-005056af26e2</newGap>
+            <ITSystem>fe10ac94-c9f4-4361-876a-4e1bb7a9110e</ITSystem>
+            <newITSystem>e03505cc-cfdd-40d4-b1af-8ec31e98f9a0</newITSystem>
+            <Requirement>08f0f4a0-54a8-11eb-7590-005056af26e2</Requirement>
+            <newRequirement>19d747b1-54a8-11eb-7590-005056af26e2</newRequirement>
+            <Risk>ac3e7211-54a6-11eb-7590-005056af26e2</Risk>
+            <newRisk>fe52ddc0-54a6-11eb-7590-005056af26e2</newRisk>
+            <Weakpoint>73f5c3d0-54a7-11eb-7590-005056af26e2</Weakpoint>
+            <newWeakPoint>8b0bcc91-54a7-11eb-7590-005056af26e2</newWeakPoint>
+            <Task>efc85550-3ad9-11eb-7590-005056af26e2</Task>
+            <newTask>8eb078a0-3adf-11eb-7590-005056af26e2</newTask>
+            <KPI>0d03cf51-6573-11eb-7c47-005056af6d0b</KPI>
+            <newKPI>3538a041-6573-11eb-7c47-005056af6d0b</newKPI>
+            <customerTouchPoint>f5b933b2-bdf3-11eb-7c48-005056af6d0b</customerTouchPoint>
+            <newCustomerTouchPoint>f5b933b5-bdf3-11eb-7c48-005056af6d0b</newCustomerTouchPoint>
+            <!--# GUIDs of model --> 
+            <ProcessIdentifier>ab5e27a0-fd36-11df-674b-002481cf5546</ProcessIdentifier>
+        </Cockpit>
+    </a0100>
+    <a0101>
+        <!--# VW NFZ GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>d83ab929-e55a-11e1-39b5-002481dea4fa</neueSysteme>
+        <neueDokumente>d83ab91d-e55a-11e1-39b5-002481dea4fa</neueDokumente>
+        <neueRollen>d83ab917-e55a-11e1-39b5-002481dea4fa</neueRollen>
+        <neueGremien>d83ab923-e55a-11e1-39b5-002481dea4fa</neueGremien> 
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liegen --> 
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme>
+        <Dokumente>d83ab93b-e55a-11e1-39b5-002481dea4fa</Dokumente>
+        <Rollen>d83ab935-e55a-11e1-39b5-002481dea4fa</Rollen> 
+        <Gremien>d83ab947-e55a-11e1-39b5-002481dea4fa</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <GesellViewVW01>8fc16f42-57d9-11ea-6d4c-005056af7044</GesellViewVW01>
+        <GesellViewVW02>c41acf00-57e5-11ea-6d4c-005056af7044</GesellViewVW02>
+        <GesellViewVW03>decaa050-57e5-11ea-6d4c-005056af7044</GesellViewVW03>
+        <GesellViewVW04>f9f67f70-57e5-11ea-6d4c-005056af7044</GesellViewVW04>
+        <WeiterfuehrendeDokumenteStandard>f5e809d2-afce-11ea-3cf0-005056af6d0b</WeiterfuehrendeDokumenteStandard>
+        <Org>d83ab911-e55a-11e1-39b5-002481dea4fa</Org>
+        <Dataobjects>ad2f67f0-dd9e-11de-3622-0025b3c0da68</Dataobjects>
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>5cac4922-afce-11ea-3cf0-005056af6d0b</ManagementTopics>
+    </a0101>
+        <a0104>
+        <!--# VW NFZ GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>1b1db479-bbbc-11ec-3032-005056af6d0b</neueSysteme>
+        <neueDokumente>1b1db443-bbbc-11ec-3032-005056af6d0b</neueDokumente>
+        <neueRollen>1b1db443-bbbc-11ec-3032-005056af6d0b</neueRollen>
+        <neueGremien>1b1db455-bbbc-11ec-3032-005056af6d0b</neueGremien> 
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liegen --> 
+        <Systeme>1b1db45e-bbbc-11ec-3032-005056af6d0b</Systeme>
+        <Dokumente>1b1db4a4-bbbc-11ec-3032-005056af6d0b</Dokumente>
+        <Rollen>1b1db422-bbbc-11ec-3032-005056af6d0b</Rollen> 
+        <Gremien>1b1db42b-bbbc-11ec-3032-005056af6d0b</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <GesellViewVW01>8fc16f42-57d9-11ea-6d4c-005056af7044</GesellViewVW01>
+        <GesellViewVW02>c41acf00-57e5-11ea-6d4c-005056af7044</GesellViewVW02>
+        <GesellViewVW03>decaa050-57e5-11ea-6d4c-005056af7044</GesellViewVW03>
+        <GesellViewVW04>f9f67f70-57e5-11ea-6d4c-005056af7044</GesellViewVW04>
+        <WeiterfuehrendeDokumenteStandard>f5e809d2-afce-11ea-3cf0-005056af6d0b</WeiterfuehrendeDokumenteStandard>
+        <Org>1b1db484-bbbc-11ec-3032-005056af6d0b</Org>
+        <Dataobjects>ad2f67f0-dd9e-11de-3622-0025b3c0da68</Dataobjects>
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>1b1db434-bbbc-11ec-3032-005056af6d0b</ManagementTopics>
+    </a0104>
+    <a1114>
+        <!--# VW S4Hana Sandbox - Cockpit only --> 
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <!--# GUIDs of Process cockpit Stammdaten folders --> 
+        <Cockpit>
+            <Document>6c28f1f1-b314-11e7-1d32-00505681c1f6</Document>
+             <newDocument>6c28f1f1-b314-11e7-1d32-00505681c1f6</newDocument>
+            <processOwner>36a9b4f1-bc71-11eb-7c48-005056af6d0b</processOwner>
+            <InputOutput>2edcab21-3ad9-11eb-7590-005056af26e2</InputOutput>
+             <newInputOutput>2edcab21-3ad9-11eb-7590-005056af26e2</newInputOutput>
+            <Objective>254d0191-3ad9-11eb-7590-005056af26e2</Objective>
+             <newObjective>254d0191-3ad9-11eb-7590-005056af26e2</newObjective>
+            <Service>afa68c01-151b-11eb-7c47-005056af6d0b</Service>
+             <newService>afa68c01-151b-11eb-7c47-005056af6d0b</newService>
+            <Assumption>b1158070-3ada-11eb-7590-005056af26e2</Assumption>
+             <newAssumption>b1158070-3ada-11eb-7590-005056af26e2</newAssumption>
+            <BusinessCapability>afa68c01-151b-11eb-7c47-005056af6d0b</BusinessCapability>
+             <newBusinessCapability>afa68c01-151b-11eb-7c47-005056af6d0b</newBusinessCapability>
+            <Committee>b70bce71-bc72-11eb-7c48-005056af6d0b</Committee>
+             <newCommittee>b70bce71-bc72-11eb-7c48-005056af6d0b</newCommittee>
+            <Gap>6d0e99a0-4ff4-11eb-7590-005056af26e2</Gap>
+             <newGap>6d0e99a0-4ff4-11eb-7590-005056af26e2</newGap>
+            <ITSystem>a8e79a41-af29-11e7-1d32-00505681c1f6</ITSystem>
+             <newITSystem>a8e79a41-af29-11e7-1d32-00505681c1f6</newITSystem>
+            <Requirement>3b3bbd51-afe2-11e7-1d32-00505681c1f6</Requirement>
+             <newRequirement>3b3bbd51-afe2-11e7-1d32-00505681c1f6</newRequirement>
+            <Risk>d073e4a0-d414-11e7-45d9-0050568107bf</Risk>
+             <newRisk>d073e4a0-d414-11e7-45d9-0050568107bf</newRisk>
+            <Weakpoint>73f5c3d0-54a7-11eb-7590-005056af26e2</Weakpoint>
+             <newWeakPoint>73f5c3d0-54a7-11eb-7590-005056af26e2</newWeakPoint>
+            <Task>efc85550-3ad9-11eb-7590-005056af26e2</Task>
+             <newTask>efc85550-3ad9-11eb-7590-005056af26e2</newTask>
+            <KPI>5b511db1-f4c8-11e9-5f4a-005056af26e2</KPI>
+             <newKPI>5b511db1-f4c8-11e9-5f4a-005056af26e2</newKPI>
+            <customerTouchPoint>cb6600a0-bc74-11eb-7c48-005056af6d0b</customerTouchPoint>
+             <newCustomerTouchPoint>cb6600a0-bc74-11eb-7c48-005056af6d0b</newCustomerTouchPoint>
+            <!--# GUIDs of model --> 
+            <ProcessIdentifier>ab5e27a0-fd36-11df-674b-002481cf5546</ProcessIdentifier>
+        </Cockpit>
+    </a1114>
+    <a0200>
+        <!--# AUDI GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>72007421-625f-4f8d-8abc-3642951141a7</neueSysteme> 
+        <neueDokumente>afc24bfa-927f-46a9-a2d9-d35ae52f0707</neueDokumente> 
+        <neueRollen>7c71d3ba-c1c2-40bf-8cdc-64871bb9a3e9</neueRollen> 
+        <neueGremien>f363f05d-b8b7-4e4b-878e-22a8050b5a3e</neueGremien> 
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege --> 
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme> 
+        <Dokumente>4d51c0be-084f-445d-884d-5acd28020fe4</Dokumente>
+        <Rollen>1066c32b-6d8b-42bb-b113-9c370f59ac9a</Rollen> 
+        <Gremien>1ebe0b9d-2166-43d4-ac95-ecc054e0629a</Gremien> 
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <Org>fc3cde18-1046-453f-8170-a5da3e437675</Org> 
+        <Dataobjects>ad2f67f0-dd9e-11de-3622-0025b3c0da68</Dataobjects>
+        <ManagementSystems>e864c942-88a6-11eb-7c47-005056af6d0b</ManagementSystems>
+        <ManagementTopics>f5056c22-62d9-11ea-6d4c-005056af7044</ManagementTopics>
+        <!--# Audi extension: e282b4a8-204e-3fde-b4f5-986dd02567f7 = Skoda.Apps.ARIS.AMS|a30999f5-7179-3e18-bd65-b99468e09010 = Skoda.Apps.ARIS.KUV_VWG|f114792b-9711-3789-8f0f-2b66f2af5974 = 100200 Training group|20f157e2-9ea2-304a-8d1f-6989376f9c03 Audi_PB_Temp --> 
+        <WritePermissionUserGroup>f114792b-9711-3789-8f0f-2b66f2af5974;e282b4a8-204e-3fde-b4f5-986dd02567f7;a30999f5-7179-3e18-bd65-b99468e09010;20f157e2-9ea2-304a-8d1f-6989376f9c03</WritePermissionUserGroup>
+        <PBUserGroup>a30999f5-7179-3e18-bd65-b99468e09010;c677fe57-0cfe-3e10-ac3f-a4f402c22f6b;e282b4a8-204e-3fde-b4f5-986dd02567f7</PBUserGroup>
+        <!--# Audi_BPK --> 
+            <BKPUserGroup>97566a5b-eb06-3ae8-805f-30b55fefea86</BKPUserGroup>
+        <!--# Audi_ZPM --> 
+            <ZPMUserGroup>e3b22d03-ef88-3f66-906b-f378185659e3</ZPMUserGroup>
+        <!--# Audi_QM-Enabler NOT USED--> 
+            <QMUserGroup>c677fe57-0cfe-3e10-ac3f-a4f402c22f6b</QMUserGroup>
+        <!--# Audi_QM-Berater --> 
+            <QMBeraterUserGroup>17da2170-307b-3324-b70f-ddffe99b9ea0</QMBeraterUserGroup>
+        <!--# Audi_QM-Check --> 
+            <GPKQMUserGroup>b2100942-886b-3799-9a0e-873187475967</GPKQMUserGroup>
+        <RiskRadar>446f1dc1-f43c-11eb-4062-005056af7044</RiskRadar>
+            <RiskRadarModel>932f0740-f43c-11eb-4062-005056af7044</RiskRadarModel>
+        <RiskFreetext>418712d1-f459-11eb-4062-005056af7044</RiskFreetext>
+            <RiskFreetextModel>28d56c32-f43d-11eb-4062-005056af7044</RiskFreetextModel>
+        <RiskDocument>32396121-f459-11eb-4062-005056af7044</RiskDocument>
+            <RiskDocumentModel>0e904c21-f454-11eb-4062-005056af7044</RiskDocumentModel>
+        <ADSAttachment>010001 Konzern Arbeits-DMS/0200 Audi/Anlagen</ADSAttachment>
+        <!--# GUIDs of Process cockpit Stammdaten folders --> 
+        <Cockpit>
+            <Document>f6b1217b-0700-11eb-7c47-005056af6d0b</Document>
+            <newDocument>1a298bf9-039c-4579-8440-3ab46d931779</newDocument>
+            <processOwner>d9737312-9d18-11eb-7c47-005056af6d0b</processOwner>
+            <InputOutput>63af8cf2-9d17-11eb-7c47-005056af6d0b</InputOutput>
+            <newInputOutput>63b1d6e5-9d17-11eb-7c47-005056af6d0b</newInputOutput>
+            <Objective>76bb5818-9d17-11eb-7c47-005056af6d0b</Objective>
+            <newObjective>76bda233-9d17-11eb-7c47-005056af6d0b</newObjective>
+            <Service>76bda200-9d17-11eb-7c47-005056af6d0b</Service>
+            <newService>76bda236-9d17-11eb-7c47-005056af6d0b</newService>
+            <Assumption>76bda206-9d17-11eb-7c47-005056af6d0b</Assumption>
+            <newAssumption>76bda227-9d17-11eb-7c47-005056af6d0b</newAssumption>
+            <BusinessCapability>76bda203-9d17-11eb-7c47-005056af6d0b</BusinessCapability>
+            <newBusinessCapability>76bda221-9d17-11eb-7c47-005056af6d0b</newBusinessCapability>
+            <Committee>b37f0746-b38c-49d0-8fe2-46464a6b143e</Committee>
+            <newCommittee>7b117ed3-b695-4029-bc6e-65e3169ed6d6</newCommittee>
+            <Gap>76bda209-9d17-11eb-7c47-005056af6d0b</Gap>
+            <newGap>76bda22a-9d17-11eb-7c47-005056af6d0b</newGap>
+            <ITSystem>801f06cb-ef53-11d7-277e-0002a5439e1d</ITSystem>
+            <newITSystem>c3d42a86-b937-42c6-b378-930a3eb50d3f</newITSystem>
+            <Requirement>76bda20f-9d17-11eb-7c47-005056af6d0b</Requirement>
+            <newRequirement>76bda21e-9d17-11eb-7c47-005056af6d0b</newRequirement>
+            <Risk>76bb5815-9d17-11eb-7c47-005056af6d0b</Risk>
+            <newRisk>76bda22d-9d17-11eb-7c47-005056af6d0b</newRisk>
+            <Weakpoint>76bda20c-9d17-11eb-7c47-005056af6d0b</Weakpoint>
+            <newWeakPoint>76bda230-9d17-11eb-7c47-005056af6d0b</newWeakPoint>
+            <Task>76bb581b-9d17-11eb-7c47-005056af6d0b</Task>
+            <newTask>76bda224-9d17-11eb-7c47-005056af6d0b</newTask>
+            <KPI>9bdb54a2-9d27-11eb-7c47-005056af6d0b</KPI>
+            <newKPI>9bdd9e92-9d27-11eb-7c47-005056af6d0b</newKPI>
+            <customerTouchPoint>57739fb2-bdf3-11eb-7c48-005056af6d0b</customerTouchPoint>
+             <newCustomerTouchPoint>577610b2-bdf3-11eb-7c48-005056af6d0b</newCustomerTouchPoint>
+            <!--# GUIDs of model --> 
+            <ProcessIdentifier>ab5e27a0-fd36-11df-674b-002481cf5546</ProcessIdentifier>
+        </Cockpit>
+    </a0200>
+    <a0204>
+        <!--# AUDI P4 GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>07c97b1f-00a5-11ea-50ea-005056af6d0b</neueSysteme> 
+        <neueDokumente>07c97b31-00a5-11ea-50ea-005056af6d0b</neueDokumente> 
+        <neueRollen>07c97b3a-00a5-11ea-50ea-005056af6d0b</neueRollen> 
+        <neueGremien>07c97af2-00a5-11ea-50ea-005056af6d0b</neueGremien> 
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege --> 
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme> 
+        <Dokumente>07c97b28-00a5-11ea-50ea-005056af6d0b</Dokumente>
+        <Rollen>07c97b0d-00a5-11ea-50ea-005056af6d0b</Rollen> 
+        <Gremien>07c709f2-00a5-11ea-50ea-005056af6d0b</Gremien> 
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <Org>07c97afb-00a5-11ea-50ea-005056af6d0b</Org> 
+        <Dataobjects>ad2f67f0-dd9e-11de-3622-0025b3c0da68</Dataobjects>
+        <!--# GUIDs of a0001 --> 
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>5877ec91-62d2-11ea-6d4c-005056af7044</ManagementTopics>
+    </a0204>
+    <a0250>
+        <!--# AUDI Hungaria GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>a71f931a-a878-47e8-aa91-65d55f5738e8</neueSysteme> 
+        <neueDokumente>86c3a356-b31e-43fc-b05e-d3c17bcc50ed</neueDokumente> 
+        <neueRollen>a6c1a95e-68fd-435a-9a18-4d11454d5555</neueRollen> 
+        <neueGremien>e8a1d0fa-640c-48b3-a21b-b986222eac49</neueGremien> 
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege --> 
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme> 
+        <Dokumente>ec9dd40e-91e3-40f9-be21-4cd5adc84f10</Dokumente>
+        <Rollen>92768ec1-a364-4a87-b8c7-1190d77100d0</Rollen> 
+        <Gremien>78093f81-5ee5-4acf-8745-e2cbce4af22b</Gremien> 
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <Org>7bfe16a6-21b7-47a6-947e-8404a6af62a6</Org> 
+        <Dataobjects>ad2f67f0-dd9e-11de-3622-0025b3c0da68</Dataobjects>
+        <!--# GUIDs of a0001 --> 
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>5877ec91-62d2-11ea-6d4c-005056af7044</ManagementTopics>
+    </a0250>    
+    <a0260>
+        <!--# Lamborghini GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>F5541E6A-FEE0-4F99-AD4A-E29F6F62607D</neueSysteme>
+        <neueDokumente>2694CF9A-D352-4BCC-852B-2E440BF97984</neueDokumente>
+        <neueRollen>02963DF6-794F-4A83-9787-8DAF0C1692DC</neueRollen>
+        <neueGremien>1CA5F704-496C-464C-8537-C44C7A0ED211</neueGremien> 
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege --> 
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme>
+        <Dokumente>B6019F0C-9120-4BA3-965E-1371BC5648C3</Dokumente>
+        <Rollen>18B5F7B8-5669-4696-AD47-5E0CB575EB10</Rollen> 
+        <Gremien>2C1FA40D-D9A4-490B-B6F9-3A18D2BE6129</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <Org>6A483D6E-DD41-4062-9A41-FA27AFB97DE3</Org> 
+        <Dataobjects>ad2f67f0-dd9e-11de-3622-0025b3c0da68</Dataobjects>
+        <!--# GUIDs of a0001 --> 
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>5877ec91-62d2-11ea-6d4c-005056af7044</ManagementTopics>
+    </a0260>
+    <a0270>
+        <!--# Audi de Mexico GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>a3c8ef9d-2052-11e5-10f1-0017a4773c34</neueSysteme>
+        <neueDokumente>1be0da41-0c95-11e6-0d25-005056af6d0b</neueDokumente>
+        <neueRollen>4ea81ec1-0c95-11e6-0d25-005056af6d0b</neueRollen>
+        <neueGremien>42c81c91-0c95-11e6-0d25-005056af6d0b</neueGremien> 
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege --> 
+        <Systeme>bb1018b0-0c9a-11e6-0d25-005056af6d0b</Systeme>
+        <Dokumente>a3c8efc7-2052-11e5-10f1-0017a4773c34</Dokumente>
+        <Rollen>a3c8efa3-2052-11e5-10f1-0017a4773c34</Rollen> 
+        <Gremien>a3c8efa9-2052-11e5-10f1-0017a4773c34</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <Org>a3c8efbb-2052-11e5-10f1-0017a4773c34</Org> 
+        <Dataobjects></Dataobjects>
+        <!--# GUIDs of a0001 --> 
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>5877ec91-62d2-11ea-6d4c-005056af7044</ManagementTopics>
+     </a0270>
+     <a0300>
+        <!--# Audi Planung GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>2f198237-25eb-11e3-10f0-0017a4773c34</neueSysteme>
+        <neueDokumente>6143e321-1095-11e7-5a77-005056af6d0b</neueDokumente>
+        <neueRollen>e34ea391-1096-11e7-5a77-005056af6d0b</neueRollen>
+        <neueGremien>2f198231-25eb-11e3-10f0-0017a4773c34</neueGremien> 
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege --> 
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme>
+        <Dokumente>2f198249-25eb-11e3-10f0-0017a4773c34</Dokumente>
+        <Rollen>2f19823d-25eb-11e3-10f0-0017a4773c34</Rollen> 
+        <Gremien>2f19824f-25eb-11e3-10f0-0017a4773c34</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <Org>6e1e3280-aea0-11e3-10f1-0017a4773c34</Org> 
+        <Dataobjects>ad2f67f0-dd9e-11de-3622-0025b3c0da68</Dataobjects>
+        <!--# GUIDs of a0001 --> 
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>5877ec91-62d2-11ea-6d4c-005056af7044</ManagementTopics>
+    </a0300>
+    <a0320>
+        <!--# VW Sachsen GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>561e3356-8fce-484c-ac84-d214a5138ba4</neueSysteme>
+        <neueDokumente>FF03ECF4-D3F0-4A37-BB78-E7193DA11E67</neueDokumente>
+        <neueRollen>6B619FCF-1EEA-443F-8B1E-AFC641F6986B</neueRollen>
+        <neueGremien>fe51d433-35ca-4870-ac0e-a9832cbbb6f9</neueGremien> 
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege --> 
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme>
+        <Dokumente>14d08ff5-3d23-4933-9c57-239e83743112</Dokumente>
+        <Rollen>5690edb6-cd57-49eb-8ff9-5c14f1eddf3e</Rollen> 
+        <Gremien>941743f7-46cb-4732-a6e0-ac8e5f28b1eb</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <Org>145de56a-5ed9-41cd-8743-ecf544f957c5</Org> 
+        <Dataobjects>ad2f67f0-dd9e-11de-3622-0025b3c0da68</Dataobjects>
+        <!--# GUIDs of a0001 --> 
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>5877ec91-62d2-11ea-6d4c-005056af7044</ManagementTopics>
+    </a0320>
+    <a0360>
+        <!--# Skoda Auto GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>3AE58B4B-5449-4D5B-8B32-4EBDE9682A24</neueSysteme>
+        <neueDokumente>ebb3ed90-8309-11e5-651a-005056af6d0b</neueDokumente> <!-- SA DB up to date -->
+        <neueRollen>19D7236B-9A76-457E-8721-387F17A259AD</neueRollen>
+        <neueGremien>1FD672E4-140F-474A-BED7-D3514B8F6AFA</neueGremien> 
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege --> 
+        <Systeme>55b4e571-efe4-11e7-5a77-005056af6d0b</Systeme>
+        <Dokumente>7ab11e32-f074-11e7-5a77-005056af6d0b</Dokumente>
+        <Rollen>3B6EADB8-FAEE-48ED-90ED-366AD65991DA</Rollen> 
+        <Gremien>9AD17986-7EBD-4248-8080-D28B4755A263</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <!-- Old Orgchart in Arbeit DB: <Org>cca44191-1fc5-11e0-7914-005056af61d3</Org>-->
+        <Org>f5eb3141-e327-11e6-0d25-005056af6d0b</Org> <!-- SA DB up to date Orgachart-->
+        <Dataobjects>ad2f67f0-dd9e-11de-3622-0025b3c0da68</Dataobjects>
+        <!--# GUIDs of a0001 --> 
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>5877ec91-62d2-11ea-6d4c-005056af7044</ManagementTopics>
+        <!--# GUIDs of Process cockpit Stammdaten folders as reference--> 
+        <Cockpit>
+            <Document>4575e3c5-c8c3-11e5-59d3-d4bed91e03ba</Document>
+             <newDocument>975e4471-8309-11e5-651a-005056af6d0b</newDocument>
+            <processOwner>f746f082-0bcf-11ec-2e38-005056af6d0b</processOwner>
+            <InputOutput>5584e782-0bf1-11ec-2e38-005056af6d0b</InputOutput>
+             <newInputOutput>558bec62-0bf1-11ec-2e38-005056af6d0b</newInputOutput>
+            <Objective>55800582-0bf1-11ec-2e38-005056af6d0b</Objective>
+             <newObjective>558bec68-0bf1-11ec-2e38-005056af6d0b</newObjective>
+            <Service>5589a272-0bf1-11ec-2e38-005056af6d0b</Service>
+             <newService>558bec65-0bf1-11ec-2e38-005056af6d0b</newService>
+            <Assumption>95da5692-0bf5-11ec-2e38-005056af6d0b</Assumption>
+             <newAssumption>95dcc7a7-0bf5-11ec-2e38-005056af6d0b</newAssumption>
+            <BusinessCapability>95d7e595-0bf5-11ec-2e38-005056af6d0b</BusinessCapability>
+             <newBusinessCapability>95dcc7a1-0bf5-11ec-2e38-005056af6d0b</newBusinessCapability>
+            <Committee>7b744f4c-7be7-11e5-45be-005056af61d3</Committee>
+             <newCommittee>78a3af21-0bfc-11ec-2e38-005056af6d0b</newCommittee>
+            <Gap>95da5695-0bf5-11ec-2e38-005056af6d0b</Gap>
+             <newGap>95dcc7aa-0bf5-11ec-2e38-005056af6d0b</newGap>
+            <ITSystem>4f2fe341-570a-11eb-7a8a-005056af7044</ITSystem>
+             <newITSystem>7dd2067f-c480-45a6-8ffe-c0da0483043a</newITSystem>
+            <Requirement>95da569b-0bf5-11ec-2e38-005056af6d0b</Requirement>
+             <newRequirement>95dcc79e-0bf5-11ec-2e38-005056af6d0b</newRequirement>
+            <Risk>9445da42-0bfd-11ec-2e38-005056af6d0b</Risk>
+             <newRisk>9445da45-0bfd-11ec-2e38-005056af6d0b</newRisk>
+            <Weakpoint>95da5698-0bf5-11ec-2e38-005056af6d0b</Weakpoint>
+             <newWeakPoint>95dcc7ad-0bf5-11ec-2e38-005056af6d0b</newWeakPoint>
+            <Task>95d7e592-0bf5-11ec-2e38-005056af6d0b</Task>
+             <newTask>95dcc7a4-0bf5-11ec-2e38-005056af6d0b</newTask>
+            <KPI>95dcc792-0bf5-11ec-2e38-005056af6d0b</KPI>
+             <newKPI>95dcc7b0-0bf5-11ec-2e38-005056af6d0b</newKPI>
+            <customerTouchPoint>b7bde012-0bf5-11ec-2e38-005056af6d0b</customerTouchPoint>
+             <newCustomerTouchPoint>b7bde015-0bf5-11ec-2e38-005056af6d0b</newCustomerTouchPoint>
+            <!--# GUIDs of model --> 
+            <ProcessIdentifier>ab5e27a0-fd36-11df-674b-002481cf5546</ProcessIdentifier>
+        </Cockpit>
+    </a0360>
+    <a0370>
+        <!--# Skoda Auto India GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>adfc232d-d84c-44bf-85a6-994ba3675944</neueSysteme>
+        <neueDokumente>a9c0f174-3e39-48ba-866d-79d1ebf80d75</neueDokumente>
+        <neueRollen>9b1fa65e-97f0-4a04-8c27-d6045fd7d711</neueRollen>
+        <neueGremien>2dbf47fb-baa6-41ea-9021-0c4f22618865</neueGremien> 
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege --> 
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme>
+        <Dokumente>3229eae7-980c-46a7-bb23-2c366c2c8f7f</Dokumente>
+        <Rollen>56bd4ec4-de23-4bdc-9446-39704bf8b6fc</Rollen> 
+        <Gremien>0ea09723-591a-4140-aafb-df59e9f3ccd8</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <Org>3b806d17-99f8-4cd3-b762-898c19deefd6</Org> 
+        <Dataobjects>ad2f67f0-dd9e-11de-3622-0025b3c0da68</Dataobjects>
+        <!--# GUIDs of a0001 --> 
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>5877ec91-62d2-11ea-6d4c-005056af7044</ManagementTopics>
+    </a0370>
+    <a0380>
+        <!--# VW Slovakia GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>961764ab-2f8d-4686-bc1e-b03200f6e8f9</neueSysteme>
+        <neueDokumente>e6dd9ddf-ece4-4f73-ac73-e09cf5f9c8fd</neueDokumente>
+        <neueRollen>f6a1b3ec-f7f8-4130-af1c-dce8184820dc</neueRollen>
+        <neueGremien>b0440312-e752-42d3-9048-2d66c710bb53</neueGremien> 
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege --> 
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme>
+        <Dokumente>0042a8db-0c38-4242-82bf-deec0599513c</Dokumente>
+        <Rollen>510533fb-a6f1-4c67-9c59-066d90b6d61a</Rollen> 
+        <Gremien>85d6446e-eb5f-41ab-8c8b-44f309036280</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <Org>63f28069-1d13-46cb-a3a2-5d90a01ac5ba</Org> 
+        <Dataobjects>ad2f67f0-dd9e-11de-3622-0025b3c0da68</Dataobjects>
+        <!--# GUIDs of a0001 --> 
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>5877ec91-62d2-11ea-6d4c-005056af7044</ManagementTopics>
+        <GesellViewVW01>3d655430-f68b-11eb-7c53-005056af6d0b</GesellViewVW01>
+    </a0380>
+    <a0410>
+        <!--# VW Motor Polska GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>4ddaf578-20b1-4c08-8279-dace2a3cd96e</neueSysteme>
+        <neueDokumente>776b7984-29bd-4def-a80d-002fe4ca156a</neueDokumente>
+        <neueRollen>15b7d2a1-6bca-436b-9436-05ec697587cc</neueRollen>
+        <neueGremien>dc424e90-6512-41e7-8246-fbb614b6d5aa</neueGremien> 
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege --> 
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme>
+        <Dokumente>7e773973-b7c7-4ff2-b5a2-e3bc7a41a280</Dokumente>
+        <Rollen>04e5223f-74e6-4182-94ed-cc8a2047be09</Rollen> 
+        <Gremien>63062501-f57c-4e45-a947-fc95d4ddeaf2</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <Org>d1715171-9de5-4b82-b779-f58cfe68437d</Org> 
+        <Dataobjects>ad2f67f0-dd9e-11de-3622-0025b3c0da68</Dataobjects>
+        <!--# GUIDs of a0001 --> 
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>5877ec91-62d2-11ea-6d4c-005056af7044</ManagementTopics>
+    </a0410>
+    <a0420>
+        <!--# Sitech PL GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>0d3d6d53-c907-4ed1-b8c5-3d01c6e4ba9b</neueSysteme>
+        <neueDokumente>b4d51148-b7b5-4d8e-bf45-4fe8c115517e</neueDokumente>
+        <neueRollen>eecefd0c-59a9-4f70-a8bc-389c08679f3a</neueRollen>
+        <neueGremien>c3d71de0-7679-4236-a67d-f1dfeffea504</neueGremien>     
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege --> 
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme>
+        <Dokumente>0b19ca56-0a4a-4a35-8a23-b21a207de41d</Dokumente>
+        <Rollen>40a70661-e025-4b7b-8a54-b39b6466ad10</Rollen> 
+        <Gremien>888b3399-9503-444d-8c81-c382e29dc477</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <Org>ceb19771-7843-11dd-5e81-f6514bc636ab</Org> 
+        <Dataobjects>ad2f67f0-dd9e-11de-3622-0025b3c0da68</Dataobjects>
+        <!--# GUIDs of a0001 --> 
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>5877ec91-62d2-11ea-6d4c-005056af7044</ManagementTopics>
+    </a0420>
+    <a0430>
+        <!--# Sitech D GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>b83f41a1-658c-4a24-adcb-79acef516ed7</neueSysteme>
+        <neueDokumente>65552125-f063-461e-9e1d-af525823cea9</neueDokumente>
+        <neueRollen>6e3d82d1-8133-48e6-b295-3cadf99ae75b</neueRollen>
+        <neueGremien>2efe8ec6-2b8c-4307-8330-8241724b5126</neueGremien>     
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege --> 
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme>
+        <Dokumente>4eb56249-ec71-46aa-9e91-39201c3ea864</Dokumente>
+        <Rollen>4544DFDE-D54F-474C-B581-2F0B9E56EAE6</Rollen> 
+        <Gremien>55d34c22-d766-4e60-bb7d-c991c5acbfca</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <Org>637B9E4A-8763-415A-9846-7017C5EB1CFE</Org> 
+        <Dataobjects>ad2f67f0-dd9e-11de-3622-0025b3c0da68</Dataobjects>
+        <!--# GUIDs of a0001 --> 
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>5877ec91-62d2-11ea-6d4c-005056af7044</ManagementTopics>
+    </a0430>
+    <a0450>
+        <!--# VW Sarajevo GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>a4499081-09c9-45a9-b3e5-b4e58a447554</neueSysteme>
+        <neueDokumente>b80183bb-e3d9-41e2-a241-a58eda832219</neueDokumente>
+        <neueRollen>96c5ea21-f0f9-49c4-9ea1-6f020faa7c27</neueRollen>
+        <neueGremien>f05b3c32-60d3-4cf8-940f-6b21c389ebbc</neueGremien>     
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege --> 
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme>
+        <Dokumente>6cafab0c-bec6-49b8-a5f0-a6a42668f7b3</Dokumente>
+        <Rollen>c4a09d69-e7d7-4d2d-bdc7-a7d88947d23f</Rollen> 
+        <Gremien>8b2fe612-d5e6-44a5-817f-a15506606c0f</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <Org>9a148c0a-3376-4f28-bee4-11790ce5e2c9</Org> 
+        <Dataobjects>ad2f67f0-dd9e-11de-3622-0025b3c0da68</Dataobjects>
+        <!--# GUIDs of a0001 --> 
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>5877ec91-62d2-11ea-6d4c-005056af7044</ManagementTopics>
+    </a0450>
+    <a0500>
+        <!--# VW Do Brasil - Analog VW - GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>0daf9c85-ab72-4c40-b700-86ac09416110</neueSysteme>
+        <neueDokumente>1db58969-22e4-4938-8792-ea2ce01730a5</neueDokumente>
+        <neueRollen>bd863062-ab31-4e09-a729-6c570863c41d</neueRollen>
+        <neueGremien>8aa61922-a768-4ffb-9cd1-4be13581d391</neueGremien> 
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege --> 
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme>
+        <Dokumente>a8519ff1-faff-4578-8e31-9eeac1aa997f</Dokumente>
+        <Rollen>13e4afb6-fba9-473d-b810-fdd3b9e542f5</Rollen> 
+        <Gremien>e22a21ba-3223-4c73-84fe-bbbed9bc1e44</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <Org>94e90151-2c9a-4c87-8ae3-9897c4e726ef</Org> 
+        <Dataobjects>ad2f67f0-dd9e-11de-3622-0025b3c0da68</Dataobjects>
+        <!--# GUIDs of a0001 --> 
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>5877ec91-62d2-11ea-6d4c-005056af7044</ManagementTopics>
+    </a0500>    
+    <a0580>
+        <!--# VW Argentina - Analog VW - GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>e9fd9f69-7c9c-11e0-39b5-002481dea4fa</neueSysteme>
+        <neueDokumente>e9fd9f5d-7c9c-11e0-39b5-002481dea4fa</neueDokumente>
+        <neueRollen>ea001057-7c9c-11e0-39b5-002481dea4fa</neueRollen>
+        <neueGremien>e9fd9f63-7c9c-11e0-39b5-002481dea4fa</neueGremien> 
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege --> 
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme>
+        <Dokumente>e9fd9f51-7c9c-11e0-39b5-002481dea4fa</Dokumente>
+        <Rollen>ea00105d-7c9c-11e0-39b5-002481dea4fa</Rollen> 
+        <Gremien>ea001063-7c9c-11e0-39b5-002481dea4fa</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <Org>6bb57a60-bd00-11e0-39b5-002481dea4fa</Org> 
+        <Dataobjects>ad2f67f0-dd9e-11de-3622-0025b3c0da68</Dataobjects>
+        <!--# GUIDs of a0001 --> 
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>5877ec91-62d2-11ea-6d4c-005056af7044</ManagementTopics>
+    </a0580>
+    <a0600>
+        <!--# VWGoACO - Analog VW - GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>f0e4a737-0e8f-4bd5-ab30-88d3b89384b7</neueSysteme>
+        <neueDokumente>8182a3be-7abb-416e-8194-4b64805c3ac8</neueDokumente>
+        <neueRollen>5baf4997-4960-4384-9a51-0e13cd42d7be</neueRollen>
+        <neueGremien>128706f2-d21b-4172-8dd3-020140ee94aa</neueGremien> 
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege --> 
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme>
+        <Dokumente>88d16440-073a-4cff-a505-bc76cd5233e2</Dokumente>
+        <Rollen>27e590d0-9ad6-47ee-8c7f-451d891d6f78</Rollen> 
+        <Gremien>5a6bf281-ed61-4242-8114-2dde3e62a920</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <Org>7196072e-1be7-449c-9a54-8d44ab0a6e91</Org> 
+        <Dataobjects>ad2f67f0-dd9e-11de-3622-0025b3c0da68</Dataobjects>
+        <!--# GUIDs of a0001 --> 
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>5877ec91-62d2-11ea-6d4c-005056af7044</ManagementTopics>
+    </a0600>
+    <a0660>
+        <!--# VW de Mexico - Analog VW - GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>59ba40b0-4c25-41d5-9de1-4ec3f1c91f6d</neueSysteme>
+        <neueDokumente>e5873f51-1989-499f-a910-f37d5c4b0604</neueDokumente>
+        <neueRollen>3020a0cb-0601-4a14-8baf-2f4c092c3634</neueRollen>
+        <neueGremien>139648cd-fb33-48e6-9eaf-b7dd3e478a9d</neueGremien> 
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege --> 
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme>
+        <Dokumente>3497df35-5a80-4b41-8d67-7a442b0c12e4</Dokumente>
+        <Rollen>48e36b57-1d34-4bce-874b-ccdcc509e4c5</Rollen> 
+        <Gremien>df40bcc2-4a68-4403-b87e-37ca939b5ae3</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <Org>411c0c56-e71f-4906-8c75-a58597bb2166</Org> 
+        <Dataobjects>ad2f67f0-dd9e-11de-3622-0025b3c0da68</Dataobjects>
+         <!--# GUIDs of a0001 --> 
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>5877ec91-62d2-11ea-6d4c-005056af7044</ManagementTopics>
+   </a0660>
+    <a0690>
+        <!--# Bugatti - Analog VW - GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>3dfb88f6-27c1-44a5-9a96-0e4bf87224ec</neueSysteme>
+        <neueDokumente>040d0e5d-0112-450d-a2fd-cedc3ff634de</neueDokumente>
+        <neueRollen>54f7813b-f7df-4bce-851a-7760c22611fb</neueRollen>
+        <neueGremien>4db21a25-3f9a-49ad-be67-07ebd86bbb20</neueGremien> 
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege --> 
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme>
+        <Dokumente>097e1ed8-2bf7-4a93-a9b3-3320200936d7</Dokumente>
+        <Rollen>52e68f9c-6a43-43a9-9e74-3b7b7bbf2025</Rollen> 
+        <Gremien>825e3b76-f8da-4a63-b6b2-ea8aaac8d76d</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <Org>eb3cf5d2-e717-4bec-9795-258570944ad4</Org> 
+        <Dataobjects>ad2f67f0-dd9e-11de-3622-0025b3c0da68</Dataobjects>
+        <!--# GUIDs of a0001 --> 
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>5877ec91-62d2-11ea-6d4c-005056af7044</ManagementTopics>
+    </a0690>
+    <a0700>
+        <!--# SEAT - Analog VW - GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>41a08d74-6454-438a-83e1-5ad39a88de27</neueSysteme>
+        <neueDokumente>3d3f2a51-7dfa-11df-3814-002481dea4fa</neueDokumente>
+        <neueRollen>80a3aaf1-7dfa-11df-3814-002481dea4fa</neueRollen>
+        <neueGremien>4db21a25-3f9a-49ad-be67-07ebd86bbb20</neueGremien> 
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege --> 
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme>
+        <Dokumente>7b137b5d-6893-4d38-99a4-d5605634fae1</Dokumente>
+        <Rollen>4a2c8a52-4b8d-496d-8bc6-4ac29c736d4d</Rollen> 
+        <Gremien>bf4b493e-0d28-4a02-91cd-e18aace311f5</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <Org>c936651e-fd47-4391-a7a2-61429912f8ae</Org> 
+        <Dataobjects>ad2f67f0-dd9e-11de-3622-0025b3c0da68</Dataobjects>
+        <!--# GUIDs of a0001 --> 
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>5877ec91-62d2-11ea-6d4c-005056af7044</ManagementTopics>
+    </a0700>
+    <a0710>
+        <!--# Gearbox- Analog VW - GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>4677a7f3-7fc5-42d2-bd81-666a4285def0</neueSysteme>
+        <neueDokumente>216f8b81-352b-476e-a62a-d453de1174f6</neueDokumente>
+        <neueRollen>37d5bb29-e57d-4ca5-a23d-0d8ec3e7b226</neueRollen>
+        <neueGremien>051c1239-f9a1-4af6-9653-4b8b6911363f</neueGremien> 
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege --> 
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme>
+        <Dokumente>3bc9b700-8d96-4745-a7ea-a1c6ba58d27c</Dokumente>
+        <Rollen>6a651292-61f2-4665-8c52-ea8bb3d2a16c</Rollen> 
+        <Gremien>2244b913-aa0e-4ed7-8f1a-10f7327bba5a</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <Org>cc17a74f-7bff-4ea3-bc3a-0696fe7a32e1</Org> 
+        <Dataobjects>ad2f67f0-dd9e-11de-3622-0025b3c0da68</Dataobjects>
+        <!--# GUIDs of a0001 --> 
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>5877ec91-62d2-11ea-6d4c-005056af7044</ManagementTopics>
+    </a0710>
+    <a0740>
+        <!--# Bentley - Analog VW - GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>8f37487b-b758-4af1-9ef1-4bbe8d69c406</neueSysteme>
+        <neueDokumente>bb2fddae-1d0e-4772-9493-228051e6e6a8</neueDokumente>
+        <neueRollen>0466ab95-649a-4510-981f-0c1280bcad07</neueRollen>
+        <neueGremien>ebc0c4f3-1f73-4d89-af83-22cfd92d75c9</neueGremien> 
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege --> 
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme>
+        <Dokumente>d347e360-91c5-4007-a85c-114dc1d0ce3f</Dokumente>
+        <Rollen>2e19ea95-78b3-4712-b507-42e870874ae6</Rollen> 
+        <Gremien>b45eb582-02ae-4766-a0a4-9c90422cf93f</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <Org>7fbb2afe-8d21-45b1-ac13-ddbf5c70f1af</Org> 
+        <Dataobjects>ad2f67f0-dd9e-11de-3622-0025b3c0da68</Dataobjects>
+        <!--# GUIDs of a0001 --> 
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>5877ec91-62d2-11ea-6d4c-005056af7044</ManagementTopics>
+        <!--# GUIDs of Process cockpit Stammdaten folders --> 
+        <Cockpit>
+            <Document>b46ffbf1-e922-11dc-625d-001b78318e7a</Document>
+            <newDocument>b46ffbfe-e922-11dc-625d-001b78318e7a</newDocument>
+            <processOwner>da233ce0-6245-11eb-7c47-005056af6d0b</processOwner>
+            <InputOutput>4d10bc62-6245-11eb-7c47-005056af6d0b</InputOutput>
+             <newInputOutput>4d157770-6245-11eb-7c47-005056af6d0b</newInputOutput>
+            <Objective>4d0e4b62-6245-11eb-7c47-005056af6d0b</Objective>
+            <newObjective>4d157776-6245-11eb-7c47-005056af6d0b</newObjective>
+            <Service>4d10bc68-6245-11eb-7c47-005056af6d0b</Service>
+            <newService>4d157764-6245-11eb-7c47-005056af6d0b</newService>
+            <Assumption>4d132d65-6245-11eb-7c47-005056af6d0b</Assumption>
+            <newAssumption>4d157767-6245-11eb-7c47-005056af6d0b</newAssumption>
+            <BusinessCapability>4d132d62-6245-11eb-7c47-005056af6d0b</BusinessCapability>
+            <newBusinessCapability>4d15776a-6245-11eb-7c47-005056af6d0b</newBusinessCapability>
+            <Committee>b46ffbf3-e922-11dc-625d-001b78318e7a</Committee>
+            <newCommittee>b46ffc05-e922-11dc-625d-001b78318e7a</newCommittee>
+            <Gap>4d132d68-6245-11eb-7c47-005056af6d0b</Gap>
+            <newGap>4d15776d-6245-11eb-7c47-005056af6d0b</newGap>
+             <!--# Group 6e40d230-ea99-11dc-625d-001b78318e7a -->
+            <ITSystem>889aadab-e83f-4bf8-8019-6b257f464afd</ITSystem>
+            <newITSystem>1e34b8e9-cce0-4bf5-a14e-068b98bcd1c4</newITSystem>
+            <Requirement>4d132d6e-6245-11eb-7c47-005056af6d0b</Requirement>
+            <newRequirement>4d157773-6245-11eb-7c47-005056af6d0b</newRequirement>
+            <Risk>3ff15c60-6245-11eb-7c47-005056af6d0b</Risk>
+            <newRisk>3ff15c63-6245-11eb-7c47-005056af6d0b</newRisk>
+            <Weakpoint>4d132d6b-6245-11eb-7c47-005056af6d0b</Weakpoint>
+            <newWeakPoint>4d157752-6245-11eb-7c47-005056af6d0b</newWeakPoint>
+            <Task>4d10bc65-6245-11eb-7c47-005056af6d0b</Task>
+            <newTask>4d157761-6245-11eb-7c47-005056af6d0b</newTask>
+            <KPI>b85d9fc2-6573-11eb-7c47-005056af6d0b</KPI>
+            <newKPI>b85fe9b2-6573-11eb-7c47-005056af6d0b</newKPI>
+            <!--# GUIDs of model --> 
+            <customerTouchPoint>c4b2b301-af42-11eb-7a8a-005056af7044</customerTouchPoint>
+            <newCustomerTouchPoint>f01e1de1-af42-11eb-7a8a-005056af7044</newCustomerTouchPoint>
+            <ProcessIdentifier>ab5e27a0-fd36-11df-674b-002481cf5546</ProcessIdentifier>
+        </Cockpit>
+    </a0740>
+    <a0800>
+        <!--# VW India - Analog VW - GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>3acc1d39-b1b0-11df-3814-002481dea4fa</neueSysteme>
+        <neueDokumente>3acc1d21-b1b0-11df-3814-002481dea4fa</neueDokumente>
+        <neueRollen>3acc1d3f-b1b0-11df-3814-002481dea4fa</neueRollen>
+        <neueGremien>3acc1d4b-b1b0-11df-3814-002481dea4fa</neueGremien> 
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege --> 
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme>
+        <Dokumente>3acc1d51-b1b0-11df-3814-002481dea4fa</Dokumente>
+        <Rollen>3acc1d2d-b1b0-11df-3814-002481dea4fa</Rollen> 
+        <Gremien>3acc1d4b-b1b0-11df-3814-002481dea4fa</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <Org>3acc1d57-b1b0-11df-3814-002481dea4fa</Org> 
+        <Dataobjects>ad2f67f0-dd9e-11de-3622-0025b3c0da68</Dataobjects>
+        <!--# GUIDs of a0001 --> 
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>5877ec91-62d2-11ea-6d4c-005056af7044</ManagementTopics>
+    </a0800>     
+    <a0920>
+        <!--# VW Group Rus - GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>b6ba1148-6f53-4aec-93dd-7c492a7fe39a</neueSysteme>
+        <neueDokumente>6aed434b-9430-4953-ae4c-49e200c64a2b</neueDokumente>
+        <neueRollen>b6e23349-941c-4142-a4c7-a42c2e63c225</neueRollen>
+        <neueGremien>97d3c819-eefd-43c9-be4b-d53285abf109</neueGremien> 
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege --> 
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme>
+        <Dokumente>99d1cf52-c474-4f98-b78f-7ed9e77baacf</Dokumente>
+        <Rollen>257187e8-a3bb-4608-8896-b36bcef82be7</Rollen> 
+        <Gremien>a346ef3a-6976-42bd-a319-c09cb9b7e27d</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <Org>12c4cd87-ad5a-4926-b019-a63ce54f9aa4</Org> 
+        <Dataobjects>ad2f67f0-dd9e-11de-3622-0025b3c0da68</Dataobjects>
+        <!--# GUIDs of a0001 --> 
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>5877ec91-62d2-11ea-6d4c-005056af7044</ManagementTopics>
+    </a0920>
+    <a2260>
+        <!--# VW Group Italia VGI - GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>8c1be296-4b64-4a00-af90-c4456594c293</neueSysteme>
+        <neueDokumente>bf6032f8-8511-4816-ac87-fbe8fddbe55c</neueDokumente>
+        <neueRollen>dedb2e4d-886b-4456-898a-06292ece5a4e</neueRollen>
+        <neueGremien>44aecb53-5d71-45ba-89d9-9926bedf9de6</neueGremien> 
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege --> 
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme>
+        <Dokumente>1d4d6751-37c4-4999-9ca2-8a5e2b5c448f</Dokumente>
+        <Rollen>f3e6c13d-1bcb-443c-9596-b4f2585f2096</Rollen> 
+        <Gremien>032d5caf-7297-48d9-8d09-179e52882d7c</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <Org>0451f829-dbd0-4a57-a816-d0b2ea53eb44</Org> 
+        <Dataobjects>ad2f67f0-dd9e-11de-3622-0025b3c0da68</Dataobjects>
+        <!--# GUIDs of a0001 --> 
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>5877ec91-62d2-11ea-6d4c-005056af7044</ManagementTopics>
+    </a2260>
+    <a2560>
+        <!--# Volkswagen-Audi Espania VAESA - GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>e5abc2f9-0f7b-408c-8575-282da223364d</neueSysteme>
+        <neueDokumente>2d34526d-5983-4d14-9c0e-4c1f0417efc0</neueDokumente>
+        <neueRollen>18cad3bf-a426-441a-86b1-8288c731f86b</neueRollen>
+        <neueGremien>fd6c98f0-13e4-4a56-988c-516f08ec8bd2</neueGremien> 
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege --> 
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme>
+        <Dokumente>08de618f-07b6-4919-bb59-58a7fee2a118</Dokumente>
+        <Rollen>1c8b92b1-af04-4b0d-9aad-6401bec385e5</Rollen> 
+        <Gremien>71a2625b-4d69-4491-8753-8da19d8fd759</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <Org>bda377f2-9a0d-4af7-a741-f4d98e2d0f65</Org> 
+        <Dataobjects>ad2f67f0-dd9e-11de-3622-0025b3c0da68</Dataobjects>
+        <!--# GUIDs of a0001 --> 
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>5877ec91-62d2-11ea-6d4c-005056af7044</ManagementTopics>
+    </a2560>
+    <a2630>
+        <!--# VW Asia Pacific GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>68ea6ba9-bd3f-46e8-a146-611adc046a86</neueSysteme>
+        <neueDokumente>b8c837cd-b77e-4dfc-b52d-0304c7c3a25c</neueDokumente>
+        <neueRollen>74a016bc-f20e-4637-a62c-d24bf25a3fc9</neueRollen>
+        <neueGremien>9ea704c4-f03e-4395-b0bf-f18879e445cb</neueGremien> 
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liegen --> 
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme>
+        <Dokumente>62c4b0e8-0567-4727-b6b8-8bcb68de6b62</Dokumente>
+        <Rollen>87f6c2b5-8054-4a9a-9cef-adc382da90d6</Rollen> 
+        <Gremien>c6a78e12-f77e-44cf-a8d7-fb17e70a8e91</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <Org>fdf79f19-63ba-4f04-a90f-41b9a368e6a9</Org> 
+        <Dataobjects>ad2f67f0-dd9e-11de-3622-0025b3c0da68</Dataobjects>
+        <!--# GUIDs of a0001 --> 
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>5877ec91-62d2-11ea-6d4c-005056af7044</ManagementTopics>
+    </a2630> 
+    <a2710>
+        <!--# VW Gebrauchtfahrzeugehandel und Service - GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>51a97d9a-31fe-4b6a-9c3c-36307d298372</neueSysteme>
+        <neueDokumente>647FF6BA-8FD5-4237-AD95-6A5569A799C9</neueDokumente>
+        <neueRollen>7DC3097F-9DFC-475B-A1E7-3FB926B9B2E4</neueRollen>
+        <neueGremien>3744B4F6-4675-4AEC-91D3-285C705BF2FC</neueGremien> 
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege --> 
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme>
+        <Dokumente>4510D59D-CE78-46D4-8649-1755D8529592</Dokumente>
+        <Rollen>F2ECB51F-1F55-4032-96C2-E08C7099E75C</Rollen> 
+        <Gremien>3A8EF773-01EF-465E-BA49-0988635A66A1</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <Org>D871C24D-BDC1-4FB2-B284-C07BD894E4BF</Org> 
+        <Dataobjects>ad2f67f0-dd9e-11de-3622-0025b3c0da68</Dataobjects>
+        <!--# GUIDs of a0001 --> 
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>5877ec91-62d2-11ea-6d4c-005056af7044</ManagementTopics>
+    </a2710>
+    <a2860>
+        <!--# Skoda Auto Slovenska - GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>e78ee911-a278-11eb-7c47-005056af6d0b</neueSysteme>
+        <neueDokumente>56a6da11-a279-11eb-7c47-005056af6d0b</neueDokumente>
+        <neueRollen>056161b1-a27a-11eb-7c47-005056af6d0b</neueRollen>
+        <neueGremien>8e94a1a1-a279-11eb-7c47-005056af6d0b</neueGremien> 
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege --> 
+        <!-- b5dffad1-a8f9-11eb-7c47-005056af6d0b -->
+        <Systeme>c23297ae-9e06-11eb-7c47-005056af6d0b</Systeme>
+        <Dokumente>ab6b5fb1-a27b-11eb-7c47-005056af6d0b</Dokumente>
+        <Rollen>67791e01-a27b-11eb-7c47-005056af6d0b</Rollen> 
+        <Gremien>51968c31-a27b-11eb-7c47-005056af6d0b</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <Org>4aef2af1-a27a-11eb-7c47-005056af6d0b</Org> 
+        <Dataobjects></Dataobjects>
+        <!--# GUIDs of a0001 --> 
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>5877ec91-62d2-11ea-6d4c-005056af7044</ManagementTopics>
+        <!--# GUIDs of Process cockpit Stammdaten folders as reference--> 
+        <Cockpit>
+            <Document>c2375298-9e06-11eb-7c47-005056af6d0b</Document>
+            <newDocument>c23752c2-9e06-11eb-7c47-005056af6d0b</newDocument>
+            <processOwner>c239c3d4-9e06-11eb-7c47-005056af6d0b</processOwner>
+            <InputOutput>c23026a5-9e06-11eb-7c47-005056af6d0b</InputOutput>
+            <newInputOutput>c23752bc-9e06-11eb-7c47-005056af6d0b</newInputOutput>
+            <Objective>c23026ab-9e06-11eb-7c47-005056af6d0b</Objective>
+            <newObjective>c239c398-9e06-11eb-7c47-005056af6d0b</newObjective>
+            <Service>c23026b1-9e06-11eb-7c47-005056af6d0b</Service>
+            <newService>c239c39b-9e06-11eb-7c47-005056af6d0b</newService>
+            <Assumption>c23297a2-9e06-11eb-7c47-005056af6d0b</Assumption>
+            <newAssumption>c23752dd-9e06-11eb-7c47-005056af6d0b</newAssumption>
+            <BusinessCapability>c23026b4-9e06-11eb-7c47-005056af6d0b</BusinessCapability>
+            <newBusinessCapability>c23752d7-9e06-11eb-7c47-005056af6d0b</newBusinessCapability>
+            <Committee>c23508a8-9e06-11eb-7c47-005056af6d0b</Committee>
+            <newCommittee>c239c3aa-9e06-11eb-7c47-005056af6d0b</newCommittee>
+            <Gap>c23297a5-9e06-11eb-7c47-005056af6d0b</Gap>
+            <newGap>c23752e0-9e06-11eb-7c47-005056af6d0b</newGap>
+            <ITSystem>c23297ae-9e06-11eb-7c47-005056af6d0b</ITSystem>
+            <newITSystem>c239c3ce-9e06-11eb-7c47-005056af6d0b</newITSystem>
+            <Requirement>c23297ab-9e06-11eb-7c47-005056af6d0b</Requirement>
+            <newRequirement>c23752d4-9e06-11eb-7c47-005056af6d0b</newRequirement>
+            <Risk>c23026a8-9e06-11eb-7c47-005056af6d0b</Risk>
+            <newRisk>c239c392-9e06-11eb-7c47-005056af6d0b</newRisk>
+            <Weakpoint>c23297a8-9e06-11eb-7c47-005056af6d0b</Weakpoint>
+            <newWeakPoint>c239c395-9e06-11eb-7c47-005056af6d0b</newWeakPoint>
+            <Task>c23026ae-9e06-11eb-7c47-005056af6d0b</Task>
+            <newTask>c23752da-9e06-11eb-7c47-005056af6d0b</newTask>
+            <KPI>c23508a5-9e06-11eb-7c47-005056af6d0b</KPI>
+            <newKPI>c239c3c2-9e06-11eb-7c47-005056af6d0b</newKPI>
+            <customerTouchPoint>081f9712-bdf4-11eb-7c48-005056af6d0b</customerTouchPoint>
+            <newCustomerTouchPoint>08220812-bdf4-11eb-7c48-005056af6d0b</newCustomerTouchPoint>
+            <!--# GUIDs of model --> 
+            <ProcessIdentifier>ab5e27a0-fd36-11df-674b-002481cf5546</ProcessIdentifier>
+        </Cockpit>
+    </a2860>
+    <a4190>
+        <!--# Audi Akademie - Analog Audi - GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>696247b3-9bde-4f3b-b78b-e775fd5eda57</neueSysteme>
+        <neueDokumente>bd25af90-8aa7-11e0-39b5-002481dea4fa</neueDokumente>
+        <neueRollen>63fd21a0-8aa7-11e0-39b5-002481dea4fa</neueRollen>
+        <neueGremien>3e51f8f0-64d7-11df-625d-001b78318e7a</neueGremien>        
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege --> 
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme>
+        <Dokumente>d7706aea-04a9-4c40-a40b-8f7bc6b30c69</Dokumente>
+        <Rollen>a9e9ad10-01e0-11df-625d-001b78318e7a</Rollen> 
+        <Gremien>623cee39-66ba-4a77-91b8-353d57fd106e</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <Org>f55cf038-72f1-49e1-aef2-9c5c5a906122</Org> 
+        <Dataobjects>ad2f67f0-dd9e-11de-3622-0025b3c0da68</Dataobjects>
+        <!--# GUIDs of a0001 --> 
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>5877ec91-62d2-11ea-6d4c-005056af7044</ManagementTopics>
+    </a4190>
+    <a4195>
+        <!--# Audi Akademie Hungaria Kft. Györ - GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>475e4581-71c6-11e2-10f0-0017a4773c34</neueSysteme>
+        <neueDokumente>475e4599-71c6-11e2-10f0-0017a4773c34</neueDokumente>
+        <neueRollen>475e459f-71c6-11e2-10f0-0017a4773c34</neueRollen>
+        <neueGremien>475e45b7-71c6-11e2-10f0-0017a4773c34</neueGremien>        
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege --> 
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme>
+        <Dokumente>475e458d-71c6-11e2-10f0-0017a4773c34</Dokumente>
+        <Rollen>475e4587-71c6-11e2-10f0-0017a4773c34</Rollen> 
+        <Gremien>475e45a5-71c6-11e2-10f0-0017a4773c34</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <Org>475e45ab-71c6-11e2-10f0-0017a4773c34</Org> 
+        <Dataobjects>ad2f67f0-dd9e-11de-3622-0025b3c0da68</Dataobjects>
+        <!--# GUIDs of a0001 --> 
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>5877ec91-62d2-11ea-6d4c-005056af7044</ManagementTopics>
+    </a4195>
+    <a4200>
+        <!--# VW immobilien - Analog VW - GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>f3da544b-e147-448d-b391-6b5d7971e984</neueSysteme>
+        <neueDokumente>0f7e668a-4e11-430a-b0c2-b310a528ab87</neueDokumente>
+        <neueRollen>3f37d24c-2b2b-40af-be41-3868dc074245</neueRollen>
+        <neueGremien>fa97b674-78e3-4fa7-ac7c-e81002c88fc1</neueGremien>         
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege --> 
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme>
+        <Dokumente>accc41c2-2bd3-4f84-be78-6eab789e281d</Dokumente>
+        <Rollen>2455ba6f-6c99-46bd-ab72-d78ac5ae08f7</Rollen> 
+        <Gremien>ff404bd0-5233-4f9f-b0dd-e1841c1f8c37</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <Org>9f1e738c-7748-4aef-acfc-f33d3266fe2b</Org> 
+        <Dataobjects>ad2f67f0-dd9e-11de-3622-0025b3c0da68</Dataobjects>
+        <!--# GUIDs of a0001 --> 
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>5877ec91-62d2-11ea-6d4c-005056af7044</ManagementTopics>
+    </a4200>
+    <a4460>
+        <!--# Volkswagen Service Group - GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>df4f2b69-03bf-11e1-39b5-002481dea4fa</neueSysteme> 
+        <neueDokumente>df4f2b5d-03bf-11e1-39b5-002481dea4fa</neueDokumente>
+        <!--neueRollen>df4f2b7b-03bf-11e1-39b5-002481dea4fa</neueRollen-->
+        <neueRollen>bca2a410-3083-11e1-39b5-002481dea4fa</neueRollen>
+        <neueGremien>df4f2b63-03bf-11e1-39b5-002481dea4fa</neueGremien> 
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege --> 
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme> 
+        <Dokumente>df4f2b51-03bf-11e1-39b5-002481dea4fa</Dokumente>
+        <Rollen>df4f2b81-03bf-11e1-39b5-002481dea4fa</Rollen> 
+        <Gremien>df4f2b87-03bf-11e1-39b5-002481dea4fa</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <Org>df4f2b75-03bf-11e1-39b5-002481dea4fa</Org> 
+        <Dataobjects>ad2f67f0-dd9e-11de-3622-0025b3c0da68</Dataobjects>
+        <!--# GUIDs of a0001 --> 
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>5877ec91-62d2-11ea-6d4c-005056af7044</ManagementTopics>
+    </a4460>
+    <a4590>
+        <!--# VW Osnabrück - Analog VW - GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>DF561C9B-BCD6-11DF-3814-002481DEA4FA</neueSysteme>
+        <neueDokumente>df561c83-bcd6-11df-3814-002481dea4fa</neueDokumente>
+        <neueRollen>df561c95-bcd6-11df-3814-002481dea4fa</neueRollen>
+        <neueGremien>df561ca1-bcd6-11df-3814-002481dea4fa</neueGremien>
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege -->
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme>
+        <Dokumente>df561c8f-bcd6-11df-3814-002481dea4fa</Dokumente>
+        <Rollen>df561c71-bcd6-11df-3814-002481dea4fa</Rollen> 
+        <Gremien>df561c89-bcd6-11df-3814-002481dea4fa</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <GesellViewVW01>8fc16f42-57d9-11ea-6d4c-005056af7044</GesellViewVW01>
+        <GesellViewVW02>c41acf00-57e5-11ea-6d4c-005056af7044</GesellViewVW02>
+        <GesellViewVW03>decaa050-57e5-11ea-6d4c-005056af7044</GesellViewVW03>
+        <GesellViewVW04>f9f67f70-57e5-11ea-6d4c-005056af7044</GesellViewVW04>
+        <WeiterfuehrendeDokumenteStandard>40894942-9f3a-11ea-3cf0-005056af6d0b</WeiterfuehrendeDokumenteStandard>
+        <Org>df561c77-bcd6-11df-3814-002481dea4fa</Org> 
+        <Dataobjects>ad2f67f0-dd9e-11de-3622-0025b3c0da68</Dataobjects>
+        <!--# GUIDs of a0001 --> 
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>ed1d6b42-9f36-11ea-3cf0-005056af6d0b</ManagementTopics>
+    </a4590>
+    <a4600>
+        <!--# VW Logistics - Analog VW GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>a4200cb2-c798-48a2-800f-55cf7ce2eb2d</neueSysteme>
+        <neueDokumente>32947ba2-e02d-43a5-a8de-3d07123453fe</neueDokumente>
+        <neueRollen>e5f73611-4ca2-435b-bbed-08750cbff780</neueRollen>
+        <neueGremien>cc6bb7fb-2a1e-4e6c-9d08-1a216a976f2a</neueGremien>         
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege --> 
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme>
+        <Dokumente>f50dd2a3-837c-4ea8-8309-626f94804f00</Dokumente>
+        <Rollen>43ae4740-ddc7-4ce9-8530-8d8a710003f9</Rollen> 
+        <Gremien>85f48908-9b0a-4189-83de-dadc25f989d5</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <Org>f17c8a79-ad62-44aa-a407-dd9203f95b40</Org> 
+        <Dataobjects>ad2f67f0-dd9e-11de-3622-0025b3c0da68</Dataobjects>
+        <!--# GUIDs of a0001 --> 
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>5877ec91-62d2-11ea-6d4c-005056af7044</ManagementTopics>
+    </a4600>
+    <a4900>
+        <!--# Quattro - GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>c7e31b7d-24d7-4d0e-bdfd-45994b194ac3</neueSysteme>
+        <neueDokumente>49d2f1fa-f64a-4858-b1a9-efd6ffc77906</neueDokumente>
+        <neueRollen>c6dbc435-1459-4dec-ac7c-5367635df1b7</neueRollen>
+        <neueGremien>b7ec1176-933e-47e7-b177-276544b22bbb</neueGremien>         
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege --> 
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme>
+        <Dokumente>f7342d7a-1a1e-4bd7-9e8c-259e0f022d03</Dokumente>
+        <Rollen>7105c6e4-d5fa-4e7a-8b2c-312bd204e859</Rollen> 
+        <Gremien>c900af50-0c49-4079-9ce5-93874d29533b</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <!--#<Org>3d21c73f-b569-4f09-bad9-62442c682388</Org> -->
+        <Org>fb5864c1-a1a8-11e5-0d25-005056af6d0b</Org>
+        <Dataobjects>ad2f67f0-dd9e-11de-3622-0025b3c0da68</Dataobjects>
+        <!--# GUIDs of a0200 --> 
+        <ManagementSystems>e864c942-88a6-11eb-7c47-005056af6d0b</ManagementSystems>
+        <!--# GUIDs of a0001 --> 
+        <ManagementTopics>5877ec91-62d2-11ea-6d4c-005056af7044</ManagementTopics>
+    </a4900>
+    <a4910>
+        <!--# Audi Sport GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>cbdaee01-46f3-11e8-5a77-005056af6d0b</neueSysteme>
+        <neueDokumente>b4c02da1-0c96-11e6-0d25-005056af6d0b</neueDokumente>
+        <neueRollen>d4ba16dd-46f4-11e8-5a77-005056af6d0b</neueRollen>
+        <neueGremien>8748a652-46f4-11e8-5a77-005056af6d0b</neueGremien> 
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege --> 
+        <Prozesskennungen>0e3c3b32-bb8d-11e6-0d25-005056af6d0b</Prozesskennungen>
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme>
+        <Dokumente>88a661b0-0c93-11e6-0d25-005056af6d0b</Dokumente>
+        <Rollen>269452d1-2052-11e5-10f1-0017a4773c34</Rollen> 
+        <Gremien>26945307-2052-11e5-10f1-0017a4773c34</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <!--# <Org>178dd731-056b-11e6-0d25-005056af6d0b</Org> -->
+        <Org>fb5864c1-a1a8-11e5-0d25-005056af6d0b</Org>
+        <Dataobjects></Dataobjects>
+        <!--# GUIDs of a0200 --> 
+        <ManagementSystems>e864c942-88a6-11eb-7c47-005056af6d0b</ManagementSystems>
+        <!--# GUIDs of a0001 --> 
+        <ManagementTopics>5877ec91-62d2-11ea-6d4c-005056af7044</ManagementTopics>
+    </a4910>
+    <a5510>
+        <!--# Autostadt GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>a181f400-d1ab-11e6-70d0-005056af26e2</neueSysteme>
+        <neueDokumente>85918930-d1a7-11e6-70d0-005056af26e2</neueDokumente>
+        <neueRollen>0a173ca2-dbd9-11e6-70d0-005056af26e2</neueRollen>
+        <neueGremien>59433b92-d1ab-11e6-70d0-005056af26e2</neueGremien>
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liegen --> 
+        <Systeme>ea8920a0-33c7-11e2-7155-0050568b7df8</Systeme>
+        <Dokumente>701d0750-8598-11e2-7156-0050568b7df8</Dokumente>
+        <Rollen>34010e30-69f3-11e2-7156-0050568b7df8</Rollen> 
+        <Gremien>1cd63801-d1ac-11e6-70d0-005056af26e2</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <Org>aacac940-3f7b-11e2-7156-0050568b7df8</Org> 
+        <Dataobjects></Dataobjects>
+        <!--# GUIDs of a0001 --> 
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>5877ec91-62d2-11ea-6d4c-005056af7044</ManagementTopics>
+    </a5510>
+    <a6750>
+        <!--# Audi China - GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>da14a911-c329-11e4-10f1-0017a4773c34</neueSysteme>
+        <neueDokumente>da14a8f9-c329-11e4-10f1-0017a4773c34</neueDokumente>
+        <neueRollen>da14a90b-c329-11e4-10f1-0017a4773c34</neueRollen>
+        <neueGremien>da14a8e7-c329-11e4-10f1-0017a4773c34</neueGremien>         
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege --> 
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme>
+        <Dokumente>da14a8e1-c329-11e4-10f1-0017a4773c34</Dokumente>
+        <Rollen>da14a917-c329-11e4-10f1-0017a4773c34</Rollen> 
+        <Gremien>da14a8f3-c329-11e4-10f1-0017a4773c34</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <Org>da14a905-c329-11e4-10f1-0017a4773c34</Org> 
+        <Dataobjects>ad2f67f0-dd9e-11de-3622-0025b3c0da68</Dataobjects>
+        <!--# GUIDs of a0001 --> 
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>5877ec91-62d2-11ea-6d4c-005056af7044</ManagementTopics>
+    </a6750>    
+    <a6751>
+        <!--# Audi China Local - GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>cc5a17dd-4a22-11e8-5a77-005056af6d0b</neueSysteme>
+        <neueDokumente>cc57a6d4-4a22-11e8-5a77-005056af6d0b</neueDokumente>
+        <neueRollen>cc57a6cb-4a22-11e8-5a77-005056af6d0b</neueRollen>
+        <neueGremien>cc5a17d4-4a22-11e8-5a77-005056af6d0b</neueGremien>         
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege --> 
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme>
+        <Dokumente>cc57a6e6-4a22-11e8-5a77-005056af6d0b</Dokumente>
+        <Rollen>cc57a6c2-4a22-11e8-5a77-005056af6d0b</Rollen> 
+        <Gremien>cc5a17c2-4a22-11e8-5a77-005056af6d0b</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <Org>cc5a17cb-4a22-11e8-5a77-005056af6d0b</Org> 
+        <Dataobjects></Dataobjects>
+        <!--# GUIDs of a0001 --> 
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>5877ec91-62d2-11ea-6d4c-005056af7044</ManagementTopics>
+    </a6751>
+    <a7050>
+        <!--# CCW GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>df48fd52-114f-11e6-0d25-005056af6d0b</neueSysteme> 
+        <neueDokumente>63a986eb-114c-11e6-0d25-005056af6d0b</neueDokumente> 
+        <neueRollen>4310e202-114e-11e6-0d25-005056af6d0b</neueRollen> 
+        <neueGremien>63abf840-114c-11e6-0d25-005056af6d0b</neueGremien> 
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege --> 
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme> 
+        <Dokumente>63abf7f9-114c-11e6-0d25-005056af6d0b</Dokumente>
+        <Rollen>63a73cf2-114c-11e6-0d25-005056af6d0b</Rollen> 
+        <Gremien>63abf802-114c-11e6-0d25-005056af6d0b</Gremien> 
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <Org>63abf810-114c-11e6-0d25-005056af6d0b</Org> 
+        <Dataobjects></Dataobjects>
+        <!--# GUIDs of a0001 --> 
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>5877ec91-62d2-11ea-6d4c-005056af7044</ManagementTopics>
+    </a7050>
+    <a7110>
+        <!--# AutoVision - GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>c994d45c-1c5b-4468-8653-5fbb65b95b71</neueSysteme>
+        <neueDokumente>20ca08f0-9fcd-4fe5-aaa3-30073cffb5b7</neueDokumente>
+        <neueRollen>d500cb9c-619f-4851-9d57-ad3bd741ccb2</neueRollen>
+        <neueGremien>7d79859d-38fd-4af8-9040-ddaaf8d004fb</neueGremien>         
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege --> 
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme>
+        <Dokumente>5ed45262-8a12-4ce9-a64e-dceefc742c48</Dokumente>
+        <Rollen>b9e74f20-0721-484a-a525-f686e2ed0322</Rollen> 
+        <Gremien>b13b60ba-ee87-4ae6-b747-bc66c20f8f9d</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <GesellViewVW01>8fc16f42-57d9-11ea-6d4c-005056af7044</GesellViewVW01>
+        <GesellViewVW02>c41acf00-57e5-11ea-6d4c-005056af7044</GesellViewVW02>
+        <GesellViewVW03>decaa050-57e5-11ea-6d4c-005056af7044</GesellViewVW03>
+        <GesellViewVW04>f9f67f70-57e5-11ea-6d4c-005056af7044</GesellViewVW04>
+        <WeiterfuehrendeDokumenteStandard>6650cc72-6537-11eb-7c47-005056af6d0b</WeiterfuehrendeDokumenteStandard>
+        <Org>8f484a22-3ed2-4792-b055-caff347e007f</Org> 
+        <Dataobjects>ad2f67f0-dd9e-11de-3622-0025b3c0da68</Dataobjects>
+        <!--# GUIDs of a0001 --> 
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>5877ec91-62d2-11ea-6d4c-005056af7044</ManagementTopics>
+    </a7110>
+    <a7115>
+        <!--# Konzern - GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>7427aca2-f381-11eb-7c53-005056af6d0b</neueSysteme> 
+        <neueDokumente>1baf3f9a-f382-11eb-7c53-005056af6d0b</neueDokumente>
+        <neueRollen>fe72d001-f381-11eb-7c53-005056af6d0b</neueRollen>
+        <neueGremien>fa4cf3fd-f381-11eb-7c53-005056af6d0b</neueGremien> 
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege --> 
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme> 
+        <Dokumente>0ae98e81-f394-11eb-7c53-005056af6d0b</Dokumente>
+        <Rollen>e373a0c2-f393-11eb-7c53-005056af6d0b</Rollen> 
+        <Gremien>ee1caee0-f381-11eb-7c53-005056af6d0b</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <Prozesskennungen>ab5e27a0-fd36-11df-674b-002481cf5546</Prozesskennungen>
+        <Org>fdf79f19-63ba-4f04-a90f-41b9a368e6a9</Org> 
+        <GesellViewVW01>8fc16f42-57d9-11ea-6d4c-005056af7044</GesellViewVW01>
+        <GesellViewVW02>c41acf00-57e5-11ea-6d4c-005056af7044</GesellViewVW02>
+        <GesellViewVW03>decaa050-57e5-11ea-6d4c-005056af7044</GesellViewVW03>
+        <GesellViewVW04>f9f67f70-57e5-11ea-6d4c-005056af7044</GesellViewVW04>
+        <WeiterfuehrendeDokumenteStandard>6650cc72-6537-11eb-7c47-005056af6d0b</WeiterfuehrendeDokumenteStandard>
+        <Dataobjects></Dataobjects>
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>12bb87bd-f382-11eb-7c53-005056af6d0b</ManagementTopics>
+        <!--# GUIDs of Process cockpit Stammdaten folders as reference--> 
+        <Cockpit>
+            <Document></Document>
+             <newDocument></newDocument>
+            <processOwner></processOwner>
+            <InputOutput></InputOutput>
+             <newInputOutput></newInputOutput>
+            <Objective></Objective>
+             <newObjective></newObjective>
+            <Service></Service>
+             <newService></newService>
+            <Assumption></Assumption>
+             <newAssumption></newAssumption>
+            <BusinessCapability></BusinessCapability>
+             <newBusinessCapability></newBusinessCapability>
+            <Committee></Committee>
+             <newCommittee></newCommittee>
+            <Gap></Gap>
+             <newGap></newGap>
+            <ITSystem></ITSystem>
+             <newITSystem></newITSystem>
+            <Requirement></Requirement>
+             <newRequirement></newRequirement>
+            <Risk></Risk>
+             <newRisk></newRisk>
+            <Weakpoint></Weakpoint>
+             <newWeakPoint></newWeakPoint>
+            <Task></Task>
+             <newTask></newTask>
+            <KPI></KPI>
+             <newKPI></newKPI>
+            <customerTouchPoint></customerTouchPoint>
+             <newCustomerTouchPoint></newCustomerTouchPoint>
+            <!--# GUIDs of model --> 
+            <ProcessIdentifier>ab5e27a0-fd36-11df-674b-002481cf5546</ProcessIdentifier>
+        </Cockpit>
+    </a7115>
+    <a7220>
+        <!--# VW Individual - GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>0f4470fa-3901-4359-b2e6-dc4e323c05c3</neueSysteme>
+        <neueDokumente>f1350953-595b-436f-919a-ea637839942c</neueDokumente>
+        <neueRollen>6033d4db-c012-4a50-9665-ca68bacb5662</neueRollen>
+        <neueGremien>a3387180-1faa-406c-a5fa-70e4e00933cb</neueGremien>         
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege --> 
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme>
+        <Dokumente>8af9174e-816e-4d00-be3f-d06fb77a7949</Dokumente>
+        <Rollen>eb9a7a76-8f97-4030-a07a-b8a3578094c2</Rollen> 
+        <Gremien>dda1266d-1ed5-4149-a11e-2ea5fedd6678</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <Org>b8ee9d96-0110-43fd-b8ae-0896fc02dcfd</Org> 
+        <Dataobjects>ad2f67f0-dd9e-11de-3622-0025b3c0da68</Dataobjects>
+        <!--# GUIDs of a0001 --> 
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>5877ec91-62d2-11ea-6d4c-005056af7044</ManagementTopics>
+    </a7220>
+    <a7380>
+        <!--# VW Individual - GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>d6d472f8-a082-11e8-50ea-005056af6d0b</neueSysteme>
+        <neueDokumente>d6fa986b-a082-11e8-50ea-005056af6d0b</neueDokumente>
+        <neueRollen>d6d47304-a082-11e8-50ea-005056af6d0b</neueRollen>
+        <neueGremien>d6d472f2-a082-11e8-50ea-005056af6d0b</neueGremien>         
+        <!--# GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege --> 
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme>
+        <Dokumente>1a2ad4c4-8af4-11eb-7c47-005056af6d0b</Dokumente>
+        <Rollen>d6f82798-a082-11e8-50ea-005056af6d0b</Rollen> 
+        <Gremien>d6f82762-a082-11e8-50ea-005056af6d0b</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <Org>e6b9c4fa-9d66-11e9-50ea-005056af6d0b</Org> 
+        <Dataobjects>ad2f67f0-dd9e-11de-3622-0025b3c0da68</Dataobjects>
+        <!--# GUIDs of a0001 --> 
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>5877ec91-62d2-11ea-6d4c-005056af7044</ManagementTopics>
+    </a7380>
+    <a9000>
+        <!-- bzw. Konzern - GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>26571060-4ccb-4a89-967c-a8cddb737ea4</neueSysteme> 
+        <neueDokumente>5eac65e4-b87e-4e4a-936b-f55b6653a2de</neueDokumente>
+        <neueRollen>864273e5-0f17-4365-ba24-403213cf20aa</neueRollen>
+        <neueGremien>096640B5-A203-422E-AE2E-CC099D62A0EE</neueGremien> 
+        <!-- GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege --> 
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme> 
+        <Dokumente>c80a8945-fed2-4d13-888a-21f0983bba52</Dokumente>
+        <Rollen>ee5dc9ca-5d0d-40f5-bb14-fef87851866d</Rollen> 
+        <Gremien>096640b5-a203-422e-ae2e-cc099d62a0ee</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <Org>c2400482-c0f6-4cbe-a52e-92cd584f3846</Org> 
+        <Dataobjects>ad2f67f0-dd9e-11de-3622-0025b3c0da68</Dataobjects>
+        <!--# GUIDs of a0001 --> 
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>5877ec91-62d2-11ea-6d4c-005056af7044</ManagementTopics>
+    </a9000>
+    <a9001>
+        <!-- bzw. Konzern - GUIDs der Übersichtsmodelle der Gruppen in denen die neuen Stammdaten angelegt werden --> 
+        <neueSysteme>bc25f169-71c7-11e2-10f0-0017a4773c34</neueSysteme> 
+        <neueDokumente>bc25f16f-71c7-11e2-10f0-0017a4773c34</neueDokumente>
+        <neueRollen>bc25f187-71c7-11e2-10f0-0017a4773c34</neueRollen>
+        <neueGremien>bc25f151-71c7-11e2-10f0-0017a4773c34</neueGremien> 
+        <!-- GUIDs der Übersichtsmodelle der Gruppen in denen die (schreibgeschützen) Stammdaten liege --> 
+        <Systeme>1c8b1aa0-4425-11dd-625d-001b78318e7a</Systeme> 
+        <Dokumente>bc25f181-71c7-11e2-10f0-0017a4773c34</Dokumente>
+        <Rollen>bc25f15d-71c7-11e2-10f0-0017a4773c34</Rollen> 
+        <Gremien>bc25f163-71c7-11e2-10f0-0017a4773c34</Gremien>
+        <Gesell>4dd85bb7-005e-414f-bab3-a70eb76b79ab</Gesell>
+        <Org>bc25f175-71c7-11e2-10f0-0017a4773c34</Org> 
+        <Dataobjects>ad2f67f0-dd9e-11de-3622-0025b3c0da68</Dataobjects>
+        <!--# GUIDs of a0001 --> 
+        <ManagementSystems>2938e731-4122-11ea-1dbd-005056af7044</ManagementSystems>
+        <ManagementTopics>5877ec91-62d2-11ea-6d4c-005056af7044</ManagementTopics>
+    </a9001>
+    
+</ReportRegistry>

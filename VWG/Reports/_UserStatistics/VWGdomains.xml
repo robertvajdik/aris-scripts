@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+	<ManualSettings>
+		<Row>
+			<Mail>audi</Mail>
+			<Brand>Audi</Brand>
+		</Row>
+		<Row>
+			<Mail>vw</Mail>
+			<Brand>Volkswagen</Brand>
+		</Row>
+		<Row>
+			<Mail>skoda-auto</Mail>
+			<Brand>Skoda</Brand>
+		</Row>
+		<Row>
+			<Mail>autostadt</Mail>
+			<Brand>Volkswagen</Brand>
+		</Row>
+		<Row>
+			<Mail></Mail>
+			<Brand>Volkswagen Group</Brand>
+		</Row>
+	</ManualSettings>
+	<LDAPSettings>
+		<Row>
+			<Domain>DC=ap,DC=vwg</Domain>
+			<Mail>volkswagen</Mail>
+			<Brand>Volkswagen</Brand>
+		</Row>
+		<Row>
+			<Domain>DC=ap,DC=vwg</Domain>
+			<Mail>audi</Mail>
+			<Brand>Audi</Brand>
+		</Row>
+		<Row>
+			<Domain>DC=ap,DC=vwg</Domain>
+			<Mail></Mail>
+			<Brand>Volkswagen Group</Brand>
+		</Row>
+		<Row>
+			<Domain>DC=apac,DC=vwg</Domain>
+			<Mail>volkswagen</Mail>
+			<Brand>Volkswagen</Brand>
+		</Row>
+		<Row>
+			<Domain>DC=apac,DC=vwg</Domain>
+			<Mail>audi</Mail>
+			<Brand>Audi</Brand>
+		</Row>
+		<Row>
+			<Domain>DC=apac,DC=vwg</Domain>
+			<Mail>skoda-auto</Mail>
+			<Brand>Skoda</Brand>
+		</Row>
+		<Row>
+			<Domain>DC=apac,DC=vwg</Domain>
+			<Mail></Mail>
+			<Brand>Volkswagen Group</Brand>
+		</Row>
+		<Row>
+			<Domain>OU=MAN-LA,OU=Domain Users,DC=sa,DC=vwg</Domain>
+			<Mail>volkswagen.com.br</Mail>
+			<Brand>MAN</Brand>
+		</Row>
+		<Row>
+			<Domain>OU=AUDI,OU=Domain Users,DC=sa,DC=vwg</Domain>
+			<Mail>audi</Mail>
+			<Brand>Audi</Brand>
+		</Row>
+		<Row>
+			<Domain>OU=VWBR,OU=Domain Users,DC=sa,DC=vwg</Domain>
+			<Mail>volkswagen</Mail>
+			<Brand>Volkswagen</Brand>
+		</Row>
+		<Row>
+			<Domain>DC=ar,DC=sa,DC=vwg</Domain>
+			<Mail></Mail>
+			<Brand>Volkswagen Group</Brand>
+		</Row>
+		<Row>
+			<Domain>DC=autoeuropa,DC=emea,DC=vwg</Domain>
+			<Mail></Mail>
+			<Brand>Volkswagen Group</Brand>
+		</Row>
+		<Row>
+			<Domain>DC=vwfr,DC=emea,DC=vwg</Domain>
+			<Mail></Mail>
+			<Brand>Volkswagen Group</Brand>
+		</Row>
+		<Row>
+			<Domain>DC=bentley,DC=emea,DC=vwg</Domain>
+			<Mail></Mail>
+			<Brand>Bentley</Brand>
+		</Row>
+		<Row>
+			<Domain>DC=lmbg,DC=emea,DC=vwg</Domain>
+			<Mail></Mail>
+			<Brand>Lamborghini</Brand>
+		</Row>
+		<Row>
+			<Domain>OU=VWoA,OU=Domain Users,DC=na,DC=vwg</Domain>
+			<Mail>vw</Mail>
+			<Brand>Volkswagen of America</Brand>
+		</Row>
+		<Row>
+			<Domain>OU=VWoA,OU=Domain Users,DC=na,DC=vwg</Domain>
+			<Mail>vw</Mail>
+			<Brand>Volkswagen of America</Brand>
+		</Row>
+		<Row>
+			<Domain>DC=na,DC=vwg</Domain>
+			<Mail>audi</Mail>
+			<Brand>Audi</Brand>
+		</Row>
+		<Row>
+			<Domain>DC=na,DC=vwg</Domain>
+			<Mail>vw</Mail>
+			<Brand>Volkswagen</Brand>
+		</Row>
+		<Row>
+			<Domain>OU=Domain Users,DC=skoda,DC=vwg</Domain>
+			<Mail>skoda-auto</Mail>
+			<Brand>Skoda</Brand>
+		</Row>
+		<Row>
+			<Domain>OU=Domain Users,DC=skoda,DC=vwg</Domain>
+			<Mail>digiteqautomotive</Mail>
+			<Brand>Volkswagen</Brand>
+		</Row>
+		<Row>
+			<Domain>OU=AUDI AG,DC=audi,DC=vwg</Domain>
+			<Mail></Mail>
+			<Brand>Audi</Brand>
+		</Row>
+		<Row>
+			<Domain>DC=vw,DC=vwg</Domain>
+			<Mail></Mail>
+			<Brand>Volkswagen</Brand>
+		</Row>
+		<Row>
+	        <Domain>DC=seat,DC=vwg</Domain>
+            <Mail></Mail>
+            <Brand>Seat</Brand>
+        </Row>
+</LDAPSettings>
+</Settings>

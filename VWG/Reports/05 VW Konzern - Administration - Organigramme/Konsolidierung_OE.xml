@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Konsolidierung>
+  <Server>
+    <Name>SKDAMBSlAC2.mb.skoda.vwg</Name>
+  </Server>
+  <ObjectPfad>
+    <Pfad>Hauptgruppe\000 Stammdaten\006 Organisation</Pfad>
+  </ObjectPfad>
+  <Quelle>
+    <QuellDatenbank>830000 Testumgebung Reports_mulitlanguage_FLU</QuellDatenbank> 
+    <QuellUser>system</QuellUser>
+    <QuellPass>manager/QuellPass>
+    <QuellFilterGUID>dd838074-ac29-11d4-85b8-00005a4053ff</QuellFilterGUID>
+  </Quelle>
+  <Ziel>
+    <ZielDatenbank>822 Test-DB_Publishing</ZielDatenbank>
+    <ZielUser>system</ZielUser>
+    <ZielPass>manager</ZielPass>
+    <ZielFilterGUID>dd838074-ac29-11d4-85b8-00005a4053ff</ZielFilterGUID>
+  </Ziel>
+</Konsolidierung>

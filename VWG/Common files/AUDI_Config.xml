@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Stand vom 03.03.2015 Hinzufuegen 6750 Audi China Andreas Koehler -->
+<!-- Stand vom 14.08.2012 Hinzufuegen 0101 VW NFZ Andreas Koehler -->
+<!-- V1.0.1, 2013-02-18, Manuel Peipe, Hinzugefügt Russisch und Ungarisch -->
+<!-- V1.0.2, 2014-02-05, Manuel Peipe, Merge zum GoLive Ungarisch, Russisch -->
+<Configuration>
+    <GroupPath>
+        <FZD1031>Hauptgruppe/9999 ARIS-Technik/001 FZD</FZD1031>
+        <FZD1033>Main group/9999 ARIS technology/001 FAD</FZD1033>
+        <FZD1034>Carpeta principal/9999 Técnica ARIS/001 DAF</FZD1034>
+        <FZD2070>Carpeta principal/9999 Técnica ARIS/001 DAF</FZD2070>
+        <FZD1029>Hlavní skupina/9999 Technologie Aris/001 FZD</FZD1029>
+        <FZD1045>Glowna grupa/9999 Technika ARIS/001 Diagram przyporzadkowania funkcji</FZD1045>
+        <FZD1038>Hauptgruppe/9999 ARIS-Technik/001 FZD</FZD1038>
+        <FZD1049>Hauptgruppe/9999 ARIS-Technik/001 FZD</FZD1049>
+        <FZD1051>Hlavná skupina/9999 Technológia Aris/001 FAD</FZD1051>
+    
+        <Masterdata1031>Hauptgruppe/0000 Stammdaten</Masterdata1031>
+        <Masterdata1033>Main group/0000 Master data</Masterdata1033>
+        <Masterdata1034>Carpeta principal/0000 Datos de base</Masterdata1034>
+        <Masterdata2070>Carpeta principal/0000 Datos de base</Masterdata2070>
+        <Masterdata1029>Hlavní skupina/0000 Kmenová data</Masterdata1029>
+        <Masterdata1045>Glowna grupa/0000 Glowne dane</Masterdata1045>
+        <Masterdata1038>Hauptgruppe/0000 Törzsadatok</Masterdata1038>
+        <Masterdata1049>Hauptgruppe/0000 Stammdaten</Masterdata1049>
+        <Masterdata1051>Hlavná skupina/0000 Kmeňové dáta</Masterdata1051>
+    </GroupPath>
+    <GroupName>
+        <Masterdata1031>0000 Stammdaten</Masterdata1031>
+        <Masterdata1033>0000 Master data</Masterdata1033>
+        <Masterdata1034>0000 Datos de base</Masterdata1034>
+        <Masterdata2070>0000 Datos de base</Masterdata2070>
+        <Masterdata1029>0000 Kmenová data</Masterdata1029>
+        <Masterdata1045>0000 Glowne dane</Masterdata1045>
+        <Masterdata1038>0000 Stammdaten</Masterdata1038>
+        <Masterdata1049>0000 Stammdaten</Masterdata1049>
+        <Masterdata1051>0000 Kmeňové dáta</Masterdata1051>
+        <!-- Nachbereitung Web -->
+        <ExcludeProject1031>003 Modellierungsprojekte</ExcludeProject1031>
+        <ExcludeProject1033>003 Process Modelling Projects</ExcludeProject1033>
+        <ExcludeProject1034>003 Proyectos de modelación</ExcludeProject1034>
+        <ExcludeProject2070>003 Projetos de Modelagem</ExcludeProject2070>
+        <ExcludeProject1029>003 Projekty modelování</ExcludeProject1029>
+        <ExcludeProject1045>003 Projekty modelujace</ExcludeProject1045>
+        <ExcludeProject1038>003 Modellierungsprojekte</ExcludeProject1038>
+        <ExcludeProject1049>003 Modellierungsprojekte</ExcludeProject1049>
+        <ExcludeProject1051>003 Projekty modelovania</ExcludeProject1051>
+        <!-- Import OE -->
+        <Organisation1031>006 Organisation</Organisation1031>
+        <Organisation1033>006 Organizational Units</Organisation1033>
+        <Organisation1034>006 Organización</Organisation1034>
+        <Organisation2070>006 Organizaçao</Organisation2070>
+        <Organisation1029>006 Organizace</Organisation1029>
+        <Organisation1045>006 Organizacja</Organisation1045>
+        <Organisation1038>006 Organisation</Organisation1038>
+        <Organisation1049>006 Organisation</Organisation1049>
+        <Organisation1051>006 Organizačné jednotky</Organisation1051>
+        <PathLevel38_1031>Org. Einheiten Typ 3 - 8</PathLevel38_1031>
+        <PathLevel38_1033>Org. Units Type 3 - 8</PathLevel38_1033>
+        <PathLevel38_1034>Org. Einheiten Typ 3 - 8</PathLevel38_1034>
+        <PathLevel38_2070>Org. Einheiten Typ 3 - 8</PathLevel38_2070>
+        <PathLevel38_1029>Org. Einheiten Typ 3 - 8</PathLevel38_1029>
+        <PathLevel38_1045>Org. Einheiten Typ 3 - 8</PathLevel38_1045>
+        <PathLevel38_1038>Org. Einheiten Typ 3 - 8</PathLevel38_1038>
+        <PathLevel38_1049>Org. Einheiten Typ 3 - 8</PathLevel38_1049>
+       <!-- <PathLevel38_1051>Org. Einheiten Typ 3 - 8</PathLevel38_1051> -->
+        <PathDeleted1031>Ungültige Org. Einheiten</PathDeleted1031>
+        <PathDeleted1033>Revocable Organizational Units</PathDeleted1033>
+        <PathDeleted1034>Unidades organizacionales anuladas</PathDeleted1034>
+        <PathDeleted2070>Unidades Organizacionais Inválidas</PathDeleted2070>
+        <PathDeleted1029>zrušené organizační jednotky</PathDeleted1029>
+        <PathDeleted1045>Nieaktualne Jednostki Organizacyjne</PathDeleted1045>
+        <PathDeleted1038>Ungültige Org. Einheiten</PathDeleted1038>
+        <PathDeleted1049>Ungültige Org. Einheiten</PathDeleted1049>
+    </GroupName>
+    <Fontstyle>
+        <Minisymbolsblack1031>Minisymbole schwarz</Minisymbolsblack1031>
+        <Minisymbolsblack1033>Minisymbole schwarz</Minisymbolsblack1033>
+        <Minisymbolsblack1034>Minisymbole schwarz</Minisymbolsblack1034>
+        <Minisymbolsblack2070>Minisymbole schwarz</Minisymbolsblack2070>
+        <Minisymbolsblack1029>Minisymbole schwarz</Minisymbolsblack1029>
+        <Minisymbolsblack1045>Minisymbole schwarz</Minisymbolsblack1045>
+        <Minisymbolsblack1038>Minisymbole schwarz</Minisymbolsblack1038>
+        <Minisymbolsblack1049>Minisymbole schwarz</Minisymbolsblack1049>
+        <Minisymbolsblack1051>Minisymbole schwarz</Minisymbolsblack1051>
+    
+        <Minisymbolsred1031>Minisymbole rot</Minisymbolsred1031>
+        <Minisymbolsred1033>Minisymbole rot</Minisymbolsred1033>
+        <Minisymbolsred1034>Minisymbole rot</Minisymbolsred1034>
+        <Minisymbolsred2070>Minisymbole rot</Minisymbolsred2070>
+        <Minisymbolsred1029>Minisymbole rot</Minisymbolsred1029>
+        <Minisymbolsred1045>Minisymbole rot</Minisymbolsred1045>        
+        <Minisymbolsred1038>Minisymbole rot</Minisymbolsred1038>
+        <Minisymbolsred1049>Minisymbole rot</Minisymbolsred1049>
+        <Minisymbolsred1051>Minisymbole rot</Minisymbolsred1051>
+        
+        <Standardbold1031>Standard fett</Standardbold1031>
+        <Standardbold1033>Standard fett</Standardbold1033>
+        <Standardbold1034>Standard fett</Standardbold1034>
+        <Standardbold2070>Standard fett</Standardbold2070>
+        <Standardbold1029>Standard fett</Standardbold1029>
+        <Standardbold1045>Standard fett</Standardbold1045>
+        <Standardbold1038>Standard fett</Standardbold1038>
+        <Standardbold1049>Standard fett</Standardbold1049>
+        <Standardbold1051>Standard fett</Standardbold1051>
+        
+        <StandardBoldItalic1031>Standard kursiv fett</StandardBoldItalic1031>
+        <StandardBoldItalic1033>Standard kursiv fett</StandardBoldItalic1033>
+        <StandardBoldItalic1034>Standard kursiv fett</StandardBoldItalic1034>
+        <StandardBoldItalic2070>Standard kursiv fett</StandardBoldItalic2070>
+        <StandardBoldItalic1029>Standard kursiv fett</StandardBoldItalic1029>
+        <StandardBoldItalic1045>Standard kursiv fett</StandardBoldItalic1045>
+        <StandardBoldItalic1038>Standard kursiv fett</StandardBoldItalic1038>
+        <StandardBoldItalic1049>Standard kursiv fett</StandardBoldItalic1049>
+        <StandardBoldItalic1051>Standard kursiv fett</StandardBoldItalic1051>
+        
+        <Hyperlink1031>Hyperlink</Hyperlink1031>
+        <Hyperlink1033>Hyperlink</Hyperlink1033>
+        <Hyperlink1034>Hyperlink</Hyperlink1034>
+        <Hyperlink2070>Hyperlink</Hyperlink2070>
+        <Hyperlink1029>Hyperlink</Hyperlink1029>
+        <Hyperlink1045>Hyperlink</Hyperlink1045>
+        <Hyperlink1038>Hyperlink</Hyperlink1038>
+        <Hyperlink1049>Hyperlink</Hyperlink1049>
+        <Hyperlink1051>Hyperlink</Hyperlink1051>
+        
+        <AttrPlacement1031>Arial 06</AttrPlacement1031>
+        <AttrPlacement1033>Arial 06</AttrPlacement1033>
+        <AttrPlacement1034>Arial 06</AttrPlacement1034>
+        <AttrPlacement2070>Arial 06</AttrPlacement2070>
+        <AttrPlacement1029>Arial 06</AttrPlacement1029>
+        <AttrPlacement1045>Arial 06</AttrPlacement1045>
+        <AttrPlacement1038>Arial 06</AttrPlacement1038>
+        <AttrPlacement1049>Arial 06</AttrPlacement1049>
+        <AttrPlacement1051>Arial 06</AttrPlacement1051>
+        
+        <AttrPlacementOrg1031>Arial 07</AttrPlacementOrg1031>
+        <AttrPlacementOrg1033>Arial 07</AttrPlacementOrg1033>
+        <AttrPlacementOrg1034>Arial 07</AttrPlacementOrg1034>
+        <AttrPlacementOrg2070>Arial 07</AttrPlacementOrg2070>
+        <AttrPlacementOrg1029>Arial 07</AttrPlacementOrg1029>
+        <AttrPlacementOrg1045>Arial 07</AttrPlacementOrg1045>
+        <AttrPlacementOrg1038>Arial 07</AttrPlacementOrg1038>
+        <AttrPlacementOrg1049>Arial 07</AttrPlacementOrg1049>
+        <AttrPlacementOrg1051>Arial 07</AttrPlacementOrg1051>
+        
+        <LogoFont1031>AudiLogoPlus</LogoFont1031>
+        <LogoFont1033>AudiLogoPlus</LogoFont1033>
+        <LogoFont1034>AudiLogoPlus</LogoFont1034>
+        <LogoFont2070>AudiLogoPlus</LogoFont2070>
+        <LogoFont1029>AudiLogoPlus</LogoFont1029>
+        <LogoFont1045>AudiLogoPlus</LogoFont1045>
+        <LogoFont1038>AudiLogoPlus</LogoFont1038>
+        <LogoFont1049>AudiLogoPlus</LogoFont1049>
+        <LogoFont1051>AudiLogoPlus</LogoFont1051>
+
+        <Shadow1031>Schatten</Shadow1031>
+        <Shadow1033>Schatten</Shadow1033>
+        <Shadow1034>Schatten</Shadow1034>
+        <Shadow2070>Schatten</Shadow2070>
+        <Shadow1029>Schatten</Shadow1029>
+        <Shadow1045>Schatten</Shadow1045>
+        <Shadow1038>Schatten</Shadow1038>
+        <Shadow1049>Schatten</Shadow1049>
+        <Shadow1051>Schatten</Shadow1051>
+        
+        <PBDetails1031>PB-Details</PBDetails1031>
+        <PBDetails1033>PB-Details</PBDetails1033>
+        <PBDetails1034>PB-Details</PBDetails1034>
+        <PBDetails2070>PB-Details</PBDetails2070>
+        <PBDetails1029>PB-Details</PBDetails1029>
+        <PBDetails1045>PB-Details</PBDetails1045>
+        <PBDetails1038>PB-Details</PBDetails1038>
+        <PBDetails1049>PB-Details</PBDetails1049>
+        <PBDetails1051>PB-Details</PBDetails1051>
+    </Fontstyle>
+    <PFITA>
+        <Template1031>Template_IST_de_V3.9.xls</Template1031>
+        <Template1033>Template_IST_en_V3.9.xls</Template1033>
+        <Template1034>Template_IST_es_V3.9.xls</Template1034>
+        <Template2070>Template_IST_es_V3.9.xls</Template2070>
+        <Template1029>Template_IST_de_V3.9.xls</Template1029>
+        <Template1045>Template_IST_de_V3.9.xls</Template1045>
+        <Template1038>Template_IST_de_V3.9.xls</Template1038>
+        <Template1049>Template_IST_de_V3.9.xls</Template1049>
+        <Template1051>Template_IST_de_V3.9.xls</Template1051>
+    </PFITA>
+    <Template>
+        <OrgChart>48facf60-5c94-11e5-2929-005056af6432</OrgChart>
+        <Corporate>2ed57d10-68c8-11d7-5d85-000bcd25c95f</Corporate>
+    </Template>
+    <Filter>
+        <FullMethod>dd838074-ac29-11d4-85b8-00005a4053ff</FullMethod>
+    </Filter>
+    <LayouterOptions>
+        <GUIDType8Model>0d523459-dc8d-416e-90ff-80cd88035cee</GUIDType8Model>
+        <RefLanguage>1031</RefLanguage>
+        <Exclude>~AUDI AG~</Exclude>
+        <ConditionRole>_ROLE</ConditionRole>
+        <ConditionInvalid>deleted</ConditionInvalid>
+        <LinkAKV>http://deaudiis1330.audi.de:9090/AKV/portals/std/index-portal.jsp?oe_kurz=</LinkAKV>
+    </LayouterOptions>
+    <ReportCategory>
+        <CommonReports>Z_AUDI_COMMON</CommonReports>
+    </ReportCategory>
+    <DocumentUpload>
+		<ServerPath>\\skdambslap1.mb.skoda.vwg\docupload\</ServerPath>
+    </DocumentUpload>
+    <CompanyLogo>
+        <a0001>VWG_Konzern_Logo.png</a0001>
+        <ar001>VWLogo_PS.PNG</ar001>
+        <a0100>VWLogo_PS.PNG</a0100>
+        <a0010>VWLogo_PS.PNG</a0010>
+        <a0101>VWNFZLogo_PS.PNG</a0101>
+        <a0104>VWLogo_PS.PNG</a0104>        
+        <a0200>AudiLogo_PS_2.PNG</a0200>
+        <a0250>AudiLogo_PS.PNG</a0250>
+        <a0260>AudiLogo_PS.PNG</a0260>
+        <a0300>AudiLogo_PS.PNG</a0300>
+        <a0320>VWLogo_PS.PNG</a0320>
+        <a0360>SkodaLogo_PS.PNG</a0360>
+        <a0370>SkodaLogo_PS.PNG</a0370>
+        <a0380>VW_SlovakiaLogo_PS.png</a0380>
+        <a0410>VWLogo_PS.PNG</a0410>
+        <a0420>SitechLogo_PS.PNG</a0420>
+        <a0430>SitechLogo_PS.PNG</a0430>
+        <a0450>VWLogo_PS.PNG</a0450>
+        <a0500>VWLogo_PS.PNG</a0500>
+        <a0580>VWLogo_PS.PNG</a0580>
+        <a0600>VWLogo_PS.PNG</a0600>
+        <a0660>VWLogo_PS.PNG</a0660>
+        <a0690>BugattiLogo_PS.PNG</a0690>
+        <a0700>SeatLogo_PS.PNG</a0700>
+        <a0710>VWLogo_PS.PNG</a0710>
+        <a0740>BentleyLogo_PS.PNG</a0740>
+        <a0800>VWLogo_PS.PNG</a0800>
+        <a0920>VWLogo_PS.PNG</a0920>
+        <a2260>VWLogo_PS.PNG</a2260>
+        <a2560>VWLogo_PS.PNG</a2560>
+        <a2630>VWLogo_PS.PNG</a2630>
+        <a2710>SeatLogo_PS.PNG</a2710>
+        <a2860>SkodaLogo_PS.PNG</a2860>
+        <a4190>AudiLogo_PS.PNG</a4190>
+        <a4200>VWImmobilienLogo_PS.PNG</a4200>
+        <a4590>VWLogo_PS.PNG</a4590>
+        <a4600>VWLogo_PS.PNG</a4600>
+        <a4900>AudiSportLogo_2.png</a4900>
+        <a4910>AudiLogo_PS.PNG</a4910>        
+        <a6750>AudiLogo_PS.PNG</a6750>
+        <a7110>VWLogo_PS.PNG</a7110>
+        <a7220>VWLogo_PS.PNG</a7220>
+        <a9001>VWLogo_PS.PNG</a9001>
+    </CompanyLogo>
+    <ProcessCockpit>
+        <ReportPageHeaderOne>ProcessCockpitHeaderOne.png</ReportPageHeaderOne>
+        <ReportPageHeaderTwo>ProcessCockpitHeaderTwo.png</ReportPageHeaderTwo>
+    </ProcessCockpit>
+    <StampInternal>
+        <a0380>Internal_SK.png</a0380>
+    </StampInternal>
+    <Usergroups>
+        <DataArchitect>9000-Datenarchitekten</DataArchitect> <!-- name of usergroup DataArchitect -->
+    </Usergroups>
+    
+</Configuration>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="ALL" name="skoda.mb.vwg" packages="">
+ 
+    <!-- Logging Properties -->
+    <Properties>
+        <Property name="LOG_PATTERN">%d{yyyy-MM-dd HH:mm:ss.SSSZ} %p %m%n</Property>
+        <Property name="APP_LOG_ROOT">d:/logs/</Property>
+    </Properties>
+  <Appenders>
+    <File name="TestCaseUploader" fileName="d:/logs/app.log">
+      <PatternLayout>
+        <Pattern>%d{yyyy-MM-dd HH:mm:ss.SSSZ} %p %m%n</Pattern>
+      </PatternLayout>
+    </File>
+  </Appenders>
+  <Loggers>
+    <Root level="error">
+      <AppenderRef ref="TestCaseUploader"/>
+    </Root>
+  </Loggers>
+</Configuration>

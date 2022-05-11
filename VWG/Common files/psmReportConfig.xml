@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Copyright (C) 2020 Software AG, Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA,
+    and/or its subsidiaries and/or its affiliates and/or their licensors.
+
+    Use, reproduction, transfer, publication or disclosure is prohibited
+    except as specifically provided for in your License Agreement with Software AG.
+
+    Version: 10.0.12.0.1470486
+
+-->
+<ReportRegistry>
+    <!-- IF not all OT should be possible just delete or empty the element  -->
+    <AST>
+        <OT>OT_APPL_SYS_TYPE</OT>
+        <!-- IF no AT is specified the filter will only use the OT -->
+        <!-- <AT>AT_SYSTEM_TYPE</AT>-->
+        <!-- AVT can contain a list of possible Values separated by comma, if it contains -1 only objects where the attribute is not maintained will be selected  -->
+        <!-- <AVT>AVT_SYSTEM_TYPE_SYSTEM,AVT_SYSTEM_TYPE_SERVICE</AVT>-->
+    </AST>
+    <ASC>
+        <OT>OT_APPL_SYS_CLS</OT>
+        <AT>AT_QUADRANT</AT>
+        <AVT>-1</AVT>
+    </ASC>
+    <AS>
+        <OT>OT_APPL_SYS</OT>
+        <!-- <AT>AT_SYSTEM_TYPE</AT>
+        <AVT>AVT_SYSTEM_TYPE_SYSTEM,AVT_SYSTEM_TYPE_SERVICE</AVT>-->
+    </AS>
+    <!--
+    If the parent group for the PSU structur shouldn't be the main group the GUID for the selected group must be included.
+    To get the GUID of a group the following two line report showing the GUID for a selected group.
+    var oGrp = ArisData.getSelectedGroups()[0];
+		Dialogs.MsgBox("GUID : " + oGrp.GUID());  
+    -->
+    <PsuParentGroup></PsuParentGroup>
+    
+    <!--If other Symbols than the predefined should be used, the following element <PsmSymbols> must be included. 	
+		    For each object type to be changed one <PsmSymbol> element must be added. 
+		    If a userdefined symbol should be used, the GUID must be used instead of the type constant string
+		    
+		    If the attribute useDefDefaultSymbol is set to true, alternative symbols can be used for headers in a PSM
+		    	Therefor all possible symboltypes have to be listet in the <ST> element, 
+		    	for user defined symbols the GUID ust be included. The first will be used as default.
+		    	All these symboltypes have to be included in the used filter.
+		    	If a header object has a defined default symbol and and this is defined in the list and also in the filter it will be used.
+		    	Otherwise the first symboltype will be used.    
+	
+    <PsmSymbols useDefDefaultSymbols="true">
+       <PsmSymbol>
+         <OT>OT_ORG_UNIT</OT>
+         <ST>ST_ORG_UNIT_2,ST_ORG_UNIT_1,06c3c9f0-6b38-11e0-623b-be874c268ae3</ST>
+       </PsmSymbol>    
+    </PsmSymbols>  
+    -->       
+    <!--The SymbolScaleFactor can be used to modify the size of the objects in the IT-Landscape planning
+    this factor has to be >=1 and <=3. If a lower value is defined 1 will be used, if a bigger is defined 3 will be used
+    All objects will be rescaled after the factor has been changed, the font size will stay as is--> 
+    <SymbolScaleFactor>1</SymbolScaleFactor>
+</ReportRegistry>

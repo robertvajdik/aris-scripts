@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Copyright (C) 2017 Software AG Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA,
+    and/or its subsidiaries and/or its affiliates and/or their licensors.
+
+    Use, reproduction, transfer, publication or disclosure is prohibited
+    except as specifically provided for in your License Agreement with Software AG.
+
+-->
+<drawings>
+    <drawing name="EPC model" id="EPC" alias="EPC_M.VST;EPC_U.VST;EPC_M.VSTX">
+        <shape uniquename="Event" />
+        <shape uniquename="Function" />
+        <shape uniquename="Main process" />
+        <shape uniquename="Process group" />
+        <!-- Prozessmodul -->
+        <shape uniquename="Process path" />
+        <!-- Prozessschnittstelle -->
+        <shape uniquename="Organizational unit" />
+        <!-- OrgEinheit -->
+        <shape uniquename="Person 1" />
+        <!-- Person intern -->
+        <shape uniquename="Information/ Material" />
+        <shape uniquename="Enterprise area" />
+        <!-- OrgEinheit -->
+        <shape uniquename="XOR" />
+        <!-- XOR-Regel -->
+        <shape uniquename="AND" />
+        <!-- UND-Regel -->
+        <shape uniquename="OR" />
+        <!-- OR-Regel -->
+        <shape uniquename="System support" />
+        <!-- IT-System -->
+        <shape uniquename="Component" />
+        <!-- IT-System -->
+        <shape uniquename="Border small" />
+        <!-- FFT -->
+        <shape uniquename="Connection line" />
+        <!-- FFT -->
+        <shape uniquename="Dynamic connector" />
+        <!-- cxn -->
+        <shape uniquename="Role Connector" />
+        <!-- cxn -->
+    </drawing>
+    <drawing name="Organizational Chart" id="ORGCH" alias="ORGCH_M.VST;ORGWIZ_M.VST;ORGCH_U.VST;ORGWIZ_U.VST;ORGCH_M.VSTX;ORGWIZ_M.VSTX">
+        <shape uniquename="Executive" />
+        <shape uniquename="Manager" />
+        <shape uniquename="Position" />
+        <!-- WKD-Funktion -->
+        <shape uniquename="Consultant" />
+        <!-- XOR-Regel -->
+        <shape uniquename="Vacancy" />
+        <!-- UND-Regel -->
+        <shape uniquename="Assistant" />
+        <!-- OR-Regel -->
+        <shape uniquename="Staff" />
+        <!-- Rolle -->
+        <shape uniquename="Team frame" />
+        <shape uniquename="Title/Date" />
+        <shape uniquename="Multiple shapes" />
+        <!-- Anwendungssystem -->
+        <shape uniquename="Three positions" />
+        <!-- ProcessPath -->
+        <shape uniquename="Title" />
+        <shape uniquename="Dotted-line report" />
+    </drawing>
+    <!-- drawing name="Basic Flowchart" id="BASFLO" alias="BASFLO_M.VST;BASFLO_U.VST">
+    removed correct(!) alias to differentiate QL BASFLOW diagrams !-->
+    <drawing name="Basic Flowchart" id="BASFLO" alias="BASFLO.VST;BASFLO.VSTX">
+        <shape uniquename="Process" />
+        <shape uniquename="Decision" />
+        <shape uniquename="Document" />
+        <shape uniquename="Data" />
+        <shape uniquename="Predefined process" />
+        <shape uniquename="Stored data" />
+        <shape uniquename="Internal storage" />
+        <shape uniquename="Sequential data" />
+        <shape uniquename="Direct data" />
+        <shape uniquename="Manual input" />
+        <shape uniquename="Card" />
+        <shape uniquename="Paper tape" />
+        <shape uniquename="Display" />
+        <shape uniquename="Manual operation" />
+        <shape uniquename="Preparation" />
+        <shape uniquename="Parallel mode" />
+        <shape uniquename="Loop limit" />
+        <shape uniquename="Terminator" />
+        <shape uniquename="On-page reference" />
+        <shape uniquename="Off-page reference" />
+        <shape uniquename="Annotation" />
+        <shape uniquename="Flowchart shapes" />
+        <shape uniquename="Auto-height box" />
+    </drawing>
+    <drawing name="Basic Flowchart (reduced)" id="BPMN BY BASFLO-QL" alias="BASFLO_M.VST;BASFLO_U.VST;BASFLO_M.VSTX">
+        <shape uniquename="event" />
+        <shape uniquename="Process" />
+        <shape uniquename="End Event" />
+        <shape uniquename="Role" />
+        <shape uniquename="Message flow" />
+        <shape uniquename="Annotation" />
+        <shape uniquename="Dynamic connector" />
+        <shape uniquename="Sequence Flow" />
+        <shape uniquename="Organizational Unit" />
+        <shape uniquename="Intermediate Event" />
+        <shape uniquename="Gateway" />
+        <shape uniquename="activity" />
+    </drawing>
+</drawings>

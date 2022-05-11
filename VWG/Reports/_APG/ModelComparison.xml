@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Copyright (C) 2017 Software AG Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA,
+    and/or its subsidiaries and/or its affiliates and/or their licensors.
+
+    Use, reproduction, transfer, publication or disclosure is prohibited
+    except as specifically provided for in your License Agreement with Software AG.
+
+-->
+<conditions>
+    <!-- Allowed variables: -->
+    <!-- Model:     {model.type}, {model.reference.name}, {model.comparison.name} -->
+    <!-- Object:    {object.type}, {object.reference.name}, {object.comparison.name}  -->
+    <!-- Cxn:       {cxn.type}, {cxn.reference.sourcename}, {cxn.reference.targetname}, {cxn.comparison.sourcename}, {cxn.comparison.targetname} -->
+    <!-- Attribute: {attribute.type}, {attribute.reference.value}, {attribute.comparison.value} -->
+    <!-- TransCxn:  {transcxn.reference.sourcename}, {transcxn.reference.targetname}, {transcxn.comparison.sourcename}, {transcxn.comparison.targetname} -->
+
+    <!-- Example of msg-text: -->
+    <!-- "'{attribute.type}' attribute of '{object.reference.name}' has been changed from '{attribute.reference.value}' to '{attribute.comparison.value}' in '{model.comparison.name}' model" -->
+
+    <condition symbol-type="">
+        <action type="CREATED" msg-text=""/>
+        <action type="UPDATED" msg-text=""/>
+        <action type="DELETED" msg-text=""/>
+    </condition>
+    <condition cxn-type="">
+        <action type="CREATED" msg-text=""/>
+        <action type="UPDATED" msg-text=""/>
+        <action type="DELETED" msg-text=""/>
+    </condition>
+    <condition attr-type="">
+        <action type="CREATED" msg-text=""/>
+        <action type="UPDATED" msg-text=""/>
+        <action type="DELETED" msg-text=""/>
+    </condition>
+    <condition transcxn-sourcesymboltype="" transcxn-targetsymboltype="">
+        <action type="CREATED" msg-text=""/>
+        <action type="DELETED" msg-text=""/>
+    </condition>
+</conditions>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+   <EmailSetting> <!-- SMTP & commong sending email settings  -->
+       <SmtpUser></SmtpUser>
+       <SmtpPassword></SmtpPassword>
+       <SmtpHost>skdambvsmtp.fw.skoda.vwg</SmtpHost>
+       <SmtpPort>25</SmtpPort>
+       <SmtpEnableTLS>true</SmtpEnableTLS>
+       <Sender>aris@skoda-auto.cz</Sender>
+       <UseAuthenticator>false</UseAuthenticator>
+       <EmailSubject>Welcome to ARIS Connect</EmailSubject>
+       <EmailErrorSubject>Schnell und Einfach missing company group</EmailErrorSubject>
+       <!-- String $$name$$ will be replacewith real UMC user name -->
+       <!-- String $$login$$ will be replace with real UMC user name -->
+        <!--<EmailTemplate>email_template_en.html</EmailTemplate> -->
+       <EmailEml>noname.eml</EmailEml>
+   </EmailSetting>
+   <Scripts>
+       <RootGroup>_IDSA</RootGroup>  <!-- Scripts category, where is the script "Schnell und Einfach - send email" placed (beware of setting same value for all languages) -->
+       <SendEmail>91492120-3ac7-11e5-2d78-000c29fa5d66</SendEmail> <!-- GUID of the send email script  -->
+       <SendErrorEmail>dcc96c60-5136-11e5-2d78-000c29fa5d66</SendErrorEmail> <!-- GUID of the send Error email script in case of new unknown UserPrincipalName domaing -->
+   </Scripts>
+   <UMC>
+     <PersonGroupGUID index="1">6f30842a-6a38-3d8d-9687-689af74dcde1</PersonGroupGUID> <!-- GUID of Schnell und Einfach usergroup of VWG -->
+     <PersonGroupGUID index="2">c07dc1ae-9271-3ed1-a2da-bbd1a778a7d6</PersonGroupGUID> <!-- GUID of Schnell und Einfach usergroup of VWA -->
+     <PersonGroupGUID index="3">d07cf1c0-3831-36c4-a576-9933416f3984</PersonGroupGUID> <!-- GUID of Schnell und Einfach usergroup of Autosdadt -->
+   </UMC>
+   <PublicReadAccessUMC>
+     <PersonGroupGUID index="1">a30999f5-7179-3e18-bd65-b99468e09010</PersonGroupGUID> <!-- GUID of KUV usergroup of VWG: Skoda.Apps.ARIS.KUV_VWG -->
+     <PersonGroupGUID index="2">c90e771d-d7cd-31ba-9efc-dbf0a532d7c0</PersonGroupGUID> <!-- GUID of KUV usergroup of VWA: Skoda.Apps.ARIS.KUV_VWA -->
+     <PersonGroupGUID index="3">523864a7-af3f-3bb0-9a82-065f6577bf33</PersonGroupGUID> <!-- GUID of KUV usergroup of VWG: Skoda.Apps.ARIS.KUV_AUTOSTADT -->
+   </PublicReadAccessUMC>
+   <Locale>
+    <Supported>1031,1033,1034,2070,1029,1045,1038,1049</Supported>
+   </Locale>
+    <Databases>
+        <Database index="1">010010 Konzern Schnell und Einfach DB</Database> <!-- Schnell und Einfach DB name of VWG -->
+        <Database index="2">010610 VWA Schnell und Einfach DB</Database> <!-- Schnell und Einfach DB name of VWA -->
+        <Database index="3">010010 Konzern Schnell und Einfach DB</Database> <!-- Schnell und Einfach DB name of VWG -->
+   </Databases>
+   <UserPrincipalNames>
+        <!-- Mapping of company domains (of UMC users) to its Trademark main folder: <"User principal name" attribute value - just domain name after "@" sign>GUID of related Tredemark folder in Schnell und Einfach DB (merged from the Arbeit with same GUID)</principal name domain> -->
+        <volkswagen.de groupGUID="c5eefca1-4d7e-11e5-2929-005056af6432" databaseIndex="1"> <!-- Volkswagen -->
+		        <!-- List of Subfolders GUID: <"Company" attribute value from UMC without spaces or () and lowercase only!!!> GUID of subfolder </"Company" attribute value from UMC without spaces or () and lowercase only!!!> -->
+                <volkswagenag>a57f14fa-7a96-4865-ba58-0c63da3b7286</volkswagenag>
+                <volkswagenagpkw>de753d91-4d86-11e5-2929-005056af6432</volkswagenagpkw>
+                <volkswagenagnutzfahrzeuge>6915f791-4d83-11e5-2929-005056af6432</volkswagenagnutzfahrzeuge>
+                <volkswagenindiaprivateltd.>eef227d1-4d83-11e5-2929-005056af6432</volkswagenindiaprivateltd.>
+                <vwgebrauchtfahrzeughandelsundservicegmbh>2631f4c1-4d87-11e5-2929-005056af6432</vwgebrauchtfahrzeughandelsundservicegmbh>
+                <llcvolkswagengrouprus>4c6d8dc1-4d87-11e5-2929-005056af6432</llcvolkswagengrouprus>
+                <volkswagensachsen>9a7dfd61-4d87-11e5-2929-005056af6432</volkswagensachsen>
+                <vwslovakia>08e379f4-0ddd-4ec1-a097-812b679512df</vwslovakia>
+                <vwmotorpolskasp.zo.o.>d7e9dde1-4d87-11e5-2929-005056af6432</vwmotorpolskasp.zo.o.>
+                <volkswagendobrasil>2851eb61-4d83-11e5-2929-005056af6432</volkswagendobrasil>
+                <volkswagenosnabrückgmbh>33210081-4d88-11e5-2929-005056af6432</volkswagenosnabrückgmbh>
+                <sitech>c5420f41-4d88-11e5-2929-005056af6432</sitech> <!-- sitech d -->
+                <sitechsp.zo.o.>4614e161-4d89-11e5-2929-005056af6432</sitechsp.zo.o.> <!-- sitech pl -->
+                <autovisiongmbh>9d57bf61-4d89-11e5-2929-005056af6432</autovisiongmbh>
+                <volkswagengroupservicesgmbh>9d57bf61-4d89-11e5-2929-005056af6432</volkswagengroupservicesgmbh> <!-- Volkswagen Group Services GmbH / Autovision -->
+                <Extern>4f9cead0-4d7e-11e5-2929-005056af6432</Extern>
+        </volkswagen.de>
+        <vw.vwg groupGUID="c5eefca1-4d7e-11e5-2929-005056af6432" databaseIndex="1"> <!-- Volkswagen -->
+		        <!-- List of Subfolders GUID: <"Company" attribute value from UMC without spaces!!!> GUID of subfolder </"Company" attribute value from UMC without spaces!!!> -->
+                <volkswagenag>a57f14fa-7a96-4865-ba58-0c63da3b7286</volkswagenag>
+                <volkswagenagpkw>de753d91-4d86-11e5-2929-005056af6432</volkswagenagpkw>
+                <volkswagenagnutzfahrzeuge>6915f791-4d83-11e5-2929-005056af6432</volkswagenagnutzfahrzeuge>
+                <volkswagenindiaprivateltd.>eef227d1-4d83-11e5-2929-005056af6432</volkswagenindiaprivateltd.>
+                <vwgebrauchtfahrzeughandelsundservicegmbh>2631f4c1-4d87-11e5-2929-005056af6432</vwgebrauchtfahrzeughandelsundservicegmbh>
+                <llcvolkswagengrouprus>4c6d8dc1-4d87-11e5-2929-005056af6432</llcvolkswagengrouprus>
+                <volkswagensachsen>9a7dfd61-4d87-11e5-2929-005056af6432</volkswagensachsen>
+                <vwslovakia>08e379f4-0ddd-4ec1-a097-812b679512df</vwslovakia>
+                <vwmotorpolskasp.zo.o.>d7e9dde1-4d87-11e5-2929-005056af6432</vwmotorpolskasp.zo.o.>
+                <volkswagendobrasil>2851eb61-4d83-11e5-2929-005056af6432</volkswagendobrasil>
+                <volkswagenosnabrückgmbh>33210081-4d88-11e5-2929-005056af6432</volkswagenosnabrückgmbh>
+                <sitech>c5420f41-4d88-11e5-2929-005056af6432</sitech> <!-- sitech d -->
+                <sitechsp.zo.o.>4614e161-4d89-11e5-2929-005056af6432</sitechsp.zo.o.> <!-- sitech pl -->
+                <autovisiongmbh>9d57bf61-4d89-11e5-2929-005056af6432</autovisiongmbh>
+                <volkswagengroupservicesgmbh>9d57bf61-4d89-11e5-2929-005056af6432</volkswagengroupservicesgmbh> <!-- Volkswagen Group Services GmbH / Autovision -->
+                <bugattiautomobiless.a.s.>fff742f1-4d82-11e5-2929-005056af6432</bugattiautomobiless.a.s.>
+                <volkswagenagkomponente>1860bcd1-8eb1-11ea-3cf0-005056af6d0b</volkswagenagkomponente>
+                <Extern>4f9cead0-4d7e-11e5-2929-005056af6432</Extern>
+        </vw.vwg>
+        <apac.vwg groupGUID="c5eefca1-4d7e-11e5-2929-005056af6432" databaseIndex="1"> <!-- Volkswagen -->
+                <volkswagengroupjapank.k.>6f2748c1-1c5a-11e8-5a77-005056af6d0b</volkswagengroupjapank.k.>
+                <audisingaporepte.ltd.>3b1e4fe1-0099-11ea-50ea-005056af6d0b</audisingaporepte.ltd.> 
+                <Extern>4f9cead0-4d7e-11e5-2929-005056af6432</Extern>
+        </apac.vwg>
+        <ap.vwg groupGUID="c5eefca1-4d7e-11e5-2929-005056af6432" databaseIndex="1"> <!-- Volkswagen -->
+                <volkswagenchinainvestmentco.ltd.>8358a7c1-0d6a-11e8-5a77-005056af6d0b</volkswagenchinainvestmentco.ltd.> <!-- Volkswagen (China) Investment Co., Ltd. -->
+                <Extern>4f9cead0-4d7e-11e5-2929-005056af6432</Extern>
+        </ap.vwg>
+        <volkswagen.com.cn groupGUID="c5eefca1-4d7e-11e5-2929-005056af6432" databaseIndex="1"> <!-- Volkswagen -->
+                <volkswagenchinainvestmentco.ltd.>8358a7c1-0d6a-11e8-5a77-005056af6d0b</volkswagenchinainvestmentco.ltd.> <!-- Volkswagen (China) Investment Co., Ltd. -->
+                <Extern>4f9cead0-4d7e-11e5-2929-005056af6432</Extern>
+        </volkswagen.com.cn>
+        <volkswagen.com.br groupGUID="c5eefca1-4d7e-11e5-2929-005056af6432" databaseIndex="1"> <!-- Volkswagen -->
+                <volkswagendobrasil>2851eb61-4d83-11e5-2929-005056af6432</volkswagendobrasil>
+                <Extern>4f9cead0-4d7e-11e5-2929-005056af6432</Extern>
+        </volkswagen.com.br>
+        <vw.com.mx groupGUID="c5eefca1-4d7e-11e5-2929-005056af6432" databaseIndex="1"> <!-- Volkswagen -->
+                <vwdemexico>f516abc1-601a-11e8-50ea-005056af6d0b</vwdemexico> <!-- VW de Mexico -->
+                <Extern>4f9cead0-4d7e-11e5-2929-005056af6432</Extern>
+        </vw.com.mx>
+        <volkswagen-groupservices.com groupGUID="c5eefca1-4d7e-11e5-2929-005056af6432" databaseIndex="1"> <!-- Volkswagen -->
+                <volkswagengroupservicessp.zo.o.>657ea481-d36b-11e8-50ea-005056af6d0b</volkswagengroupservicessp.zo.o.> <!-- Volkswagen Group Services sp. z o.o. -->
+                <Extern>4f9cead0-4d7e-11e5-2929-005056af6432</Extern>
+        </volkswagen-groupservices.com>
+        <vwgis.de groupGUID="c5eefca1-4d7e-11e5-2929-005056af6432" databaseIndex="1"> <!-- VW Group IT Solutions -->
+                <vwgroupitsolutions>83b37721-b731-11ec-3030-005056af6d0b</vwgroupitsolutions> <!-- Volkswagen Group Services sp. z o.o. -->
+                <Extern>4f9cead0-4d7e-11e5-2929-005056af6432</Extern>
+        </vwgis.de>
+        <audi.de groupGUID="7e0f4b91-4d67-11e5-2929-005056af6432" databaseIndex="1"> <!-- AUDI -->
+                <audiag>a0045cd2-c4fa-11ea-3cf0-005056af6d0b</audiag>
+                <audimexico>5ec66721-4d88-11e5-2929-005056af6432</audimexico>
+                <audihungariamotorkft.>8e0659a1-4d88-11e5-2929-005056af6432</audihungariamotorkft.>
+                <audihungariazrt.>8e0659a1-4d88-11e5-2929-005056af6432</audihungariazrt.>
+                <Extern>a8537d11-4d7e-11e5-2929-005056af6432</Extern>
+        </audi.de>
+        <psw.audi.de groupGUID="7e0f4b91-4d67-11e5-2929-005056af6432" databaseIndex="1"> <!-- AUDI -->
+                <Extern>a8537d11-4d7e-11e5-2929-005056af6432</Extern>
+        </psw.audi.de>
+        <audi.com.sg groupGUID="7e0f4b91-4d67-11e5-2929-005056af6432" databaseIndex="1"> <!-- Audi Singapore -->
+                <audisingaporepte.ltd.>3b1e4fe1-0099-11ea-50ea-005056af6d0b</audisingaporepte.ltd.> 
+                <Extern>a8537d11-4d7e-11e5-2929-005056af6432</Extern>
+        </audi.com.sg>
+        <audi.hu groupGUID="7e0f4b91-4d67-11e5-2929-005056af6432" databaseIndex="1"> <!-- AUDI Hungaria -->
+                <audihungariamotorkft.>8e0659a1-4d88-11e5-2929-005056af6432</audihungariamotorkft.>
+                <audihungariazrt.>8e0659a1-4d88-11e5-2929-005056af6432</audihungariazrt.>
+                <Extern>a8537d11-4d7e-11e5-2929-005056af6432</Extern>
+        </audi.hu>
+        <audi.mx groupGUID="7e0f4b91-4d67-11e5-2929-005056af6432" databaseIndex="1"> <!-- AUDI de Mexico -->
+                <audimexico>5ec66721-4d88-11e5-2929-005056af6432</audimexico>
+                <Extern>a8537d11-4d7e-11e5-2929-005056af6432</Extern>
+        </audi.mx>
+        <audi.com.cn groupGUID="7e0f4b91-4d67-11e5-2929-005056af6432" databaseIndex="1"> <!-- AUDI China -->
+                <audichinaenterprisemanagementco.ltd.>5bb515c1-5db8-11e8-50ea-005056af6d0b</audichinaenterprisemanagementco.ltd.> <!-- Audi (China) Enterprise Management Co., Ltd. -->
+                <Extern>a8537d11-4d7e-11e5-2929-005056af6432</Extern>
+        </audi.com.cn>
+        <audi-planung.de groupGUID="7e0f4b91-4d67-11e5-2929-005056af6432" databaseIndex="1"> <!-- Audi Planung GmbH -->
+                <audiplanunggmbh>34e931d1-b68b-11ec-3030-005056af6d0b</audiplanunggmbh> <!-- Audi (China) Enterprise Management Co., Ltd. -->
+                <Extern>a8537d11-4d7e-11e5-2929-005056af6432</Extern>
+        </audi-planung.de>
+        <skoda-auto.cz groupGUID="e1f81b31-4d64-11e5-2929-005056af6432" databaseIndex="1"> <!-- groupID === main folder GUID for trademark Skoda Auto -->
+                <skodaautomladaboleslav>664b0e21-bd2b-4b29-9e89-47965b3ccacb</skodaautomladaboleslav>
+                <Extern>ac276871-4d7e-11e5-2929-005056af6432</Extern>
+        </skoda-auto.cz>
+        <skoda.vwg groupGUID="e1f81b31-4d64-11e5-2929-005056af6432" databaseIndex="1"> <!-- groupID === main folder GUID for trademark Skoda Auto -->
+                <skodaautomladaboleslav>664b0e21-bd2b-4b29-9e89-47965b3ccacb</skodaautomladaboleslav>
+                <Extern>ac276871-4d7e-11e5-2929-005056af6432</Extern>
+        </skoda.vwg>
+        <bentley.co.uk groupGUID="d8ffacf1-4d82-11e5-2929-005056af6432" databaseIndex="1">
+                <bentleymotorslimited>e4cee641-4d82-11e5-2929-005056af6432</bentleymotorslimited>
+                <Extern>0eb2edd2-4d83-11e5-2929-005056af6432</Extern>
+        </bentley.co.uk>
+        <seat.vwg groupGUID="bd7c8611-4d82-11e5-2929-005056af6432" databaseIndex="1"> <!-- Seat -->
+                <seat>c32afdd1-4d82-11e5-2929-005056af6432</seat>
+                <Extern>06de13a0-4d83-11e5-2929-005056af6432</Extern>
+        </seat.vwg>
+        <seat.es groupGUID="bd7c8611-4d82-11e5-2929-005056af6432" databaseIndex="1"> <!-- Seat -->
+                <seat>c32afdd1-4d82-11e5-2929-005056af6432</seat>
+                <Extern>06de13a0-4d83-11e5-2929-005056af6432</Extern>
+        </seat.es>
+        <volkswagengroup.fr groupGUID="c5eefca1-4d7e-11e5-2929-005056af6432" databaseIndex="1"> <!-- Volkswagen Group France II S.A., Villers-Cotterets -->
+                <volkswagengroupfranceiis.a.villers-cotterets>800d8611-bc69-11eb-7c48-005056af6d0b</volkswagengroupfranceiis.a.villers-cotterets>
+                <Extern>4f9cead0-4d7e-11e5-2929-005056af6432</Extern>
+        </volkswagengroup.fr>
+        <vw.com groupGUID="c5eefca1-4d7e-11e5-2929-005056af6432" databaseIndex="2"> <!-- Volkswagen of America -->
+		        <!-- List of Subfolders GUID: <"Company" attribute value from UMC without spaces!!!> GUID of subfolder </"Company" attribute value from UMC without spaces!!!> -->
+                <volkswagenoofamerica>dcb7e5b1-5232-11e5-2929-005056af6432</volkswagenoofamerica>
+                <Extern>4f9cead0-4d7e-11e5-2929-005056af6432</Extern>
+        </vw.com>
+        <na.vwg groupGUID="c5eefca1-4d7e-11e5-2929-005056af6432" databaseIndex="2"> <!-- Volkswagen of America -->
+		        <!-- List of Subfolders GUID: <"Company" attribute value from UMC without spaces!!!> GUID of subfolder </"Company" attribute value from UMC without spaces!!!> -->
+                <volkswagenoofamerica>dcb7e5b1-5232-11e5-2929-005056af6432</volkswagenoofamerica>
+                <Extern>4f9cead0-4d7e-11e5-2929-005056af6432</Extern>
+        </na.vwg>
+        <autostadt.de groupGUID="d0951a81-6a07-11eb-7c47-005056af6d0b" databaseIndex="3">
+                <autostadtgmbh>d0951a81-6a07-11eb-7c47-005056af6d0b</autostadtgmbh>
+                <Extern>9a9c9dd2-6a08-11eb-7c47-005056af6d0b</Extern>
+        </autostadt.de>
+        </UserPrincipalNames>
+</Settings> 

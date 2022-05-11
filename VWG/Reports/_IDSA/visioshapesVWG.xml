@@ -1,0 +1,1108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+    Copyright (C) 2017 Software AG Darmstadt, Germany and/or Software AG USA Inc., Reston, VA, USA,
+    and/or its subsidiaries and/or its affiliates and/or their licensors.
+
+    Use, reproduction, transfer, publication or disclosure is prohibited
+    except as specifically provided for in your License Agreement with Software AG.
+
+-->
+<drawings>
+    <drawing name="EPC model" id="EPC" alias="EPC_M.VST;EPC_U.VST;EPC_M.VSTX">
+        <shape uniquename="Event" />
+        <shape uniquename="Function" />
+        <shape uniquename="Main process" />
+        <shape uniquename="Process group" />
+        <!-- Prozessmodul -->
+        <shape uniquename="Process path" />
+        <!-- Prozessschnittstelle -->
+        <shape uniquename="Organizational unit" />
+        <!-- OrgEinheit -->
+        <shape uniquename="Person 1" />
+        <!-- Person intern -->
+        <shape uniquename="Information/ Material" />
+        <shape uniquename="Enterprise area" />
+        <!-- OrgEinheit -->
+        <shape uniquename="XOR" />
+        <!-- XOR-Regel -->
+        <shape uniquename="AND" />
+        <!-- UND-Regel -->
+        <shape uniquename="OR" />
+        <!-- OR-Regel -->
+        <shape uniquename="System support" />
+        <!-- IT-System -->
+        <shape uniquename="Component" />
+        <!-- IT-System -->
+        <shape uniquename="Border small" />
+        <!-- FFT -->
+        <shape uniquename="Connection line" />
+        <!-- FFT -->
+        <shape uniquename="Dynamic connector" />
+        <!-- cxn -->
+        <shape uniquename="Role Connector" />
+        <!-- cxn -->
+    </drawing>
+    <drawing name="Organizational Chart" id="ORGCH" alias="ORGCH_M.VST;ORGWIZ_M.VST;ORGCH_U.VST;ORGWIZ_U.VST;ORGCH_M.VSTX;ORGWIZ_M.VSTX">
+        <shape uniquename="Executive" />
+        <shape uniquename="Manager" />
+        <shape uniquename="Position" />
+        <!-- WKD-Funktion -->
+        <shape uniquename="Consultant" />
+        <!-- XOR-Regel -->
+        <shape uniquename="Vacancy" />
+        <!-- UND-Regel -->
+        <shape uniquename="Assistant" />
+        <!-- OR-Regel -->
+        <shape uniquename="Staff" />
+        <!-- Rolle -->
+        <shape uniquename="Team frame" />
+        <shape uniquename="Title/Date" />
+        <shape uniquename="Multiple shapes" />
+        <!-- Anwendungssystem -->
+        <shape uniquename="Three positions" />
+        <!-- ProcessPath -->
+        <shape uniquename="Title" />
+        <shape uniquename="Dotted-line report" />
+    </drawing>
+    <!-- drawing name="Basic Flowchart" id="BASFLO" alias="BASFLO_M.VST;BASFLO_U.VST">
+    removed correct(!) alias to differentiate QL BASFLOW diagrams !-->
+    <drawing name="Basic Flowchart" id="BASFLO" alias="BASFLO.VST;BASFLO.VSTX">
+        <shape uniquename="Process" />
+        <shape uniquename="Decision" />
+        <shape uniquename="Document" />
+        <shape uniquename="Data" />
+        <shape uniquename="Predefined process" />
+        <shape uniquename="Stored data" />
+        <shape uniquename="Internal storage" />
+        <shape uniquename="Sequential data" />
+        <shape uniquename="Direct data" />
+        <shape uniquename="Manual input" />
+        <shape uniquename="Card" />
+        <shape uniquename="Paper tape" />
+        <shape uniquename="Display" />
+        <shape uniquename="Manual operation" />
+        <shape uniquename="Preparation" />
+        <shape uniquename="Parallel mode" />
+        <shape uniquename="Loop limit" />
+        <shape uniquename="Terminator" />
+        <shape uniquename="On-page reference" />
+        <shape uniquename="Off-page reference" />
+        <shape uniquename="Annotation" />
+        <shape uniquename="Flowchart shapes" />
+        <shape uniquename="Auto-height box" />
+    </drawing>
+    <drawing name="Basic Flowchart (reduced)" id="BPMN BY BASFLO-QL" alias="BASFLO_M.VST;BASFLO_U.VST;BASFLO_M.VSTX">
+        <shape uniquename="event" />
+        <shape uniquename="Process" />
+        <shape uniquename="End Event" />
+        <shape uniquename="Role" />
+        <shape uniquename="Message flow" />
+        <shape uniquename="Annotation" />
+        <shape uniquename="Dynamic connector" />
+        <shape uniquename="Sequence Flow" />
+        <shape uniquename="Organizational Unit" />
+        <shape uniquename="Intermediate Event" />
+        <shape uniquename="Gateway" />
+        <shape uniquename="activity" />
+    </drawing>
+    <drawing name="Brainstorming Diagram" id="BSTORM" alias="BSTORM_M.VST;BSTORM_U.VST;BSTORM_M.VSTX">
+        <shape uniquename="Main topic" />
+        <shape uniquename="Topic" />
+    </drawing>
+    <drawing name="Work Flow Diagram" id="WRKFLO" alias="WRKFLO_M.VST;WRKFLO_U.VST;WRKFLO_M.VSTX">
+        <!--
+            Department
+        -->
+        <shape uniquename="Accounting" />
+        <shape uniquename="Accounts payable" />
+        <shape uniquename="Accounts receivable" />
+        <shape uniquename="Bank" />
+        <shape uniquename="Board of directors" />
+        <shape uniquename="Copy center" />
+        <shape uniquename="Customer service" />
+        <shape uniquename="Design" />
+        <shape uniquename="Engineering" />
+        <shape uniquename="Facilities" />
+        <shape uniquename="Human resources" />
+        <shape uniquename="International division" />
+        <shape uniquename="Inventory" />
+        <shape uniquename="Legal department" />
+        <shape uniquename="Mail service" />
+        <shape uniquename="Management" />
+        <shape uniquename="Manufacturing" />
+        <shape uniquename="Marketing" />
+        <shape uniquename="Motorpool" />
+        <shape uniquename="Packaging" />
+        <shape uniquename="Payroll" />
+        <shape uniquename="Publications" />
+        <shape uniquename="Purchasing" />
+        <shape uniquename="Quality assurance" />
+        <shape uniquename="Receiving" />
+        <shape uniquename="Reception" />
+        <shape uniquename="Research and development" />
+        <shape uniquename="Sales" />
+        <shape uniquename="Security" />
+        <shape uniquename="Shipping" />
+        <shape uniquename="Suppliers" />
+        <shape uniquename="Telecommunications" />
+        <shape uniquename="Treasurer" />
+        <shape uniquename="Warehouse" />
+        <shape uniquename="Information services" />
+        <!--
+            Steps
+        -->
+        <shape uniquename="Issue" />
+        <shape uniquename="Agreement" />
+        <shape uniquename="Analyze" />
+        <shape uniquename="Approve" />
+        <shape uniquename="Meeting" />
+        <shape uniquename="Phone call" />
+        <shape uniquename="Presentation" />
+        <shape uniquename="Reject" />
+        <shape uniquename="Submit" />
+        <!--
+            Objects
+        -->
+        <shape uniquename="Customer" />
+        <shape uniquename="Person" />
+        <shape uniquename="Person - torso" />
+        <shape uniquename="User" />
+        <shape uniquename="Product" />
+        <shape uniquename="Document" />
+        <shape uniquename="Document collection" />
+        <shape uniquename="Folder - closed" />
+        <shape uniquename="Folder - open" />
+        <shape uniquename="Mail" />
+        <shape uniquename="Presentation file" />
+        <shape uniquename="Spreadsheet" />
+        <shape uniquename="Web page" />
+        <shape uniquename="Box" />
+        <shape uniquename="CD ROM" />
+        <shape uniquename="Crate" />
+        <shape uniquename="Floppy disk" />
+    </drawing>
+    <drawing name="Basic Network Diagram" id="NETW" alias="NETW_M.VST;NETW_U.VST;NETW_M.VSTX">
+        <!-- MT_NW_TOPLG -->
+        <shape uniquename="Ring network" />
+        <shape uniquename="Ethernet" />
+        <!--
+            network components
+        -->
+        <shape uniquename="Comm-link" />
+        <shape uniquename="Router" />
+        <shape uniquename="Switch" />
+        <shape uniquename="Bridge" />
+        <shape uniquename="Hub" />
+        <shape uniquename="Modem" />
+        <shape uniquename="Firewall" />
+        <shape uniquename="Wireless access point" />
+        <!--
+            Hardware
+        -->
+        <shape uniquename="Server" />
+        <shape uniquename="Mainframe" />
+        <shape uniquename="Super computer" />
+        <shape uniquename="Printer" />
+        <shape uniquename="Plotter" />
+        <shape uniquename="Scanner" />
+        <shape uniquename="Copier" />
+        <shape uniquename="Fax" />
+        <shape uniquename="Multi-function device" />
+        <shape uniquename="CRT projector" />
+        <shape uniquename="Screen" />
+        <shape uniquename="Telephone" />
+        <shape uniquename="Cell phone" />
+        <shape uniquename="Smart phone" />
+        <shape uniquename="Digital camera" />
+        <shape uniquename="Video camera" />
+        <shape uniquename="PC" />
+        <shape uniquename="iMac" />
+        <shape uniquename="New iMac" />
+        <shape uniquename="Tablet computer" />
+        <shape uniquename="PDA" />
+        <shape uniquename="Terminal" />
+        <shape uniquename="Laptop computer" />
+        <shape uniquename="CRT monitor" />
+        <shape uniquename="LCD monitor" />
+        <shape uniquename="User" />
+        <shape uniquename="Legend" />
+        <!-- not mapped at top level, treat as a grouping -->
+        <shape uniquename="Foreign" />
+        <!-- contains a frame + internal visio data inside a legend (EMF image) -->
+    </drawing>
+    <drawing name="Detailed Network Diagram" id="DTLNET" alias="DTLNET_M.VST;DTLNET_U.VST">
+        <!--
+            networks
+        -->
+        <shape uniquename="Ring network" />
+        <shape uniquename="Ethernet" />
+        <!-- detailed -->
+        <shape uniquename="Cloud" />
+        <shape uniquename="House" />
+        <shape uniquename="Government building" />
+        <shape uniquename="University building" />
+        <shape uniquename="Building" />
+        <shape uniquename="Town" />
+        <shape uniquename="City" />
+        <!--
+            network components
+        -->
+        <shape uniquename="Comm-link" />
+        <shape uniquename="Router" />
+        <shape uniquename="Switch" />
+        <shape uniquename="Bridge" />
+        <shape uniquename="Hub" />
+        <shape uniquename="Modem" />
+        <shape uniquename="Firewall" />
+        <shape uniquename="Wireless access point" />
+        <!-- detailed -->
+        <shape uniquename="A/B switchbox" />
+        <shape uniquename="Fiber optic transmitter" />
+        <shape uniquename="Patch panel" />
+        <shape uniquename="Radio tower" />
+        <shape uniquename="Repeater" />
+        <shape uniquename="Satellite" />
+        <shape uniquename="Satellite dish" />
+        <shape uniquename="Small hub" />
+        <shape uniquename="100BaseT hub" />
+        <shape uniquename="CDDI/FDDI concentrator" />
+        <shape uniquename="ATM router" />
+        <shape uniquename="ISDN switch" />
+        <shape uniquename="ATM switch" />
+        <shape uniquename="ATM/FastGB etherswitch" />
+        <shape uniquename="Workgroup switch" />
+        <shape uniquename="Terminal server" />
+        <shape uniquename="Comm server" />
+        <shape uniquename="Probe" />
+        <shape uniquename="Bridge" />
+        <shape uniquename="Gateway" />
+        <shape uniquename="WAN" />
+        <shape uniquename="DSU/CSU" />
+        <shape uniquename="Host" />
+        <shape uniquename="Relational database" />
+        <shape uniquename="Lock" />
+        <shape uniquename="Lock and key" />
+        <shape uniquename="Key" />
+        <!--
+            Hardware
+        -->
+        <shape uniquename="Server" />
+        <shape uniquename="Mainframe" />
+        <shape uniquename="Super computer" />
+        <shape uniquename="Printer" />
+        <shape uniquename="Plotter" />
+        <shape uniquename="Scanner" />
+        <shape uniquename="Copier" />
+        <shape uniquename="Fax" />
+        <shape uniquename="Multi-function device" />
+        <shape uniquename="CRT projector" />
+        <shape uniquename="Screen" />
+        <shape uniquename="Telephone" />
+        <shape uniquename="Cell phone" />
+        <shape uniquename="Smart phone" />
+        <shape uniquename="Digital camera" />
+        <shape uniquename="Video camera" />
+        <shape uniquename="PC" />
+        <shape uniquename="iMac" />
+        <shape uniquename="New iMac" />
+        <shape uniquename="Tablet computer" />
+        <shape uniquename="PDA" />
+        <shape uniquename="Terminal" />
+        <shape uniquename="Laptop computer" />
+        <shape uniquename="CRT monitor" />
+        <shape uniquename="LCD monitor" />
+        <!-- detailed -->
+        <shape uniquename="Biometric reader" />
+        <shape uniquename="Diagnostic device" />
+        <shape uniquename="External media drive" />
+        <shape uniquename="External hard drive" />
+        <shape uniquename="PBX" />
+        <shape uniquename="Smartcard reader" />
+        <shape uniquename="Public/private key server" />
+        <shape uniquename="Certificate server" />
+        <shape uniquename="File server" />
+        <shape uniquename="Email server" />
+        <shape uniquename="E-Commerce server" />
+        <shape uniquename="Proxy server" />
+        <shape uniquename="Content management server" />
+        <shape uniquename="FTP server" />
+        <shape uniquename="Streaming media server" />
+        <shape uniquename="Web server" />
+        <shape uniquename="Management server" />
+        <shape uniquename="Directory server" />
+        <shape uniquename="Print server" />
+        <shape uniquename="Mobile information server" />
+        <shape uniquename="Application server" />
+        <shape uniquename="Database server" />
+        <shape uniquename="Real-time communications server" />
+        <shape uniquename="User" />
+        <!--
+            IT Systems
+        -->
+        <shape uniquename="Data" />
+        <shape uniquename="XML Web Service" />
+        <!--
+            Legend
+        -->
+        <shape uniquename="Legend" />
+        <!-- not mapped at top level, treat as a grouping -->
+        <shape uniquename="Foreign" />
+        <!-- contains a frame + internal visio data inside a legend (EMF image) -->
+    </drawing>
+    <drawing name="Database Model Diagram" id="DBMODL" alias="DBMODL_M.VST;DBMODL_U.VST;DBMODL_M.VSTX">
+        <shape uniquename="Entity" />
+        <shape uniquename="View" />
+        <shape uniquename="Category" />
+        <shape uniquename="Type" />
+        <shape uniquename="Tracking Text" />
+        <shape uniquename="Type inheritance" />
+        <shape uniquename="Optional" />
+        <shape uniquename="Database Model" />
+        <!-- visio internal DB structure representation -->
+        <shape uniquename="Relationship" />
+        <!-- is a connection -->
+        <shape uniquename="Dynamic connector" />
+        <shape uniquename="Parent to category" />
+        <shape uniquename="Category to child" />
+    </drawing>
+    <drawing name="Enterprise Application Model" id="ENTAPP" alias="ENTAPP_M.VST;ENTAPP_U.VST;ENTAPP_M.VSTX">
+        <shape uniquename="Server" />
+        <shape uniquename="Mainframe" />
+        <shape uniquename="Workstation" />
+        <shape uniquename="Servers" />
+        <shape uniquename="Mainframes" />
+        <shape uniquename="Workstations" />
+        <shape uniquename="Spare" />
+        <shape uniquename="Laptop" />
+        <shape uniquename="Laptops" />
+        <shape uniquename="User" />
+        <shape uniquename="Label" />
+        <!--
+        Networks 
+         -->
+        <shape uniquename="Boundary" />
+        <!--
+        IT Systems 
+         -->
+        <shape uniquename="Datastore" />
+        <shape uniquename="Object" />
+        <shape uniquename="Process" />
+        <shape uniquename="Document" />
+        <shape uniquename="Component" />
+        <shape uniquename="Interface" />
+    </drawing>
+    <drawing name="Audit Diagram" id="AUDIT" alias="AUDIT_M.VST;AUDIT_U.VST;AUDIT_M.VSTX">
+        <shape uniquename="Tagged process" />
+        <shape uniquename="Decision" />
+        <shape uniquename="Tagged document" />
+        <shape uniquename="I/O" />
+        <shape uniquename="Manual operation" />
+        <shape uniquename="Terminator" />
+        <shape uniquename="Manual file" />
+        <shape uniquename="Display" />
+        <shape uniquename="On-page reference" />
+        <shape uniquename="Off-page reference" />
+        <shape uniquename="Divided process" />
+        <shape uniquename="Multi proc/doc" />
+        <shape uniquename="Lined/Shaded process" />
+        <shape uniquename="Lined document" />
+        <shape uniquename="Multi document" />
+        <shape uniquename="Database" />
+        <shape uniquename="Disk storage" />
+        <shape uniquename="Diskette 1" />
+        <shape uniquename="Diskette 2" />
+        <shape uniquename="Magnetic tape" />
+        <shape uniquename="Data transmission" />
+        <shape uniquename="Manual input" />
+        <shape uniquename="Check 1 (audit)" />
+        <shape uniquename="Compare 1" />
+        <shape uniquename="Reference point" />
+        <shape uniquename="Check 2 (audit)" />
+        <shape uniquename="Compare 2" />
+        <shape uniquename="Event" />
+        <shape uniquename="Divided event" />
+        <shape uniquename="Title block" />
+        <shape uniquename="Note block" />
+    </drawing>
+    <drawing name="Pivot Diagram" id="DRILLD" alias="DRILLD_M.VST;DRILLD_U.VST">
+        <shape uniquename="Pivot Node" />
+        <!--
+            Work Flow Objects
+        -->
+        <shape uniquename="Customer" />
+        <shape uniquename="Person" />
+        <shape uniquename="Person - torso" />
+        <shape uniquename="User" />
+        <shape uniquename="Product" />
+        <shape uniquename="Document" />
+        <shape uniquename="Document collection" />
+        <shape uniquename="Folder - closed" />
+        <shape uniquename="Folder - open" />
+        <shape uniquename="Mail" />
+        <shape uniquename="Presentation file" />
+        <shape uniquename="Spreadsheet" />
+        <shape uniquename="Web page" />
+        <shape uniquename="Box" />
+        <shape uniquename="CD ROM" />
+        <shape uniquename="Crate" />
+        <shape uniquename="Floppy disk" />
+        <!--
+            Department
+        -->
+        <shape uniquename="Accounting" />
+        <shape uniquename="Accounts payable" />
+        <shape uniquename="Accounts receivable" />
+        <shape uniquename="Bank" />
+        <shape uniquename="Board of directors" />
+        <shape uniquename="Copy center" />
+        <shape uniquename="Customer service" />
+        <shape uniquename="Design" />
+        <shape uniquename="Engineering" />
+        <shape uniquename="Facilities" />
+        <shape uniquename="Human resources" />
+        <shape uniquename="International division" />
+        <shape uniquename="Inventory" />
+        <shape uniquename="Legal department" />
+        <shape uniquename="Mail service" />
+        <shape uniquename="Management" />
+        <shape uniquename="Manufacturing" />
+        <shape uniquename="Marketing" />
+        <shape uniquename="Motorpool" />
+        <shape uniquename="Packaging" />
+        <shape uniquename="Payroll" />
+        <shape uniquename="Publications" />
+        <shape uniquename="Purchasing" />
+        <shape uniquename="Quality assurance" />
+        <shape uniquename="Receiving" />
+        <shape uniquename="Reception" />
+        <shape uniquename="Research and development" />
+        <shape uniquename="Sales" />
+        <shape uniquename="Security" />
+        <shape uniquename="Shipping" />
+        <shape uniquename="Suppliers" />
+        <shape uniquename="Telecommunications" />
+        <shape uniquename="Treasurer" />
+        <shape uniquename="Warehouse" />
+        <shape uniquename="Information services" />
+    </drawing>
+    <drawing id="DATFLO" alias="DATFLO_M.VST;DATFLO_U.VST" name="Data Flow Diagram">
+        <shape uniquename="Data process" />
+        <shape uniquename="Multiple process" />
+        <shape uniquename="Oval process" />
+        <shape uniquename="Oval process (offset)" />
+        <shape uniquename="State" />
+        <shape uniquename="Start state" />
+        <shape uniquename="Stop state" />
+        <shape uniquename="Stop state 2" />
+        <shape uniquename="Multi state" />
+        <shape uniquename="External interactor" />
+        <shape uniquename="Data store" />
+        <shape uniquename="Entity relationship" />
+        <shape uniquename="Object callout" />
+        <shape uniquename="Entity 1" />
+        <shape uniquename="Entity 2" />
+        <shape uniquename="Object" />
+        <shape uniquename="Center to center 1" />
+        <shape uniquename="Center to center 2" />
+        <shape uniquename="Loop on center" />
+        <shape uniquename="Loop on center 2" />
+    </drawing>
+    <drawing id="FAULT" alias="FAULT_M.VST;FAULT_U.VST" name="Fault Tree Analysis Diagram">
+        <shape uniquename="AND gate" />
+        <shape uniquename="OR gate" />
+        <shape uniquename="Inhibit gate" />
+        <shape uniquename="Priority AND gate" />
+        <shape uniquename="Exclusive OR gate" />
+        <shape uniquename="Voting gate" />
+        <shape uniquename="Event" />
+        <shape uniquename="Basic event" />
+        <shape uniquename="Undeveloped event" />
+        <shape uniquename="House event" />
+        <shape uniquename="Conditional event" />
+        <shape uniquename="Transfer symbol" />
+    </drawing>
+    <drawing id="ITIL" alias="ITIL_M.VST;ITIL_U.VST" name="ITIL Diagram">
+        <shape uniquename="Incident" />
+        <shape uniquename="Service request" />
+        <shape uniquename="Person" />
+        <shape uniquename="Service desk" />
+        <shape uniquename="Committee" />
+        <shape uniquename="Department" />
+        <shape uniquename="Request for change" />
+        <shape uniquename="Agreement" />
+        <shape uniquename="Configuration management database" />
+        <shape uniquename="Knowledge base" />
+        <shape uniquename="Vendor" />
+    </drawing>
+    <drawing id="TQM" alias="TQM_M.VST;TQM_U.VST" name="TQM Diagram">
+        <shape uniquename="Transportation" />
+        <shape uniquename="Inbound goods" />
+        <shape uniquename="Storage" />
+        <shape uniquename="Procedure" />
+        <shape uniquename="Operation" />
+        <shape uniquename="Operation/ inspection" />
+        <shape uniquename="Issue" />
+        <shape uniquename="Organization function" />
+        <shape uniquename="2-part function" />
+        <shape uniquename="Decision 1 (TQM)" />
+        <shape uniquename="Decision 2 (TQM)" />
+        <shape uniquename="Multi in/out decision" />
+        <shape uniquename="External organization" />
+        <shape uniquename="External process" />
+        <shape uniquename="Inspection/ measurement" />
+        <shape uniquename="Metric" />
+        <shape uniquename="2-part metric" />
+        <shape uniquename="System database" />
+        <shape uniquename="System support" />
+        <shape uniquename="System function" />
+        <shape uniquename="Delay" />
+        <shape uniquename="Connector (TQM)" />
+        <shape uniquename="Off-page reference" />
+        <shape uniquename="Connected issues" />
+        <shape uniquename="Fabrication" />
+        <shape uniquename="Move" />
+        <shape uniquename="Store" />
+        <shape uniquename="Inspection" />
+        <shape uniquename="Selectable process" />
+        <shape uniquename="Work flow loop 1" />
+        <shape uniquename="Work flow loop 2" />
+        <shape uniquename="Feedback arrow" />
+        <shape uniquename="X-function - vert" />
+        <shape uniquename="X-function - horiz" />
+        <shape uniquename="Cause 1" />
+        <shape uniquename="Cause 2" />
+        <shape uniquename="Cause 3" />
+        <shape uniquename="Category" />
+        <shape uniquename="Effect" />
+        <shape uniquename="Branch: return" />
+        <shape uniquename="Branch: no return" />
+        <shape uniquename="Interrupt" />
+        <shape uniquename="External control" />
+        <shape uniquename="Refinement" />
+        <shape uniquename="Result" />
+        <shape uniquename="No result" />
+    </drawing>
+    <drawing id="VSM" alias="VSM_M.VST;VSM_U.VST" name="Value Stream Map">
+        <shape uniquename="Process" />
+        <shape uniquename="Customer/Supplier" />
+        <shape uniquename="Push arrow" />
+        <shape uniquename="Inventory" />
+        <shape uniquename="Shipment truck" />
+        <shape uniquename="Production control" />
+        <shape uniquename="Data table" />
+        <shape uniquename="Timeline segment" />
+        <shape uniquename="Timeline total" />
+        <shape uniquename="Production kanban" />
+        <shape uniquename="Withdrawal kanban" />
+        <shape uniquename="Batch kanban" />
+        <shape uniquename="Batch withdrawal kanban" />
+        <shape uniquename="Signal kanban" />
+        <shape uniquename="Kanban post" />
+        <shape uniquename="Supermarket" />
+        <shape uniquename="Safety/Buffer stock" />
+        <shape uniquename="FIFO lane" />
+        <shape uniquename="Kaizen burst" />
+        <shape uniquename="Physical pull" />
+        <shape uniquename="Sequenced pull ball" />
+        <shape uniquename="Load leveling" />
+        <shape uniquename="VSM" />
+    </drawing>
+    <drawing id="SDL" alias="SDL_M.VST;SDL_U.VST" name="SDL Diagram">
+        <shape uniquename="Start" />
+        <shape uniquename="Variable start" />
+        <shape uniquename="Procedure" />
+        <shape uniquename="Variable procedure" />
+        <shape uniquename="Create request" />
+        <shape uniquename="Alternative" />
+        <shape uniquename="Return" />
+        <shape uniquename="Decision 1" />
+        <shape uniquename="Message from user" />
+        <shape uniquename="Primitive from call control" />
+        <shape uniquename="Decision 2" />
+        <shape uniquename="Message to user" />
+        <shape uniquename="Primitive to call control" />
+        <shape uniquename="Save" />
+        <shape uniquename="On-page reference" />
+        <shape uniquename="Off-page reference" />
+        <shape uniquename="Multi document" />
+        <shape uniquename="Document" />
+        <shape uniquename="Disk storage" />
+        <shape uniquename="Divided process" />
+        <shape uniquename="Divided event" />
+        <shape uniquename="Terminator" />
+    </drawing>
+    <drawing id="WEBSIT" alias="WEBSIT_M.VST;WEBSIT_U.VST" name="Conceptual Web Site">
+        <shape uniquename="Group" />
+        <shape uniquename="Main object" />
+        <shape uniquename="Web page" />
+        <shape uniquename="Page group" />
+        <shape uniquename="Page element" />
+        <shape uniquename="Page element group" />
+        <shape uniquename="Pop-up" />
+        <shape uniquename="Small site map node" />
+        <shape uniquename="Large site map node" />
+        <shape uniquename="Home" />
+        <shape uniquename="Home page" />
+        <shape uniquename="Form" />
+        <shape uniquename="Gateway" />
+        <shape uniquename="Page jump" />
+        <shape uniquename="Cloud" />
+    </drawing>
+    <drawing id="JACKSN" alias="JACKSN_M.VST;JACKSN_U.VST" name="Jackson Diagram">
+        <shape uniquename="Process" />
+        <shape uniquename="Procedure" />
+        <shape uniquename="Procedure 2" />
+    </drawing>
+    <drawing id="LDAPDR" alias="LDAPDR_M.VST;LDAPDR_U.VST" name="LDAP Directory">
+        <shape uniquename="Country" />
+        <shape uniquename="Organization" />
+        <shape uniquename="Organizational unit" />
+        <shape uniquename="Locality" />
+        <shape uniquename="Alias" />
+        <shape uniquename="Person" />
+        <shape uniquename="inetOrg Person" />
+        <shape uniquename="Organizational person" />
+        <shape uniquename="Residential person" />
+        <shape uniquename="Organizational role" />
+        <shape uniquename="Group of names" />
+        <shape uniquename="Group of unique names" />
+        <shape uniquename="Device" />
+        <shape uniquename="cRL distribution point" />
+        <shape uniquename="dSA" />
+        <shape uniquename="dmd" />
+        <shape uniquename="Application process" />
+        <shape uniquename="Application entity" />
+        <shape uniquename="Unknown" />
+        <shape uniquename="Generic object" />
+    </drawing>
+    <drawing id="ACTDIR" alias="ACTDIR_M.VST;ACTDIR_U.VST" name="Active Directory">
+        <shape uniquename="Domain" />
+        <shape uniquename="Computer" />
+        <shape uniquename="User" />
+        <shape uniquename="Group" />
+        <shape uniquename="Container" />
+        <shape uniquename="Print queue" />
+        <shape uniquename="Contact" />
+        <shape uniquename="Organizational unit" />
+        <shape uniquename="Policy" />
+        <shape uniquename="Volume" />
+        <shape uniquename="Generic object" />
+        <shape uniquename="Site" />
+        <shape uniquename="Site link" />
+        <shape uniquename="Site link bridge" />
+        <shape uniquename="Server" />
+        <shape uniquename="NTDS site settings" />
+        <shape uniquename="IP subnet" />
+        <shape uniquename="Certificate template" />
+        <shape uniquename="Licensing site" />
+        <shape uniquename="Connection" />
+        <shape uniquename="Site or subnet" />
+        <shape uniquename="Site link 3D" />
+        <shape uniquename="Site link bridge 3D" />
+        <shape uniquename="WAN" />
+        <shape uniquename="Domain 3D" />
+        <shape uniquename="Domain contrl. 3D" />
+        <shape uniquename="Database" />
+        <shape uniquename="Application 3D" />
+        <shape uniquename="Comm-link" />
+        <shape uniquename="Client" />
+        <shape uniquename="Site or subnet 2D" />
+        <shape uniquename="Domain 2D" />
+        <shape uniquename="Application 2D" />
+        <shape uniquename="Domain contrl. 2D" />
+    </drawing>
+    <drawing name="Cross-functional Flowchart Diagram" id="XFUNC" alias="XFUNC_M.VST;XFUNC_U.VST;XFUNC_M.VSTX">
+    
+            <shape uniquename="CFF-Container" />
+            <shape uniquename="Verantwortlichkeitsbereichsliste" />
+            <shape uniquename="Phasenliste" />
+            <shape uniquename="Verantwortlichkeitsbereich" />
+            <shape uniquename="Trennzeichen" />
+            <shape uniquename="Trennzeichen (vertikal)" />
+            <shape uniquename="Dynamischer Verbinder" />
+            <shape uniquename="Prozessschnittstelle mit Hinterlegung" />
+            <shape uniquename="Start" />
+            <shape uniquename="Prozessschritt" />
+            <shape uniquename="Frage" />
+            <shape uniquename="Freigabe" />
+            <shape uniquename="Dokument" />
+            <shape uniquename="EDV-System" />
+            <shape uniquename="Prozess" />
+            <shape uniquename="Ende" />
+            <shape uniquename="Document" />
+            <shape uniquename="Datenbank" />
+            <shape uniquename="Process" />
+            <shape uniquename="Start/Ende" />
+            <shape uniquename="Daten" />
+            <shape uniquename="Prozess mit Hinterlegung" />
+            <shape uniquename="ODER" />
+            <shape uniquename="Prozess- ergebnis" />
+            <shape uniquename="Meilenstein" />
+            <shape uniquename="UND" />
+    
+        <shape uniquename="Decision" />
+        <shape uniquename="Decision 2" />
+        <shape uniquename="Decision 2 (TQM)" />
+        <shape uniquename="Predefined process" />
+        <shape uniquename="Pre-defined Process" />
+        <shape uniquename="Process Step" />
+        <shape uniquename="Process (circle)" />
+        <shape uniquename="Divided process 2" />
+        <shape uniquename="Process" />
+        <shape uniquename="Subprocess" />
+        <shape uniquename="Parallel mode" />
+        <shape uniquename="Annotation" />
+        <shape uniquename="Database" />
+        <shape uniquename="Dynamic connector" />
+        <shape uniquename="Line-curve connector" />
+        <shape uniquename="Control transfer" />
+        <shape uniquename="Parallel Activity" />
+        <shape uniquename="Sequential Activity" />
+        <shape uniquename="Process Direction Indicator" />
+        <shape uniquename="Data Flow / Parallel Flow" />
+        <shape uniquename="CFF Container" />
+        <shape uniquename="On-page reference" />
+        <shape uniquename="Manual file" />
+        <shape uniquename="CFF Container" />
+        <shape uniquename="Swimlane List" />
+        <shape uniquename="Phase List" />
+        <shape uniquename="Document" />
+        <shape uniquename="Off-page reference" />
+        <shape uniquename="Separator" />
+        <shape uniquename="Swimlane.43" />
+        <shape uniquename="Rounded rectangle" />
+        <shape uniquename="Rectangle" />
+        <shape uniquename="Swimlane" />
+        <shape uniquename="Terminator" />
+        <shape uniquename="Phase List" />
+        <shape uniquename="Start/End" />
+        <shape uniquename="Functional band" />
+        <shape uniquename="Separator" />
+        <shape uniquename="Border classic" />
+        <shape uniquename="Border elegant" />
+        <shape uniquename="Border contemp." />
+        <shape uniquename="Border graduated" />
+        <shape uniquename="Title block horizon" />
+        <shape uniquename="Revision small" />
+        <shape uniquename="Frame" />
+        <shape uniquename="Zones - 4" />
+        <shape uniquename="Block - top label" />
+        <shape uniquename="Page#" />
+        <shape uniquename="Title block large" />
+        <shape uniquename="Projection symbol" />
+        <shape uniquename="Title" />
+        <shape uniquename="Horizontal holder" />
+        <shape uniquename="Entity Box" />
+        <shape uniquename="Entity" />
+        <shape uniquename="Entity 2" />
+        <shape uniquename="Sunny" />
+        <shape uniquename="Triangle" />
+        <shape uniquename="Status icons" />
+        <shape uniquename="Warning sign" />
+        <shape uniquename="Risk" />
+        <shape uniquename="Risk-" />
+        <shape uniquename="Risk-Med/Low" />
+        <shape uniquename="Off-page Connector" />
+        <shape uniquename="Incoming Off-page Connector" />
+        <shape uniquename="Terminate" />
+        <shape uniquename="Process Termination - Alternate" />
+        <shape uniquename="Control" />
+        <shape uniquename="Control- Effective" />
+        <shape uniquename="Control Gap" />
+        <shape uniquename="Label" />
+        <shape uniquename="Note - Alternate" />
+        <shape uniquename="Note or Commentary" />
+        <shape uniquename="Customer Experience Note" />
+        <shape uniquename="Legal Obligation" />
+        <shape uniquename="Extract" />
+        <shape uniquename="Preparation" />
+        <shape uniquename="Hexagon" />
+        <shape uniquename="Drum storage" />
+        <shape uniquename="Variable start" />
+        <shape uniquename="Production kanban" />
+        <shape uniquename="Efficiency Oppty" />
+        <shape uniquename="Bubble callout" />
+        <shape uniquename="Octagon" />
+        <shape uniquename="Star 7" />
+        <shape uniquename="Kaizen burst" />
+        <shape uniquename="Star section" />
+        <shape uniquename="Full bracket" />
+        <shape uniquename="Full bracket text" />
+        <shape uniquename="Message from user" />
+        <shape uniquename="Person" />
+        <shape uniquename="Disk storage" />
+        <shape uniquename="Data store" />
+        <shape uniquename="Output" />
+        <shape uniquename="Display" />
+        <shape uniquename="Multi document" />
+        <shape uniquename="Stored data" />
+        <shape uniquename="Internal storage" />
+        <shape uniquename="Sequential data" />
+        <shape uniquename="Direct data" />
+        <shape uniquename="Card" />
+        <shape uniquename="Paper tape" />
+        <shape uniquename="Data" />
+        <shape uniquename="Manual input" />
+        <shape uniquename="Manual operation" />
+        <shape uniquename="Process Box" />
+        <shape uniquename="Auto-height box" />
+        <shape uniquename="User Update Box" />
+        <shape uniquename="System Box" />
+        <shape uniquename="Box" />
+        <shape uniquename="Off File Reference" />
+        <shape uniquename="On Page Reference" />
+        <shape uniquename="Off Page Reference" />
+        <shape uniquename="Pool / Lane" />
+        <shape uniquename="Cross Functional Band" />
+        <shape uniquename="Decision Box" />
+        <shape uniquename="Loop limit" />
+        <shape uniquename="Start" />
+        <shape uniquename="Termination Box" />
+        <shape uniquename="Annotate" />
+        <shape uniquename="Bracket" />
+        <shape uniquename="Line callout" />
+        <shape uniquename="Bracket pair" />
+        <shape uniquename="Very High" />
+        <shape uniquename="Check 1 (audit)" />
+        <shape uniquename="Event" />
+        <shape uniquename="None" />
+    </drawing>
+    <drawing name="Generic Diagram" id="GENERIC" alias="GENERIC_M.VST;GENERIC_U.VST">
+        <shape uniquename="Object" />
+    </drawing>
+    <drawing name="VSO20 diagram" id="VSO20" alias="VSO20_M.VST;VSO20_U.VST;VSO20.VSD">
+        <shape uniquename="Page Divider" />
+        <shape uniquename="Temp" />
+        <shape uniquename="Control Gap" />
+        <shape uniquename="Incoming Off-page Connector" />
+        <shape uniquename="Terminate" />
+        <shape uniquename="Document" />
+        <shape uniquename="Manual Process.17" />
+        <shape uniquename="System Process.3" />
+        <shape uniquename="Process Start End" />
+        <shape uniquename="Manual Process" />
+        <shape uniquename="Temp.65" />
+        <shape uniquename="Process / System" />
+        <shape uniquename="Manual operation" />
+        <shape uniquename="Manual Process Step.131" />
+        <shape uniquename="Non-key Manual Control" />
+        <shape uniquename="Process STOP" />
+        <shape uniquename="Incoming Off-page Connector.127" />
+        <shape uniquename="Final Stamp" />
+        <shape uniquename="Non-key Manual Preventive Control" />
+        <shape uniquename="Legal / Regulatory Obligation.85" />
+        <shape uniquename="System Process.15" />
+        <shape uniquename="Document.96" />
+        <shape uniquename="Subprocess" />
+        <shape uniquename="Terminator" />
+        <shape uniquename="Process / Manual" />
+        <shape uniquename="Alternate Process Termination" />
+        <shape uniquename="Bracket" />
+        <shape uniquename="Full bracket" />
+        <shape uniquename="Dynamic connector.15" />
+        <shape uniquename="Decison" />
+        <shape uniquename="Manual Process Step.92" />
+        <shape uniquename="Decison.74" />
+        <shape uniquename="Annotation" />
+        <shape uniquename="Non-key Manual Preventive Control.22" />
+        <shape uniquename="Decision 2" />
+        <shape uniquename="Temp.50" />
+        <shape uniquename="Key Automated Detective Control.122" />
+        <shape uniquename="Data" />
+        <shape uniquename="Non-key Manual Control.107" />
+        <shape uniquename="Key Manual Preventive Control.121" />
+        <shape uniquename="Decision" />
+        <shape uniquename="Process START.109" />
+        <shape uniquename="Non-key Automated Control.105" />
+        <shape uniquename="Dynamic connector.87" />
+        <shape uniquename="Legal / Regulatory Obligation.125" />
+        <shape uniquename="Annotation.33" />
+        <shape uniquename="Database" />
+        <shape uniquename="Automated Process.0" />
+        <shape uniquename="Key Manual Preventive Control" />
+        <shape uniquename="System Identifier" />
+        <shape uniquename="System Process" />
+        <shape uniquename="Off-page reference.54" />
+        <shape uniquename="Outgoing Off-page Connector.112" />
+        <shape uniquename="Formatted Text Box" />
+        <shape uniquename="Key Manual Detective Control.120" />
+        <shape uniquename="Process START" />
+        <shape uniquename="Manual Process.27" />
+        <shape uniquename="Key Manual Control.103" />
+        <shape uniquename="Risk.124" />
+        <shape uniquename="On-page reference" />
+        <shape uniquename="Key Automated Preventive Control.123" />
+        <shape uniquename="Sunny" />
+        <shape uniquename="Control Gap.17" />
+        <shape uniquename="Dynamic connector.27" />
+        <shape uniquename="Manual Process Step" />
+        <shape uniquename="Key Automated Control.101" />
+        <shape uniquename="Process.105" />
+        <shape uniquename="Off Page Reference.22" />
+        <shape uniquename="Alternate Process Termination.126" />
+        <shape uniquename="System.111" />
+        <shape uniquename="Annotation.63" />
+        <shape uniquename="On-page Reference.128" />
+        <shape uniquename="Connector" />
+        <shape uniquename="Note / Comment.24" />
+        <shape uniquename="Process / Automated" />
+        <shape uniquename="Automated Process Step.28" />
+        <shape uniquename="Customer Experience Note / Comment.114" />
+        <shape uniquename="Decison Box.110" />
+        <shape uniquename="Interface Process" />
+        <shape uniquename="Off-page reference" />
+        <shape uniquename="Automated Process Step.93" />
+        <shape uniquename="Legal / Regulatory Obligation" />
+        <shape uniquename="Risk" />
+        <shape uniquename="Key Automated Control" />
+        <shape uniquename="Non-key Manual Detective Control.116" />
+        <shape uniquename="Process STOP.113" />
+        <shape uniquename="Document.129" />
+        <shape uniquename="Key Automated Preventive Control" />
+        <shape uniquename="Start/End.55" />
+        <shape uniquename="Non-key Automated Control" />
+        <shape uniquename="Manual Process Step.95" />
+        <shape uniquename="Off Page Reference" />
+        <shape uniquename="Non-key Automated Preventive Control.119" />
+        <shape uniquename="Automated Process Step.130" />
+        <shape uniquename="Decison.90" />
+        <shape uniquename="Dynamic connector" />
+        <shape uniquename="Key Manual Control" />
+        <shape uniquename="Off Page Reference.14" />
+        <shape uniquename="Non-key Automated Detective Control.118" />
+        <shape uniquename="On-page Reference.97" />
+        <shape uniquename="System" />
+        <shape uniquename="Terminator.56" />
+        <shape uniquename="Lower Task Identifier" />
+        <shape uniquename="Document.12" />
+        <shape uniquename="Note / Comment" />
+        <shape uniquename="Arrow" />
+        <shape uniquename="Decision 2 (TQM)" />
+        <shape uniquename="Dynamic connector.62" />
+        <shape uniquename="Horizontal Line" />
+        <shape uniquename="Outgoing Off-page Connector" />
+        <shape uniquename="Non-key Manual Preventive Control.117" />
+        <shape uniquename="Automated Process Step" />
+        <shape uniquename="Refererence" />
+        <shape uniquename="Dynamic connector.51" />
+        <shape uniquename="Level Lable" />
+        <shape uniquename="Customer Experience Note / Comment" />
+        <shape uniquename="System Process.23" />
+        <shape uniquename="Automated" />
+        <shape uniquename="Note / Comment Callout" />
+    </drawing>
+    <drawing name="BPMN 2.0 Diagram" id="BPMN 2.0 DIAGRAM" alias="BPMN 2.0 DIAGRAM_M.VST;BPMN 2.0 DIAGRAM_U.VST;BPMN 2.0 DIAGRAM.VST;BPMN 2.0 CONVERSATION DIAGRAM.VST">
+        <shape uniquename="Theme Colors" />
+        <shape uniquename="itpThemeEffectsFacelift.1" />
+        <shape uniquename="Data Store" />
+        <shape uniquename="itpThemeColorsOrange" />
+        <shape uniquename="Sub-Process (expanded)" />
+        <shape uniquename="Data Object" />
+        <shape uniquename="itpThemeColorsBlue" />
+        <shape uniquename="Task" />
+        <shape uniquename="Pool" />
+        <shape uniquename="Dynamic connector" />
+        <shape uniquename="Dynamic connector.39" />
+        <shape uniquename="Association" />
+        <shape uniquename="Intermediate" />
+        <shape uniquename="itpThemeColorsOrange.1" />
+        <shape uniquename="Sequence Flow" />
+        <shape uniquename="Start" />
+        <shape uniquename="itpThemeColorsBlackWhite.1" />
+        <shape uniquename="Data Association" />
+        <shape uniquename="End Event" />
+        <shape uniquename="Lane" />
+        <shape uniquename="test" />
+        <shape uniquename="itpThemeEffectsFacelift" />
+        <shape uniquename="Message Flow" />
+        <shape uniquename="itpThemeColorsBlue.1" />
+        <shape uniquename="itpThemeColorsGreen.1" />
+        <shape uniquename="Gateway" />
+        <shape uniquename="Text Annotation" />
+        <shape uniquename="End" />
+        <shape uniquename="itpThemeColorsGreen" />
+        <shape uniquename="Start Event" />
+        <shape uniquename="Sub-Process (collapsed)" />
+        <shape uniquename="itpThemeColorsBlackWhite" />
+    </drawing>
+    <drawing name="BPMN Diagram" id="BPMN DIAGRAM" alias="BPMN_M.VST;BPMN_U.VST;BPMN_M.VSTX">
+        <shape uniquename="Phase List" />
+        <shape uniquename="End Event" />
+        <shape uniquename="Separator" />
+        <shape uniquename="Data Object" />
+        <shape uniquename="CFF Container" />
+        <shape uniquename="Gateway" />
+        <shape uniquename="Task" />
+        <shape uniquename="Dynamic connector" />
+        <shape uniquename="Association" />
+        <shape uniquename="Collapsed Sub-Process" />
+        <shape uniquename="Intermediate Message Event" />
+        <shape uniquename="Sequence Flow" />
+        <shape uniquename="Parallel Gateway" />
+        <shape uniquename="Start Event" />
+        <shape uniquename="Exclusive Data Gateway" />
+        <shape uniquename="Intermediate Event" />
+        <shape uniquename="Intermediate (Throwing) Message Event" />
+        <shape uniquename="Pool / Lane" />
+        <shape uniquename="Swimlane List" />
+    </drawing>
+    <drawing name="BPMN 2 Model (w &amp; w/o template)" id="BPMN 2 MODEL" alias="BPMN 2 MODEL_M.VST;BPMN 2 MODEL_U.VST;BPMN 2 MODEL.VST;BPMN 2 MODEL_M.VSTX">
+        <shape uniquename="Sequence Flow (Default)" />
+        <shape uniquename="Intermediate" />
+        <shape uniquename="Pool / Lane" />
+        <shape uniquename="activity.50" />
+        <shape uniquename="End Event" />
+        <shape uniquename="Sequence Flow.47" />
+        <shape uniquename="Start.None" />
+        <shape uniquename="Theme Effects.1" />
+        <shape uniquename="Task.None" />
+        <shape uniquename="CFF Container" />
+        <shape uniquename="Sequence Flow" />
+        <shape uniquename="Swimlane List" />
+        <shape uniquename="Quicken Palette" />
+        <shape uniquename="Sequence Flow.39" />
+        <shape uniquename="Separator" />
+        <shape uniquename="Dynamic Connector.26" />
+        <shape uniquename="Sub-Process" />
+        <shape uniquename="Gateway.55" />
+        <shape uniquename="Yes before No" />
+        <shape uniquename="Gateway" />
+        <shape uniquename="Dynamic connector.49" />
+        <shape uniquename="Text Annotation" />
+        <shape uniquename="Group" />
+        <shape uniquename="Legend" />
+        <shape uniquename="Process" />
+        <shape uniquename="Bracket pair" />
+        <shape uniquename="Association (Both Directions)" />
+        <shape uniquename="External" />
+        <shape uniquename="Role" />
+        <shape uniquename="activity" />
+        <shape uniquename="Bracket" />
+        <shape uniquename="Full bracket" />
+        <shape uniquename="Collapsed Sub-Process" />
+        <shape uniquename="Dynamic connector.52" />
+        <shape uniquename="Intermediate Event.53" />
+        <shape uniquename="event.17" />
+        <shape uniquename="Message flow" />
+        <shape uniquename="Association" />
+        <shape uniquename="Annotation" />
+        <shape uniquename="Association.20" />
+        <shape uniquename="Bidirectional association" />
+        <shape uniquename="event" />
+        <shape uniquename="Task.Service" />
+        <shape uniquename="Phase List" />
+        <shape uniquename="Message" />
+        <shape uniquename="Organizational Unit" />
+        <shape uniquename="Sequence Flow.13" />
+        <shape uniquename="Solid" />
+        <shape uniquename="Int.Message" />
+        <shape uniquename="End.None" />
+        <shape uniquename="Int.None" />
+        <shape uniquename="End Event.51" />
+        <shape uniquename="Pool / Lanes" />
+        <shape uniquename="End" />
+        <shape uniquename="Intermediate Event" />
+        <shape uniquename="Start" />
+    </drawing>
+</drawings>

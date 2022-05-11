@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+   <EmailSetting> <!-- SMTP & commong sending email settings  -->
+       <SmtpUser></SmtpUser>
+       <SmtpPassword></SmtpPassword>
+       <SmtpHost>skdambvsmtp.fw.skoda.vwg</SmtpHost>
+       <SmtpPort>25</SmtpPort>
+       <SmtpEnableTLS>false</SmtpEnableTLS>
+       <Sender>aris@skoda-auto.cz</Sender>
+       <UseAuthenticator>false</UseAuthenticator>
+       <EmailSubject>Wartung info</EmailSubject>
+       <EmailErrorSubject>Schnell und Einfach missing company group</EmailErrorSubject>
+       <!-- String $$name$$ will be replacewith real UMC user name -->
+       <!-- String $$login$$ will be replace with real UMC user name -->
+        <!--<EmailTemplate>email_template_en.html</EmailTemplate> -->
+       <EmailEml>noname.eml</EmailEml>
+   </EmailSetting>
+</Settings> 
